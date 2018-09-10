@@ -9,8 +9,6 @@ See the [Fluoride repository](https://github.com/AguaClara/fluoride) for more in
 - Kevin Sarmiento (ks2255@cornell.edu)
 
 ## Reports and Presentations
-See the [Fluoride repository](https://github.com/AguaClara/fluoride) for more info. 
-
 * Summer 2018
   - [Summer 2018 Report](https://github.com/AguaClara/fluoride/blob/master/Fluoride_Summer2018.md)
   - [Summer 2018 Symposium](https://docs.google.com/presentation/d/1ikR3Ti14HijdFI1jzeJO_98PFFImXd8VALmxmuq5RYY/edit?usp=sharing)
