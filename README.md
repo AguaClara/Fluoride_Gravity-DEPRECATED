@@ -1,7 +1,7 @@
 # Fluoride_Gravity
 Our goal is to fabricate a user-friendly gravity-powered fluoride removal system that will be used for research. We aim to make the system easily adjustable so that various parameters can be tested.
 
-See the [Fluoride repository](https://github.com/AguaClara/fluoride) for more information and previous research. 
+See the [Fluoride - Auto repository](https://github.com/AguaClara/fluoride) for more information and previous research. 
 
 ## Current Members:
 - Cheer Tsang (ct542@cornell.edu)
