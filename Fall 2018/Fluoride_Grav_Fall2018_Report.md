@@ -1,6 +1,6 @@
-# AguaClara Research Report & Manual Template
-#### Natalie Mottl, William Pennock, Janak Shah, and Jillian Whiting
-#### February 20, 2018
+# Fluoride Gravity Research Report
+#### Cheer Tsang, Kevin Sarmiento, Ching Pang
+#### Fall 2018
 
 # Template Description
 This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
