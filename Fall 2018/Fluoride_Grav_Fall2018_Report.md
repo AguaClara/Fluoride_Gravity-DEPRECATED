@@ -1,16 +1,11 @@
-# Fluoride Gravity Research Report
-#### Cheer Tsang, Kevin Sarmiento, Ching Pang
-#### Fall 2018
-
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
-
 # Fluoride Gravity, Fall 2018
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
 #### September 28, 2018
 
 ## Abstract
 Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+
+
 
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
