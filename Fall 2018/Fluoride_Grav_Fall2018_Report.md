@@ -3,32 +3,30 @@
 #### September 28, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
 
+Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments.
 
 
 ## Introduction
-Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments. 
 
+The expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are the major source of water for AguaClara purification plants. These waters typically have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat to those who consume it without proper treatment.
 
-The objectives for the 2018 Fall Fluoride Gravity team are:
-1. Improve the system by making it as compact and easy to operate as possible
-2. Match the fluoride removal efficiency of the gravity powered system to that of the automated systems
-3. Create a fabrication and operation manual for future references
+Contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
 
-## Literature Review
-
-The expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are the major source of water for AguaClara purification plants. These waters typically have a high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose a serious health threat to those who consume those water without proper treatment.
-
-Contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to remove particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and reduce pathogen microorganisms, it also allows minerals and metals to leach into the water. Minerals that enter the water depend heavily on the types of parent rock material and soils found in the region.
-
-India lies on one of the Fluoride Belts, which are expanses of land that are geologically rich in fluoride and have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India contains about 14% of the total fluoride on the earth's crust, which inevitably leads the fluoride-rich groundwater [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7).
+India is geographically located on one of a number of Fluoride Belts that exists around the world. These are expanses of land that are geologically rich in fluoride and therefore have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India contains about 14% of the total fluoride on the earth's crust, which inevitably leads the fluoride-rich groundwater [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7).
 
 There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places such as the United States, where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City, for example, adds fluoride to its water supply in order to achieve a concentration of 0.7 $\mathrm{\frac{mg}{L}}$ in its effluent supply [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). The American Dental Association has set the recommended concentration of fluoride in drinking water to 0.7 $\mathrm{\frac{mg}{L}}$ for the prevention of dental cavities [(ADA, 2017)](https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements). There are, however, a number of health risks associated with the consumption of fluoride at higher concentrations.
 
 The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water to 1.5 $\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the consumption of fluoride, can begin with water concentrations above 0.9 $\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop with fluoride concentrations above 3 $\mathrm{\frac{mg}{L}}$. Lastly, at concentrations above 10 $\mathrm{\frac{mg}{L}}$, crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The number of cases of dental fluorosis, the mildest indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent, depending on the demographic in question and geographic location [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established average for fluoride in Indian groundwater, concentrations in some extreme cases have been measured to be as high as 20 $\mathrm{\frac{mg}{L}}$ in some regions, but most frequently are below 5 $\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
 
 The Bureau of Indian Standards has created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$, and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). AguaClara has set its fluoride standards to match the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations our systems may encounter out in the field.
+
+The objectives for the 2018 Fall Fluoride Gravity team are to:
+1. Improve the system by making it as compact and easy to operate as possible.
+2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
+3. Create a fabrication and operation manual for future reference.
+
+## Literature Review
 
 herrboldt paper - fluoride & coag mechanism
 
@@ -39,10 +37,10 @@ maybe some research on dehalococcoides (bacteria that breaks down fluoride)
 
 summer work
 - tests on bench system/setup
+- adsorption curve that fluoride auto team made??
 - modifying the gravity setup
 
-adsorption curve that fluoride auto team made??
-
+The summer 2018 fluoride team modified the gravity-powered apparatus fabricated by the team the previous semester. Adjustable sliders were added to allow for easy height adjustments of the sedimentation tube, coagulant stock tank, and coagulant constant head tank (Figure 1)
 
 ![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
 Figure 1: Modified gravity powered reactor shown with 3 adjustable sliders.
