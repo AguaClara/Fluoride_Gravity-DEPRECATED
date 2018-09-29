@@ -4,12 +4,12 @@
 
 ## Abstract
 
-Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments.
+Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
 
 
 ## Introduction
 
-The expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat to those who consume it without proper treatment.
+The expansion of AguaClara Cornell technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat to those who consume it without proper treatment.
 
 Contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
 
@@ -24,28 +24,55 @@ The Bureau of Indian Standards has created water quality standards designed to p
 The objectives for the 2018 Fall Fluoride Gravity team are to:
 1. Improve the system by making it as compact and easy to operate as possible.
 2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
-3. Create a fabrication and operation manual for future reference.
+3. Create a fabrication and operation manual of the gravity for future reference.
 
 ## Literature Review
 
-herrboldt paper - fluoride & coag mechanism
+#####Review of thesis written by Jonathan Herrboldt titled "Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."
+
+
 
 maybe some research on dehalococcoides (bacteria that breaks down fluoride)
 
+[EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)
 
 ## Previous Work
 
-summer work
-- tests on bench system/setup
-- adsorption curve that fluoride auto team made??
-- modifying the gravity setup
+A coagulant-sedimentation process was used to remove fluoride. A series of bench experiments was conducted using polyaluminum chloride (PACl) as the coagulant and varying concentrations of fluoride.
 
-The summer 2018 fluoride team modified the gravity-powered apparatus fabricated by the team the previous semester. Adjustable sliders were added to allow for easy height adjustments of the sedimentation tube, coagulant stock tank, and coagulant constant head tank (Figure 1)
+The Spring 2016 team conducted bench tests using clay and PACl, and were able to successfully create a floc blanket. After adding in fluoride, their system was able to remove 85% of the initial fluoride. [Longo, 2016](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). The Summer 2017 team determined that the addition of clay was unnecessary, since it caused an increase in effluent turbidity [Akpan et al., 2017](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md). Thus, the Fall 2017 team ran experiments with only fluoride and PACl, without the addition of clay. They determined that their reactors would fail after 10 hours due to sludge buildup in the reactor. After switching to a new reactor geometry designed by the High Rate Sedimentation 2017 Summer Team (see ["Fabrication Details > Sedimentation Tube"](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md) for fabrication details), the time to failure increased, allowing for higher upflow velocities. Thus, the Fall 2017 team determined that a upflow velocity of 1.5 mm/s was optimal for preventing sludge buildup in the reactor. The team then ran experiments with various PACl concentrations to create an adsorption model, which would allow users to determine an optimal PACl dosage for the influent fluoride concentration.
 
-![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
-Figure 1: Modified gravity powered reactor shown with 3 adjustable sliders.
+The Spring 2018 team began constructing a gravity-powered apparatus for fluoride removal [Akpan et. al, 2018](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md).
 
-write stuff up to here
+![gravity_schematic](https://github.com/AguaClara/Fluoride-Auto/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true)
+
+Figure 1: Schematic for gravity-powered apparatus. The height difference between the effluent of the sedimentation tank and the fluoride constant head tank (h2) determined the flow rate through the system.
+
+The principle behind the design is that the difference in head between the surface of the constant head tank of the influent and the effluent supplies enough potential energy to cause flow through the system. Float valves in the constant head tanks for fluoride and PACl were utilized to keep the water level and thus, the flow, constant throughout the system.
+
+The Summer 2018 team modified the gravity-powered apparatus fabricated by the Spring 2018 team. Adjustable sliders were added to allow for easy height adjustments of the sedimentation tube, coagulant stock tank, and coagulant constant head tank, and thus adjusting the flow rate of the system (Figure 1) Fabrication details can be found in the [Summer 2018 Final Report](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fluoride_Summer2018.md#sedimentation-tube).
+
+![Gravity powered reactor](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true)
+
+Figure 2: Modified gravity powered reactor shown with 3 adjustable sliders.
+
+The Summer 2018 team also ran a series of bench experiments with varying concentrations of fluoride and PACl to create an adsorption model. Fluoride concentrations ranging from 3 to 20 mg/L and PACl concentrations of 10 to 50 mg/L were tested. Experiments were run on the bench setup utilized by previous semesters (Figure 2).
+
+![Bench_setup](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
+
+Figure 3: Schematic for bench system.
+
+An adsorption model was created using the data from Summer 2018 by the [Fall 2018 Fluoride Auto team](https://github.com/AguaClara/Fluoride-Auto). The effluent concentration of fluoride in mmol/L was plotted against the fluoride uptake (amount adsorbed) in mmol/g. Data points at 1.5 hr were selected from each experiment, at each fluoride and PACl concentration tested.
+
+A Langmuir Isotherm was then fitted to the data, using the following equation:
+
+$$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{K_L\cdot q_m} $$
+
+where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
+
+An R-squared value of 0.7611 was observed, indicating a relatively accurate fit of the Langmuir adsorption model and the experimental data. For more information on the adsorption model, see the [2018 Fluoride Auto Final Report](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Fall_2018_Report.md).
+
+In Fall 2018, two fluoride teams were created: [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) focused on creating an adsorption model by running bench experiments, and [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) focused on optimizing the gravity-powered apparatus.
 
 ## Methods
 Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
