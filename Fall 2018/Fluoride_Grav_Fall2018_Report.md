@@ -72,6 +72,10 @@ where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amou
 
 An R-squared value of 0.7611 was observed, indicating a relatively accurate fit of the Langmuir adsorption model and the experimental data. For more information on the adsorption model, see the [2018 Fluoride Auto Final Report](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Fall_2018_Report.md).
 
+![langmuir](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/langmuir_isotherm.png?raw=true)
+
+Figure 4: Langmuir isotherm fitted to experimental data from Summer 2018. Model created by [Spring 2018 Fluoride Auto team](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Fall_2018_Report.md).
+
 In Fall 2018, two fluoride teams were created: [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) focused on creating an adsorption model by running bench experiments, and [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) focused on optimizing the gravity-powered apparatus.
 
 ## Methods
