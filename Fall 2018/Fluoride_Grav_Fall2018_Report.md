@@ -25,7 +25,7 @@ The objectives for the 2018 Fall Fluoride Gravity team are to:
 1. Improve the system by making it as compact and easy to operate as possible.
 2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
 3. Create a fabrication and operation manual of the gravity for future reference.
-4. Increase our general understanding of the mechanisms involved in fluoride removal through literature reviews.
+4. Increase our general understanding of the mechanisms involved in fluoride removal through a review of available literature.
 
 ## Literature Review
 
