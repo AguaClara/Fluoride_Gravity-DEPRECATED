@@ -25,11 +25,17 @@ The objectives for the 2018 Fall Fluoride Gravity team are to:
 1. Improve the system by making it as compact and easy to operate as possible.
 2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
 3. Create a fabrication and operation manual of the gravity for future reference.
+4. Increase our general understanding of the mechanisms involved in fluoride removal through literature reviews.
 
 ## Literature Review
 
 #####Review of thesis written by Jonathan Herrboldt titled "Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."
 
+This thesis aims to understand the dynamic interactions between fluoride, Natural Organic Matter (NOM), and the aluminum based coagulants used in traditional drinking water treatment processes. Such interactions are important to consider when treating water sources containing significant amounts of NOM and fluoride. While many of the sources of water in India come from wells and their NOM content generally low, it is still important to know what that interactions between these three particles are. One of Herrboldt's findings was that the presence of fluoride reduced the capacity of water treatment systems to remove other contaminants such as turbidity and NOM due to fluoride's capacity to inhibit aluminum hydroxide precipitation. Additionally, in the presence of fluoride, aluminum precipitates became smaller in size compared to precipitates created in fluoride free solutions. These findings suggest that removal of fluoride can be less efficient due to the difficulty of settling and filtration of smaller particles in the sedimentation and filtration stage of treatment. Tests with both NOM and fluoride also showed similar effects with smaller floc sizes.
+
+Another relevant piece of information from Herrboldt's thesis was information about the interaction between fluoride and aluminum based on the pH of the water samples. The thesis cited work from Gong et al.(2012) that determined that at pH value below 5 and above 8 nearly all the fluoride present in solution was in the form of a fluoro-aluminum complexation. Such complexations cannot be removed by coagulation and therefore pose challenges to effective fluoride removal by traditional methods at pH values below 5 and above 8. Further research will be carried out by the Fluoride Gravity team on this matter considering that pH values out in the real world can vary depending on local geology and other chemical factors.
+
+In order to The optimal molar ratio between hydroxide and fluoride was identified to be 23 OH<sup>-</sup>:F<sup>-</sup> for best results in a coagulation treatment process.
 
 
 maybe some research on dehalococcoides (bacteria that breaks down fluoride)
