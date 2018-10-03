@@ -21,8 +21,10 @@ The World Health Organization has set an absolute limit on the concentration of 
 
 The Bureau of Indian Standards has created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$, and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). AguaClara has set its fluoride standards to match the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with stock fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations these filtration systems may encounter out in the field.
 
+The fluoride Gravity team is focused on modifying and testing the new gravity powered fluoride removal apparatus. The goal is to make it easy to adjust and control key variables such as flowrate, PACl concentration, fluoride concentration, and sedimentation tank geometry.  
+
 The objectives for the 2018 Fall Fluoride Gravity team are to:
-1. Improve the system by making it as compact and easy to operate as possible.
+1. Improve the gravity powered system by making it as compact and easy to operate as possible.
 2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
 3. Create a fabrication and operation manual of the gravity for future reference.
 4. Increase our general understanding of the mechanisms involved in fluoride removal through a review of available literature.
