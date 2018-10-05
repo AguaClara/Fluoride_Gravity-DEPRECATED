@@ -2,16 +2,18 @@
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
 #### September 28, 2018
 
+[CEO: Hello Fluoride Grav! All edits and comments will be done in brackets. You do not need to keep in my comments for the next draft of the report.This was a phenomenal first draft! Your writing is very clear and there were no sections that I thought needed a lot of editing. Keep up the good work!] 
+
 ## Abstract
 
-Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
+Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's[teams'] overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
 
 
 ## Introduction
 
 The expansion of AguaClara Cornell technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat to those who consume it without proper treatment.
 
-Contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
+In contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
 
 India is geographically located on one of a number of Fluoride Belts that exists around the world. These are expanses of land that are geologically rich in fluoride and therefore have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India alone contains about 14% of the total fluoride deposited on the earth's crust  [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7). The coupling of high groundwater fluoride concentrations with a high population dependency on groundwater for consumptions has produced a serious public health problem that needs to be addressed.
 
@@ -21,13 +23,15 @@ The World Health Organization has set an absolute limit on the concentration of 
 
 The Bureau of Indian Standards has created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$, and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). AguaClara has set its fluoride standards to match the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with stock fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations these filtration systems may encounter out in the field.
 
-The fluoride Gravity team is focused on modifying and testing the new gravity powered fluoride removal apparatus. The goal is to make it easy to adjust and control key variables such as flowrate, PACl concentration, fluoride concentration, and sedimentation tank geometry.  
+The Fluoride Gravity team is focused on modifying and testing the new gravity powered fluoride removal apparatus. The goal is to make it easy to adjust and control key variables such as flowrate, PACl concentration, fluoride concentration, and sedimentation tank geometry.  
 
 The objectives for the 2018 Fall Fluoride Gravity team are to:
 1. Improve the gravity powered system by making it as compact and easy to operate as possible.
 2. Match the fluoride removal efficiency of the gravity powered system to that of the automated system.
 3. Create a fabrication and operation manual of the gravity for future reference.
 4. Increase our general understanding of the mechanisms involved in fluoride removal through a review of available literature.
+
+[As a first draft I really like this very clear outline of goals, though once you have started to complete them this list should be eliminated.]
 
 ## Literature Review
 
@@ -46,9 +50,13 @@ This is a short review of an EPA report on how to most accurately collect and an
 
 This report also brought to our attention a number of important quality control measures that should be taken into consideration. The first is the highly recommended use of polyethylene plastic over glassware as fluoride can be absorbed by glass and result in inaccurate readings. Another quality control measure is the use of an Initial Calibration Verification (ICV) standard and a Continuing Calibration Verification (CCV) standard. These would consist of a solution of known fluoride concentration within the mean expected fluoride concentration that is being tested. The ICV would be utilized as a way to test the accuracy of the calibration curve prior to the analysis of unknown samples. Similarly, The CCV would be use after every 10 samples as a way to check that the fluoride probe has not drifted significantly from the standard curve. Both ICV and CCV controls should be within 10% of their known values. A final quality control measure that is suggested is the use of a blank after each ICV and CCV. The control blank would contain 1 part water and 1 part TISAB to ensure that the fluoride probe was not contaminated in some way with residual fluoride. These are methods that would surely enhance the accuracy of the teams data.
 
+[You have a lot of good information here, though your organization method is somewhat atypical. Separating the papers out causes this section to not flow as well as it would if it were continous. I am curious about your reasons for choosing this structure here]
+
 #### Future literature Review
 
-We will be looking into dehalococcoides which are bacteria that can break down fluoride. This is important for dealing with the residual fluoride that is removed from the waste line of the sedimentation tanks. A question that has come up often while presenting our work to people is what happens to the fluoride once it has been removed from the water. We seek to find an answer to that question.
+We will be looking into dehalococcoides [Italicize this] which are bacteria that can break down fluoride. This [topic] is important for dealing with the residual fluoride that is removed from the waste line of the sedimentation tanks. A question that has come up often while presenting our work to people is what happens to the fluoride once it has been removed from the water. We seek to find an answer to that question.
+
+[This inclusion is good!]
 
 ## Previous Work
 
