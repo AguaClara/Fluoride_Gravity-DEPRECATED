@@ -2,11 +2,11 @@
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
 #### September 28, 2018
 
-[CEO: Hello Fluoride Grav! All edits and comments will be done in brackets. You do not need to keep in my comments for the next draft of the report.This was a phenomenal first draft! Your writing is very clear and there were no sections that I thought needed a lot of editing. Keep up the good work!] 
+[CEO: Hello Fluoride Grav! All edits and comments will be done in brackets. You do not need to keep in my comments for the next draft of the report.This was a phenomenal first draft! Your writing is very clear and there were no sections that I thought needed a lot of editing. Keep up the good work!]
 
 ## Abstract
 
-Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride team's[teams'] overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
+Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride teams' overarching goal is to create a low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
 
 
 ## Introduction
@@ -54,7 +54,7 @@ This report also brought to our attention a number of important quality control 
 
 #### Future literature Review
 
-We will be looking into dehalococcoides [Italicize this] which are bacteria that can break down fluoride. This [topic] is important for dealing with the residual fluoride that is removed from the waste line of the sedimentation tanks. A question that has come up often while presenting our work to people is what happens to the fluoride once it has been removed from the water. We seek to find an answer to that question.
+We will be looking into dehalococcoides [Italicize this] which are bacteria that can break down fluoride. This topic is important for dealing with the residual fluoride that is removed from the waste line of the sedimentation tanks. A question that has come up often while presenting our work to people is what happens to the fluoride once it has been removed from the water. We seek to find an answer to that question.
 
 [This inclusion is good!]
 
