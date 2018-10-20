@@ -2,6 +2,8 @@
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
 #### September 28, 2018
 
+This publication Fluoride Gravity, Fall 2018 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Ching Pang, Kevin Sarmiento, and Cheer Tsang and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
+
 [CEO: Hello Fluoride Grav! All edits and comments will be done in brackets. You do not need to keep in my comments for the next draft of the report.This was a phenomenal first draft! Your writing is very clear and there were no sections that I thought needed a lot of editing. Keep up the good work!]
 
 ## Abstract
