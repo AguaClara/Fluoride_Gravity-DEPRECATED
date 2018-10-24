@@ -9,7 +9,8 @@ from aide_design.play import*
 G = 9.80665 * u.m/u.s**2
 """Define the gravitational constant, in m/s²."""
 
-def required_height(T=298*u.K, q_sys, d_sys, d_micro, l_micro, q_PACl):
+#@u.wraps(u.m**2, u.m, False)
+def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
 
   """Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
 
@@ -35,6 +36,7 @@ def required_height(T=298*u.K, q_sys, d_sys, d_micro, l_micro, q_PACl):
 
   """
   #calculate dynamic viscosity and water density
+  T=298*u.K
   mu = pc.viscosity_dynamic(T)
   rho = pc.density_water(T)
 
@@ -47,16 +49,16 @@ def required_height(T=298*u.K, q_sys, d_sys, d_micro, l_micro, q_PACl):
   #calculate required height difference
   #This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
 
-  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*L*q_PACl/a_micro)/(rho*G*d_micro)
+  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
 
   return delta_h
 
-q_PACl_array = [1,2,3,4,5]
-delta_h_array = []
+q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
+d_sys = (3/16*u.inch).to(u.m)
+d_micro = (0.022*u.inch).to(u.m)
+l_micro = (78*u.cm).to(u.m)
+q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
 
-for k in q_PACl:
-  i=required_height(q_sys=2, d_sys=3, d_micro=4, l_micro=5, q_PACl=k)
-  delta_h_array.append(i)
-
+required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 
 ```
