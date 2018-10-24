@@ -1,6 +1,39 @@
 # Fluoride Gravity, Fall 2018
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
-#### September 28, 2018
+#### October 24, 2018
+This publication Fluoride, Fall 2018 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Ching Pang, Kevin Sarmiento, and Cheer Tsang and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
+
+## Index
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Literature Review](#literature-review)
+- [Previous Work](#previous-work)
+- [Methods](#methods)
+  - [Experimental Apparatus](#experimental-apparatus)
+  - [Procedure](#procedure)
+- [Results](#results)
+- [Conclusions](#conclusions)
+- [Future Work](#future-work)
+- [Bibliography](#bibliography)
+- [Manual](#manual)
+  - [Fabrication Details](#fabrication-details)
+    - [IV dripping system](#iv-dripping-system)
+- [Experimental Methods](#experimental-methods)
+  - [Set-up](#set-up)
+  - [Experiment](#experiment)
+  - [Cleaning Procedure](#cleaning-procedure)
+  - [Experimental Checklist](#experimental-checklist)
+- [ProCoDA Method File](#procoda-method-file)
+  - [States](#states)
+  - [Set Points](#set-points)
+- [Python Code](#python-code)
+  - [Variables](#variables)
+  - [Calculations for Water Pump Speed](#calculations-for-water-pump-speed)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Abstract
 
@@ -51,6 +84,8 @@ write stuff up to here
 Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
 
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
+
+
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
@@ -117,7 +152,13 @@ Explain what you have learned and how that influences your next steps. Why does 
 Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
-Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
+With the IV dripping system, we would like to install in at the exit of the constant head tank for PACl
+Continue developing IV dripping system
+Take into consideration effects of pH and temperature on fluoride removal
+Verify calculation with experiments
+Research on how to deal with fluoride waste products (eg separating fluoride from alum)
+
+
 
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
