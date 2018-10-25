@@ -1,39 +1,6 @@
 # Fluoride Gravity, Fall 2018
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
-#### October 24, 2018
-This publication Fluoride, Fall 2018 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Ching Pang, Kevin Sarmiento, and Cheer Tsang and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
-
-## Index
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Abstract](#abstract)
-- [Introduction](#introduction)
-- [Literature Review](#literature-review)
-- [Previous Work](#previous-work)
-- [Methods](#methods)
-  - [Experimental Apparatus](#experimental-apparatus)
-  - [Procedure](#procedure)
-- [Results](#results)
-- [Conclusions](#conclusions)
-- [Future Work](#future-work)
-- [Bibliography](#bibliography)
-- [Manual](#manual)
-  - [Fabrication Details](#fabrication-details)
-    - [IV dripping system](#iv-dripping-system)
-- [Experimental Methods](#experimental-methods)
-  - [Set-up](#set-up)
-  - [Experiment](#experiment)
-  - [Cleaning Procedure](#cleaning-procedure)
-  - [Experimental Checklist](#experimental-checklist)
-- [ProCoDA Method File](#procoda-method-file)
-  - [States](#states)
-  - [Set Points](#set-points)
-- [Python Code](#python-code)
-  - [Variables](#variables)
-  - [Calculations for Water Pump Speed](#calculations-for-water-pump-speed)
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+#### September 28, 2018
 
 This publication Fluoride Gravity, Fall 2018 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Ching Pang, Kevin Sarmiento, and Cheer Tsang and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
 
@@ -142,7 +109,7 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
 
-![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true)
+![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram.jpg?raw=true)
 Figure . PACl setup for controlling flow rate
 
 $ \frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_f$
@@ -157,73 +124,8 @@ $P_B =P_D $
 $ H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_f   $
 
 $ H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f $
-Where $H_f$ is described by the Hagen–Poiseuille equation:
-$ \frac{32\mu LV_D}{\rho g d^2 } $
-
-The Hagen–Poiseuille equation appropriately describes the frictional head loss experienced in a tube that is much longer than its diameter which is the case with the microbore tubing that is used to connect the PACl tank to the system.
-
-Below is a Python function using the calculations above that calculates the required height difference between the water level of the fluoride constant head tank and the water level of the coagulant constant head tank. The full documentation for the function is located [here](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/gravity_fluoride_setup.md).
-
-```python
-import math as m
-import numpy as np
-from aide_design.play import*
-
-G = 9.80665 * u.m/u.s**2
-"""Define the gravitational constant, in m/s²."""
-
-#@u.wraps(u.m**2, u.m, False)
-def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
-
-  """Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
-
-  Parameters
-  ----------
-  T:  scalar (float) (optional argument)
-      Temperature of water
-
-  q_sys:  scalar (float)
-      Flow rate through system
-
-  d_system: scalar (float)
-      Diameter of system tubing i.e. tubing from fluoride constant head tank to flocculator
-
-  d_micro:  scalar (float)
-      Diameter of microbore tubing from PACl constant head tank to T-joint where PACl mixes with fluoride
-
-  l_micro:  scalar (float)
-      Length of microbore tubing
-
-  q_PACl: scalar (float)
-      Desired flow rate of PACl
-
-  """
-  #calculate dynamic viscosity and water density
-  T=298*u.K
-  mu = pc.viscosity_dynamic(T)
-  rho = pc.density_water(T)
-
-  #calculate cross-sectional area of microbore tubing
-  a_micro = pc.area_circle(d_micro)
-
-  #calculate cross-sectional area of system tubing
-  a_sys = pc.area_circle(d_sys)
-
-  #calculate required height difference
-  #This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
-
-  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
-
-  return delta_h
-
-q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
-d_sys = (3/16*u.inch).to(u.m)
-d_micro = (0.022*u.inch).to(u.m)
-l_micro = (78*u.cm).to(u.m)
-q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
-
-required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
-```
+Where $H_f$ is described by the Hagan Pouiselle equation:
+$
 
 
 ### Experimental Apparatus
@@ -291,13 +193,7 @@ Explain what you have learned and how that influences your next steps. Why does 
 Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
-Since we have now completed calculations with flow rate and head loss, we are able to carry out test on he gravity powered apparatus. For the next steps, we would like to  With the IV dripping system, we would like to install in at the exit of the constant head tank for PACl
-Continue developing IV dripping system
-Take into consideration effects of pH and temperature on fluoride removal
-Verify calculation with experiments
-Research on how to deal with fluoride waste products (eg separating fluoride from alum)
-
-
+Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
@@ -358,6 +254,9 @@ $u$, $w$: x-velocity, z-velocity components
 ```python
 # Comment
 ```
+
+# Add/Delete/Change this Template as you see Fit
+When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
 
 ```python
 # To convert the document from markdown to pdf
