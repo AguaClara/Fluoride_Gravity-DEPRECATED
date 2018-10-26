@@ -109,23 +109,55 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
 
-![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram.jpg?raw=true)
+![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true)
 Figure . PACl setup for controlling flow rate
+
+First we applied the energy equation from the PACl constant head tank to the connection junction point at $H_3$. Note that the tubing used to connect to the PACl tank is microbore tubing.
 
 $ \frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_f$
 
-$ H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_f $
+* The $\frac{P_C}{\gamma} $ term can be ignored since the container is open to the atmosphere so gauge pressure at C is zero.
 
+* $ \frac{V_C^2}{2g}$ also drops out because the velocity at point C is zero due to a float valve that keeps the water level constant.
 
-$ \frac{P_A}{\gamma} + \frac{V_A^2}{2g} + H_2 = \frac{P_B}{\gamma} + \frac{V_B^2}{2g} + H_3 $
-$  P_B= \gamma(H_2-H_3 -\frac{V_B^2}{2g} ) $
+Applying that we get the following expression:
 
-$P_B =P_D $
+ 1 ) $ H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_f $
+
+Then we applied the Bernoulli Equation from the fluoride constant head tank to the connection junction. This was done assuming that the head loss from the tubing was negligible since it has a diameter of $\frac{1}{4}$ inches and its length is very small.
+
+$ \frac{P_A}{\gamma}+ \frac{V_A^2}{2g} + H_2 = \frac{P_B}{\gamma} + \frac{V_B^2}{2g} + H_3 $
+
+* Similarly, the $\frac{P_A}{\gamma} $ term can be ignored since the container is open to the atmosphere so gauge pressure at A is zero.
+
+* $ \frac{V_A^2}{2g}$ also drops out because the velocity at point A is zero due to a float valve that keeps the water level constant.
+
+Applying this we get the following:
+ 2)  $  P_B= \gamma(H_2-H_3 -\frac{V_B^2}{2g} ) $
+
+We will assume that pressures at the junctions are equal:
+3) $P_B =P_D $
+
+Now, solving for equations 1, 2 and 3 we get the following expression:
+
 $ H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_f   $
 
-$ H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f $
+Which can be simplified to:
+
+$ H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f
+ $
+
 Where $H_f$ is described by the Hagan Pouiselle equation:
-$
+
+$\frac{32\mu LV_D}{\rho gd^2}$
+
+So, our desired head for the PACl tank is:
+
+$ \Delta H = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}
+ $
+
+ 
+
 
 
 ### Experimental Apparatus
