@@ -108,9 +108,12 @@ Explain the techniques you have used to acquire additional data and insights. Re
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
 ![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
+Figure 5: System flow rate is controlled by the adjustable effluent line
 
 ![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true)
 Figure . PACl setup for controlling flow rate
+
+To find PACl flow rate based on its height we did the following calculations.
 
 First we applied the energy equation from the PACl constant head tank to the connection junction point at $H_3$. Note that the tubing used to connect to the PACl tank is microbore tubing.
 
@@ -153,19 +156,14 @@ $\frac{32\mu LV_D}{\rho gd^2}$
 
 So, our desired head for the PACl tank is:
 
-$ \Delta H = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}
+$ \Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}
  $
 
  Additionally, using our standard fluoride flow rate and desired maximum PACl flow rates we have determined that both $\frac{V_B^2}{2g}$ and $ \frac{V_D^2}{2g}$ are less than 1% of total head loss and therefore can be ignored.
 
- Finally, our head for PACl will just be: 
+ Finally, our head for PACl will just be:
 
- $ \Delta H = \frac{32\mu LV_D}{\rho gd^2}
-  $
-
-
-
-
+ $ \Delta h = \frac{32\mu LV_D}{\rho gd^2} $
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
