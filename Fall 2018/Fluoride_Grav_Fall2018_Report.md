@@ -156,7 +156,14 @@ So, our desired head for the PACl tank is:
 $ \Delta H = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}
  $
 
- 
+ Additionally, using our standard fluoride flow rate and desired maximum PACl flow rates we have determined that both $\frac{V_B^2}{2g}$ and $ \frac{V_D^2}{2g}$ are less than 1% of total head loss and therefore can be ignored.
+
+ Finally, our head for PACl will just be: 
+
+ $ \Delta H = \frac{32\mu LV_D}{\rho gd^2}
+  $
+
+
 
 
 
