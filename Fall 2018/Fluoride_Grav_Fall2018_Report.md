@@ -150,15 +150,29 @@ There will be multiple sources of head loss in this system, major head loss in t
 
 To find major head loss in the straight sections of tubing we will be utilizing the Hagen–Poiseuille equation:
 
-$\frac{32\mu LV_D}{\rho gd^2}$
+$\Delta H_1 =\frac{32\mu LV}{\rho gd^2}$
+
+Where $L$ is the length of the tube, $V$ is the bulk velocity of the system, and $d$ is the diameter of the tubing.
 
 To find the head loss in the coiled flocculator we will utilize the following equation:
 
-$\Delta P = \frac{32\mu VL}{d^2} 0.37 De^{0.36}$ Where De is the Dean Number. This was found experimentally by C.M White and it relates
+$\Delta H_2 = \frac{32\mu VL}{\rho gd^2} 0.37 De^{0.36}$
 
+Where $De$ is the Dean Number which was found experimentally by C.M White and it serves as a relationship to find pressure drop in a coiled tube. It represented by the following expression:
 
+$De=Re\sqrt\frac{D}{d}$
 
+Where $Re$ is the Reynolds Number:
 
+$Re=\frac{\rho VL}{\mu }$
+
+Therefore,
+
+$\Delta H_2 = \frac{32\mu VL}{\rho gd^2} 0.37 (\frac{\rho VL}{\mu }\sqrt\frac{D}{d})^{0.36}$
+
+The total head loss for the system flow rate will be:
+
+$\Delta H_{tot}=\Delta H_1 + \Delta H_2$
 
 #### Coagulant Flow Rate
 
@@ -222,14 +236,24 @@ Since the flow rate of coagulant is very small, it is difficult to measure and v
 
 #### Balance
 
-A balance was added to the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank, the mass of the
+A balance was added to the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank into the coagulant constant head tank, the balance measures the rate of mass decrease over time. The mass flow rate can then be converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
+
 
 ![balance_system](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
 
 **Figure 7:** The balance was placed under the coagulant stock tank and was used to measure the change in mass over time as the coagulant flows from the stock tank to the constant head tank.
 
+The balance was connected to ProCoDA, and the mass over time was recorded (Figure 8).
+
+![mass_flow](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Mass_Coagulantflow.png?raw=true)
+
+**Figure 8:** The mass flow of coagulant from the coagulant stock tank over time. The slope of the graph was -0.0019, which indicates that the mass flow rate was 1.9 mg/s.
+
+The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship.
+
 #### IV Drip System
-dfdf
+
+Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system.
 
 **END OF DRAFT 2**
 
