@@ -333,10 +333,6 @@ Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Ef
 
 ***
 
-
-### Experimental Apparatus
-The gravity-powered apparatus was constructed using 80/20 T-slotted aluminum bars (Figure 2).
-
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
