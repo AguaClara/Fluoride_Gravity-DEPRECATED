@@ -152,7 +152,9 @@ To find major head loss in the straight sections of tubing we will be utilizing 
 
 $\frac{32\mu LV_D}{\rho gd^2}$
 
-To find the head loss in the coiled flocculator we will utilize
+To find the head loss in the coiled flocculator we will utilize the following equation:
+
+$\Delta P = \frac{32\mu VL}{d^2} 0.37 De^{0.36}$ Where De is the Dean Number. This was found experimentally by C.M White and it relates
 
 
 
@@ -216,11 +218,15 @@ $\Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}$
  $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
 
 ### Measuring Coagulant Flow Rate
-Since the flow rate of coagulant is very small, it is difficult to measure and verify that the experimental flow rates are within range of the mathematically derived.
+Since the flow rate of coagulant is very small, it is difficult to measure and verify that the experimental flow rates are within range of the mathematically derived flow rates. The team came up with several solutions to easily measure the flow rate of coagulant.
 
 #### Balance
 
-dfdf
+A balance was added to the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank, the mass of the
+
+![balance_system](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
+
+**Figure 7:** The balance was placed under the coagulant stock tank and was used to measure the change in mass over time as the coagulant flows from the stock tank to the constant head tank.
 
 #### IV Drip System
 dfdf
