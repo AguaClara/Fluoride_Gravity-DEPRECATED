@@ -36,14 +36,13 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
 
 ## Abstract
 
-Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride teams' overarching goal is to create a low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
-
+Fluoride contamination of drinking water is a common public health issue in some regions of the world such as India. The fluoride teams' overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The Fall 2018 Fluoride Gravity team aims to simplify the design of a gravity powered fluoride removal research apparatus that would allow current and future research teams to easily conduct fluoride removal experiments in the field.
 
 ## Introduction
 
-The expansion of AguaClara Cornell technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat to those who consume it without proper treatment.
+The expansion of AguaClara Cornell technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of the AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat without proper treatment of water.
 
-In contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers. Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
+In contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers ([World Bank, 2017](http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishing)). Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
 
 India is geographically located on one of a number of Fluoride Belts that exists around the world. These are expanses of land that are geologically rich in fluoride and therefore have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India alone contains about 14% of the total fluoride deposited on the earth's crust  [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7). The coupling of high groundwater fluoride concentrations with a high population dependency on groundwater for consumptions has produced a serious public health problem that needs to be addressed.
 
@@ -55,33 +54,30 @@ The Bureau of Indian Standards has created water quality standards designed to p
 
 The Fluoride Gravity team is focused on modifying and testing the new gravity powered fluoride removal apparatus. The goal is to make it easy to adjust and control key variables such as flowrate, PACl concentration, fluoride concentration, and sedimentation tank geometry.  
 
-The objectives for the 2018 Fall Fluoride Gravity team are improve the gravity powered system by making it as compact and easy to operate as possible for field testing and laboratory work. Fluoride removal efficiency of the gravity powered system should also be matched to that of the automated system. The team also aim create a fabrication and operation manual of the gravity apparatus for easy operation and future reference.
-4. Increase our general understanding of the mechanisms involved in fluoride removal through literature review.
-
+The objectives for the 2018 Fall Fluoride Gravity team are to improve the gravity-powered system by making it as compact and easy to operate as possible for field testing and laboratory work. Fluoride removal efficiency of the gravity powered system should also be matched to that of the automated system. The team also aims to create a fabrication and operation manual of the gravity apparatus for easy operation and future reference. Furthermore, the team hopes to gain a general understanding of the mechanisms involved in fluoride removal through literature review and experimentation.
 
 ## Literature Review
 
-###Interactions Between Fluoride, Natural Organic Matter (NOM), and Polyaluminum Chloride (PACl)
+### Interactions Between Fluoride, Natural Organic Matter (NOM), and Polyaluminum Chloride (PACl)
 
-The dynamic interactions between fluoride, Natural Organic Matter (NOM), and the aluminum based coagulants used in traditional drinking water treatment processes are important to consider when treating water sources containing significant amounts of NOM and fluoride. While many of the sources of water in India come from wells and therefore the NOM content is generally low, interactions between these three types particles are have not been vastly studied. The presence of fluoride reduced the capacity of water treatment systems to remove other contaminants such as turbidity and NOM due to fluoride's capacity to inhibit aluminum hydroxide precipitation [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). In the presence of fluoride, aluminium precipitates become smaller in size compared to precipitates created in fluoride free solutions. Water with fluoride produced more particles with diameters smaller than 10&mu;m than tests without fluoride. These suggest that removal of fluoride is more than just particulate matter due to the difficulty of settling and filtering of smaller particles in the sedimentation and filtration of water treatment. Tests with both NOM and fluoride also showed similar effects with smaller floc sizes, adding to the difficulty of treatment.
+The dynamic interactions between fluoride, Natural Organic Matter (NOM), and the aluminum based coagulants used in traditional drinking water treatment processes are important to consider when treating water sources containing significant amounts of NOM and fluoride. While many of the sources of water in India come from wells, and therefore the NOM content is generally low, interactions between these three types particles are have not been vastly studied. The presence of fluoride reduced the capacity of water treatment systems to remove other contaminants such as turbidity and NOM due to fluoride's capacity to inhibit aluminum hydroxide precipitation [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). In the presence of fluoride, aluminum precipitates become smaller in size compared to precipitates created in fluoride-free solutions. Water with fluoride produced more particles with diameters smaller than 10&mu;m than tests without fluoride. These results suggest that removal of fluoride is more than just particulate matter due to the difficulty of settling and filtering of smaller particles in the sedimentation and filtration of water treatment. Tests with both NOM and fluoride also showed similar effects with smaller floc sizes, adding to the difficulty of treatment.
 
-###Effect of pH on Fluoride removal
-The difficulty of fluoride removal also lies in the environmental factor. At a pH value below 5, nearly all the fluoride present in fluoride and aluminum based coagulant solution are in the form of a fluoro-aluminum complexation (Gong et al. 2012). Such complexation is soluble in water and cannot be removed by coagulation which therefore makes fluoride removal by traditional methods at pH values below 5 unlikely. However, at pH values greater than 8 nearly all fluoride exists freely as fluoride ion, allowing the formation of flocs to occur. While parameters, such as pH can be carefully controlled in the lab, it varies can vary depending on local geology and other chemical factors out in the field. Further research about the expected chemistry of groundwater in regions like India would help the team's overall understanding. For example, if pH is rarely observed to be 5 in groundwater then the effect of pH would also be minimal. However, not enough research have been done to make such assumptions, and the critical pH transition points are also not fully understood yet. Fluoride removal was observed to occur best in a coagulation treatment process when the molar ratio between hydroxide and fluoride was greater than 2.4 [OH<sup>-</sup>]:[F<sup>-</sup>] (Hu et al., 2005). More research should be done to find other critical pH values for effective fluoride removal with aluminum based coagulants.
+### Effect of pH on Fluoride removal
+The difficulty of fluoride removal also lies in the environmental factor. At a pH value below 5, nearly all the fluoride present in fluoride and aluminum based coagulant solution are in the form of a fluoro-aluminum complexation (Gong et al. 2012 in [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). Such complexation is soluble in water and cannot be removed by coagulation which therefore makes fluoride removal by traditional methods at pH values below 5 unlikely. However, at pH values greater than 8 nearly all fluoride exists freely as fluoride ion, allowing the formation of flocs to occur. While parameters, such as pH can be carefully controlled in the lab, it varies can vary depending on local geology and other chemical factors out in the field. Further research about the expected chemistry of groundwater in regions like India would help the team's overall understanding. For example, if pH is rarely observed to be 5 in groundwater then the effect of pH would also be minimal. However, not enough research have been done to make such assumptions, and the critical pH transition points are also not fully understood yet. Fluoride removal was observed to occur best in a coagulation treatment process when the molar ratio between hydroxide and fluoride was greater than 2.4 [OH<sup>-</sup>]:[F<sup>-</sup>] (Hu et al., 2005). More research should be done to find other critical pH values for effective fluoride removal with aluminum based coagulants.
 
 ##Formation of Fluoro-aluminium Complexation
-Tthe formation of fluoro-aluminum complexation is also responsible for an observed increase in residual aluminum concentration (Herboldt, 2016). Formation of aluminum hydroxide is negatively affected by the presence of fluoro-aluminum which disallows the formation of larger diameter particles which in return reduces a system's capacity to remove both fluoride and residual aluminum. When comparing experiments that contained aluminum coagulant and NOM mixtures with aluminum coagulant and fluoride mixtures, both of which contained aluminum concentration of 8.0 $\mathrm{\frac{mg}{L}}$, the amount of residual aluminum was found to be 0.058$\mathrm{\frac{mg}{L}}$ and 0.244$\mathrm{\frac{mg}{L}}$ respectively. Thus, residual aluminum concentration increased by nearly an order of magnitude when fluoride was present. This shows that unintended residual aluminum release in the effluent water supply from systems can be a concern.
+Tthe formation of fluoro-aluminum complexation is also responsible for an observed increase in residual aluminum concentration [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). Formation of aluminum hydroxide is negatively affected by the presence of fluoro-aluminum which prevents the formation of larger diameter particles which in return reduces a system's capacity to remove both fluoride and residual aluminum. When comparing experiments that contained aluminum coagulant and NOM mixtures with aluminum coagulant and fluoride mixtures, both of which contained aluminum concentration of 8.0 $\mathrm{\frac{mg}{L}}$, the amount of residual aluminum was found to be 0.058$\mathrm{\frac{mg}{L}}$ and 0.244$\mathrm{\frac{mg}{L}}$ respectively. Thus, residual aluminum concentration increased by nearly an order of magnitude when fluoride was present. This shows that unintended residual aluminum release in the effluent water supply from systems can be a concern.
+
+###Collection and Analysis of Fluoride Samples
+
+There are three main critical interferences that can impact the accuracy of the Ion-Selective Electrode (ISE) fluoride probe. The first is the presence of polyvalent cations such as Fe<sup>+3</sup> and Al<sup>+3</sup> which form complexes with F<sup>-</sup>. ISE fluoride probes can only detect solubilized fluoride and therefor would give inaccurate fluoride readings when in the presence of Fe<sup>+3</sup> and Al<sup>+3</sup> as is the case when Polyaluminum Chloride (PACl) coagulant is added to our experiments. As a remedy for this interference, Total Ionic Strength Adjuster Buffer (TISAB) solution is added to samples to solubilize the fluoride in the sample. The use of TISAB is also critical in remedying a second source of interference which is pH. TISAB solution is a buffer that keeps the sample at a constant pH of about 5-5.5 to avoid ISE probe interference from hydroxide at high pH and bifluoride formation, undetectable to ISE probe, at lower pH. Lastly, the temperature of the samples can also be a significant source of error in fluoride measurements. In order to collect accurate data, samples should not deviate more than $\pm 1^\circ$C from those used to create the standard curve or from each other ([EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)).
+
+Several quality control measures should be taken into consideration, such as the use of containers. The first is the highly recommended use of polyethylene plastic over glassware as fluoride can adsorb to glass, which may result in inaccurate readings. Another quality control measure is the use of an Initial Calibration Verification (ICV) standard and a Continuing Calibration Verification (CCV) standard. These would consist of a solution of known fluoride concentration within the mean expected fluoride concentration that is being tested. The ICV would be utilized as a way to test the accuracy of the calibration curve prior to the analysis of unknown samples. Similarly, The CCV would be use after every 10 samples as a way to check that the fluoride probe has not drifted significantly from the standard curve. Both ICV and CCV controls should be within 10% of their known values. A final quality control measure that is suggested is the use of a blank after each ICV and CCV. The control blank would contain 1 part water and 1 part TISAB to ensure that the fluoride probe was not contaminated in some way with residual fluoride. These are methods that would surely enhance the accuracy of the teams data.
 
 
-###Collection and Analysis of Fluroide Samples
+#### Future Literature Review
 
-There are three main critical interferences that can impact the accuracy of the Ion-Selective Electrode (ISE) fluoride probe. The first is the presence of polyvalent cations such as Fe<sup>+3</sup> and Al<sup>+3</sup> which form complexes with F<sup>-</sup>. ISE fluoride probes can only detect solubilized fluoride and therefor would give inaccurate fluoride readings when in the presence of Fe<sup>+3</sup> and Al<sup>+3</sup> as is the case when Polyaluminum Chloride (PACl) coagulant is added to our experiments. As a remedy for this interference, Total Ionic Strength Adjuster Buffer (TISAB) solution is added to samples to solubilize the fluoride in the sample. The use of TISAB is also critical in remedying a second source of interference which is pH. TISAB solution is a buffer that keeps the sample at a constant pH of about 5-5.5 to avoid ISE probe interference from hydroxide at high pH and bifluoride formation, undetectable to ISE probe, at lower pH. Lastly, the temperature of the samples can also be a significant source of error in fluoride measurements. In order to collect accurate data, samples should not deviate more than $\pm 1^\circ$C from those used to create the standard curve or from each other.
-
-Quality control measures that should be taken into consideration, such as the use of containers. The first is the highly recommended use of polyethylene plastic over glassware as fluoride can be absorbed by glass and result in inaccurate readings. Another quality control measure is the use of an Initial Calibration Verification (ICV) standard and a Continuing Calibration Verification (CCV) standard. These would consist of a solution of known fluoride concentration within the mean expected fluoride concentration that is being tested. The ICV would be utilized as a way to test the accuracy of the calibration curve prior to the analysis of unknown samples. Similarly, The CCV would be use after every 10 samples as a way to check that the fluoride probe has not drifted significantly from the standard curve. Both ICV and CCV controls should be within 10% of their known values. A final quality control measure that is suggested is the use of a blank after each ICV and CCV. The control blank would contain 1 part water and 1 part TISAB to ensure that the fluoride probe was not contaminated in some way with residual fluoride. These are methods that would surely enhance the accuracy of the teams data.
-
-
-#### Future literature Review
-
-We will be looking into dehalococcoides [Italicize this] which are bacteria that can break down fluoride. This topic is important for dealing with the residual fluoride that is removed from the waste line of the sedimentation tanks. A question that has come up often while presenting our work to people is what happens to the fluoride once it has been removed from the water. We seek to find an answer to that question.
+We will be looking into how to dispose of fluoride waste that exits the reactor at the waste line. This question  has come up often while presenting our research.
 
 
 ## Previous Work
@@ -94,7 +90,7 @@ The Spring 2018 team began constructing a gravity-powered apparatus for fluoride
 
 ![gravity_schematic](https://github.com/AguaClara/Fluoride-Auto/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true)
 
-Figure 1: Schematic for gravity-powered apparatus. The height difference between the effluent of the sedimentation tank and the fluoride constant head tank (h2) determined the flow rate through the system.
+**Figure 1:** Schematic for gravity-powered apparatus. The height difference between the effluent of the sedimentation tank and the fluoride constant head tank (h2) determined the flow rate through the system.
 
 The principle behind the design is that the difference in head between the surface of the constant head tank of the influent and the effluent supplies enough potential energy to cause flow through the system. Float valves in the constant head tanks for fluoride and PACl were utilized to keep the water level and thus, the flow, constant throughout the system.
 
@@ -102,13 +98,13 @@ The Summer 2018 team modified the gravity-powered apparatus fabricated by the Sp
 
 ![Gravity powered reactor](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true)
 
-Figure 2: Modified gravity powered reactor shown with 3 adjustable sliders.
+**Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders.
 
 The Summer 2018 team also ran a series of bench experiments with varying concentrations of fluoride and PACl to create an adsorption model. Fluoride concentrations ranging from 3 to 20 mg/L and PACl concentrations of 10 to 50 mg/L were tested. Experiments were run on the bench setup utilized by previous semesters (Figure 2).
 
 ![Bench_setup](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
 
-Figure 3: Schematic for bench system.
+**Figure 3:** Schematic for bench system.
 
 An adsorption model was created using the data from Summer 2018 by the [Fall 2018 Fluoride Auto team](https://github.com/AguaClara/Fluoride-Auto). The effluent concentration of fluoride in mmol/L was plotted against the fluoride uptake (amount adsorbed) in mmol/g. Data points at 1.5 hr were selected from each experiment, at each fluoride and PACl concentration tested.
 
@@ -122,72 +118,85 @@ An R-squared value of 0.7611 was observed, indicating a relatively accurate fit 
 
 ![langmuir](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/langmuir_isotherm.png?raw=true)
 
-Figure 4: Langmuir isotherm fitted to experimental data from Summer 2018. Model created by [Spring 2018 Fluoride Auto team](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Fall_2018_Report.md).
+**Figure 4:** Langmuir isotherm fitted to experimental data from Summer 2018. Model created by [Spring 2018 Fluoride Auto team](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Fall_2018_Report.md).
 
 In Fall 2018, two fluoride teams were created: [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) focused on creating an adsorption model by running bench experiments, and [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) focused on optimizing the gravity-powered apparatus.
 
 ## Methods
-Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
 
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
+### Experimental Apparatus
+
+The gravity-powered apparatus was constructed using 80/20 T-slotted aluminum bars (Figure 2).
+
+### Head Loss Calculations
+
+The flow rate through the gravity-powered apparatus depends on piezometric head. Thus, by altering the height differences in the system, flow rate can be manually adjusted (Figure 4, Figure 5).  
 
 ![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
-Figure 5: System flow rate is controlled by the adjustable effluent line
+
+**Figure 5:** The system flow rate is determined by the height difference between the water level of the fluoride constant head tank and the effluent line. The height difference, and thus the flow rate, can be controlled by the adjustable slider on effluent line.
 
 ![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true)
-Figure . PACl setup for controlling flow rate
+**Figure 6:** The flow rate of PACl is determined by the height difference between the water level of the fluoride constant head tank and the water level of the coagulant constant head tank. The height of the PACl constant head tank can be adjusted, which allows for user control of the PACl flow rate.
 
-To find PACl flow rate based on its height we did the following calculations.
+#### Coagulant Flow Rate
 
-First we applied the energy equation from the PACl constant head tank to the connection junction point at $H_3$. Note that the tubing used to connect to the PACl tank is microbore tubing.
+To calculate the required height difference between the water level of the fluoride constant head tank and the water level of the coagulant constant head tank, the following equations were used:
 
-$ \frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_f$
+First, the energy equation was applied from the PACl constant head tank to the connection junction point at $H_3$. Note that the tubing used to connect to the PACl tank is microbore tubing.
 
-* The $\frac{P_C}{\gamma} $ term can be ignored since the container is open to the atmosphere so gauge pressure at C is zero.
+$\frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_f$
 
-* $ \frac{V_C^2}{2g}$ also drops out because the velocity at point C is zero due to a float valve that keeps the water level constant.
+* The $\frac{P_C}{\gamma}$ term can be ignored since the container is open to the atmosphere so gauge pressure at C is zero.
 
-Applying that we get the following expression:
+* $\frac{V_C^2}{2g}$ also drops out because the velocity at point C is zero due to a float valve that keeps the water level constant.
 
- 1 ) $ H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_f $
+Applying these assumptions, the following expression was obtained:
 
-Then we applied the Bernoulli Equation from the fluoride constant head tank to the connection junction. This was done assuming that the head loss from the tubing was negligible since it has a diameter of $\frac{1}{4}$ inches and its length is very small.
+ 1) $H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_f$
 
-$ \frac{P_A}{\gamma}+ \frac{V_A^2}{2g} + H_2 = \frac{P_B}{\gamma} + \frac{V_B^2}{2g} + H_3 $
+Then, the Bernoulli Equation was applied from the fluoride constant head tank to the connection junction. This was done assuming that the head loss from the tubing was negligible since it has a diameter of $\frac{1}{4}$ inches and its length is very small.
 
-* Similarly, the $\frac{P_A}{\gamma} $ term can be ignored since the container is open to the atmosphere so gauge pressure at A is zero.
+$\frac{P_A}{\gamma}+ \frac{V_A^2}{2g} + H_2 = \frac{P_B}{\gamma} + \frac{V_B^2}{2g} + H_3$
 
-* $ \frac{V_A^2}{2g}$ also drops out because the velocity at point A is zero due to a float valve that keeps the water level constant.
+* Similarly, the $\frac{P_A}{\gamma}$ term can be ignored since the container is open to the atmosphere so gauge pressure at A is zero.
 
-Applying this we get the following:
- 2)  $  P_B= \gamma(H_2-H_3 -\frac{V_B^2}{2g} ) $
+* $\frac{V_A^2}{2g}$ also drops out because the velocity at point A is zero due to a float valve that keeps the water level constant.
 
-We will assume that pressures at the junctions are equal:
-3) $P_B =P_D $
+Applying these assumptions, the following is obtained:
 
-Now, solving for equations 1, 2 and 3 we get the following expression:
+2) $P_B= \gamma(H_2-H_3 -\frac{V_B^2}{2g})$
 
-$ H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_f   $
+The pressures going into the junction were assumed to be equal:
+
+3) $P_B =P_D$
+
+Combining equations 1, 2 and 3, the following expression is obtained:
+
+$H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_f$
 
 Which can be simplified to:
 
-$ H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f
- $
+$H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f$
 
-Where $H_f$ is described by the Hagan Pouiselle equation:
+Where $H_f$ is described by the Hagen–Poiseuille equation, since the microbore tubing consists of a length that is much greater than its diameter:
 
 $\frac{32\mu LV_D}{\rho gd^2}$
 
-So, our desired head for the PACl tank is:
+Thus, the desired head for the PACl tank is:
 
-$ \Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}
- $
+$\Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}$
 
- Additionally, using our standard fluoride flow rate and desired maximum PACl flow rates we have determined that both $\frac{V_B^2}{2g}$ and $ \frac{V_D^2}{2g}$ are less than 1% of total head loss and therefore can be ignored.
+ Additionally, using the desired fluoride flow rate through the system of 0.76 mL/s, and desired maximum PACl flow rates (which was estimated to be 1% of the system flow rate), it was determined that both $\frac{V_B^2}{2g}$ and $\frac{V_D^2}{2g}$ are less than 1% of total head loss and therefore can be ignored.
 
- Finally, our head for PACl will just be:
+ Finally, the height difference between the coagulant constant head tank and the fluoride constant head tank is given by:
 
- $ \Delta h = \frac{32\mu LV_D}{\rho gd^2} $
+ $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
+
+**END OF DRAFT 2**
+
+***
+
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
