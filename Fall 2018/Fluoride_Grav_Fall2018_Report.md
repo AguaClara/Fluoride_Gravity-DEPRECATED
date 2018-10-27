@@ -296,7 +296,7 @@ The recorded mass flow rate of coagulant can then be converted to volumetric flo
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system. The idea here is that the users can easily see the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this set up, the IV bag functions as a constant head tank which feeds the drip chamber. Note that our IV bag is not sealed, it has an opening at the top to allow for refilling and also keeps the gauge pressure at zero. However, the drip chamber is not at atmospheric pressure. If we are to use the drip chamber as our constant head tank then we must also account for any pressures in the chamber. We have not done this calculation yet but plan to do it soon.
+Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system (Figure 9). The idea here is that the users can easily see the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this set up, the IV bag functions as a constant head tank which feeds the drip chamber (Figure 10). Note that our IV bag is not sealed, it has an opening at the top to allow for refilling and also keeps the gauge pressure at zero. However, the drip chamber is not at atmospheric pressure. If we are to use the drip chamber as our constant head tank then we must also account for any pressures in the chamber. We have not done this calculation yet but plan to do it soon.
 
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true" height=500>
@@ -306,7 +306,7 @@ Another proposed method to measure and regulate coagulant is by using an intrave
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Drip_chamber.jpg?raw=true.jpg?raw=true" height=500>
 
 
-**Figure 10:**
+**Figure 10:** The drip chamber is directly attached to the IV bag and maintains a constant height regardless of flow.
 
 
 ## Future Work
