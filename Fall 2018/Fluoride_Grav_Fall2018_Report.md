@@ -13,25 +13,10 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
 - [Previous Work](#previous-work)
 - [Methods](#methods)
   - [Experimental Apparatus](#experimental-apparatus)
-  - [Procedure](#procedure)
-- [Results](#results)
-- [Conclusions](#conclusions)
+  - [Head Loss Calculations](#head-loss-calculations)
+  - [Measuring Coagulant Flow Rate](#measuring-coagulant-flow-rate)
 - [Future Work](#future-work)
 - [Bibliography](#bibliography)
-- [Manual](#manual)
-  - [Fabrication Details](#fabrication-details)
-    - [IV dripping system](#iv-dripping-system)
-- [Experimental Methods](#experimental-methods)
-  - [Set-up](#set-up)
-  - [Experiment](#experiment)
-  - [Cleaning Procedure](#cleaning-procedure)
-  - [Experimental Checklist](#experimental-checklist)
-- [ProCoDA Method File](#procoda-method-file)
-  - [States](#states)
-  - [Set Points](#set-points)
-- [Python Code](#python-code)
-  - [Variables](#variables)
-  - [Calculations for Water Pump Speed](#calculations-for-water-pump-speed)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Abstract
@@ -142,11 +127,13 @@ The flow rate through the gravity-powered apparatus depends on piezometric head.
 
 #### System Flow Rate
 
+Water in the gravity-powered system flows from the fluoride stock tank, to the fluoride constant head tank, to the flocculator, up the sedimentation tube, and out the effluent line.
+
 ![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
 
 **Figure 5:** The system flow rate is determined by the height difference between the water level of the fluoride constant head tank and the effluent line. The height difference, and thus the flow rate, can be controlled by the adjustable slider on effluent line.
 
-There will be multiple sources of head loss in this system, major head loss in the tubing and head loss in the flocculator.
+There are multiple sources of head loss in this system: major head loss in the tubing and minor head loss in the flocculator.
 
 To find major head loss in the straight sections of tubing we will be utilizing the Hagen–Poiseuille equation:
 
@@ -314,7 +301,12 @@ Another proposed method to measure and regulate coagulant is by using an intrave
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true" height=500>
 
-**Figure 9:** An IV drip system was added after the coagulant stock tank to regulate and allow for easy measurements for coagulant flow rate.   
+**Figure 9:** An IV drip system was added after the coagulant stock tank to regulate flow and allow for easy measurements for coagulant flow rate.   
+
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Drip_chamber.jpg?raw=true.jpg?raw=true" height=500>
+
+
+**Figure 10:**
 
 
 ## Future Work
