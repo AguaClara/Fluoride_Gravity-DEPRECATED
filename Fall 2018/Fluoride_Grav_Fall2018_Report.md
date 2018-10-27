@@ -231,6 +231,62 @@ $\Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}$
 
  $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
 
+#### Python Code
+
+A [Python function](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/gravity_fluoride_setup.md) was created with the headloss equation derived above. The user can input the flow rate of the system and the desired flow rate of coagulant, and the function will output the required height difference between the fluoride constant head tank and the coagulant constant head tank.
+
+```python
+import math as m
+import numpy as np
+from aide_design.play import*
+G = 9.80665 * u.m/u.s**2
+"""Define the gravitational constant, in m/s²."""
+  #@u.wraps(u.m**2, u.m, False)
+
+def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
+  """Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
+    Parameters
+   ----------
+   T:  scalar (float) (optional argument)
+       Temperature of water
+    q_sys:  scalar (float)
+       Flow rate through system
+    d_system: scalar (float)
+       Diameter of system tubing i.e. tubing from fluoride constant head tank to flocculator
+    d_micro:  scalar (float)
+       Diameter of microbore tubing from PACl constant head tank to T-joint where PACl mixes with fluoride
+    l_micro:  scalar (float)
+       Length of microbore tubing
+    q_PACl: scalar (float)
+       Desired flow rate of PACl
+  """
+#calculate dynamic viscosity and water density
+  T=298*u.K
+  mu = pc.viscosity_dynamic(T)
+  rho = pc.density_water(T)
+  print(mu)
+  print(rho)
+
+  #calculate cross-sectional area of microbore tubing
+  a_micro = pc.area_circle(d_micro)
+  #calculate cross-sectional area of system tubing
+  a_sys = pc.area_circle(d_sys)
+  #calculate required height difference
+  #This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
+  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
+
+  return(delta_h)
+
+q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
+d_sys = (3/16*u.inch).to(u.m)
+d_micro = (0.022*u.inch).to(u.m)
+l_micro = (78*u.cm).to(u.m)
+q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
+
+required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
+
+```
+
 ### Measuring Coagulant Flow Rate
 Since the flow rate of coagulant is very small, it is difficult to measure and verify that the experimental flow rates are within range of the mathematically derived flow rates. The team came up with several solutions to easily measure the flow rate of coagulant.
 
@@ -247,15 +303,31 @@ The balance was connected to ProCoDA, and the mass over time was recorded (Figur
 
 ![mass_flow](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Mass_Coagulantflow.png?raw=true)
 
-**Figure 8:** The mass flow of coagulant from the coagulant stock tank over time. The slope of the graph was -0.0019, which indicates that the mass flow rate was 1.9 mg/s.
+**Figure 8:** The mass flow of coagulant from the coagulant stock tank over time. The slope of the graph was -0.0019, which indicates that the mass flow rate was 1.9 mg/s. The graph appears stepwise because the balance only has a precision of 0.1 g.
 
 The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship.
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system.
+Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system. The idea here is that the users can easily see the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this set up, the IV bag functions as a constant head tank which feeds the drip chamber. Note that our IV bag is not sealed, it has an opening at the top to allow for refilling and also keeps the gauge pressure at zero. However, the drip chamber is not at atmospheric pressure. If we are to use the drip chamber as our constant head tank then we must also account for any pressures in the chamber. We have not done this calculation yet but plan to do it soon.
 
-![IV_bag](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true)
+
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true" height=500>
+
+**Figure 9:** An IV drip system was added after the coagulant stock tank to regulate and allow for easy measurements for coagulant flow rate.   
+
+
+## Future Work
+
+The team plans to carry out experiments on the gravity-powered apparatus with the incorporation of flow rate and head loss calculations. In order to accomplish this, the tubing lengths and tank heights would be adjusted. We would like to run these experiments to verify our calculations. We are also looking to incorporate the IV dripping system into our design to measure and control for constant flow rate of PACl. Currently, our IV dripping chamber has not been connected to the exit of PACl constant head tank because of difficulty in searching for the right tubing size and connections. However, we will work to set up the proper connection as soon as possible.
+
+Furthermore, since it was found that both pH and temperature can impact fluoride measurements especially at such a low content, we would like to incorporate thermometer and pH probe in our experiment in order to determine the magnitude of their effects. Then, we would like to check with the local environmental parameters of India, in order to further improve and match with their parameters in our experiments. In addition, we are still unsure about the disposal of waste for the fluoride removal system, since fluoride has different properties comparing with natural organic matter. Therefore, more research is needed to determine how to appropriately dispose of fluoride waste or find ways of separating fluoride and aluminum.
+
+## Bibliography
+
+EPA (2018) [EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)
+
+Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
 
 **END OF DRAFT 2**
 
@@ -315,18 +387,7 @@ Explain what you have learned and how that influences your next steps. Why does 
 
 Make sure that you defend your conclusions with facts and results.
 
-## Future Work
 
-The team would like to carry out experiments on the gravity powered apparatus with the incorporation of flow rates and headloss calculations. This means that the tubing lengths and tank heights would be adjusted in the system. We would like to verify our calculations with the experiments. Incorporating IV dripping system as asx control for constant flow rate is also one of our priorities. Currently, our IV dripping chamber has not been connected to the exit of PACl constant head tank because of difficulty in searching for the right tubing size and connections. However, while experimenting the IV dripping chamber with a dripping bag instead of a constant head tank, we will set up the proper connection as soon as possible.
-
-Furthermore, since it was found that both pH and temperature can impact fluoride measurements especially at such a low content, we would like to incorporate thermometer and pH probe in our experiment in order to determine the magnitude of their effects. Then, we would like to check with the local environmental parameters of India, in order to further improve and match with their parameters in our experiments. In addition, we are still unsure about the disposal of waste for the fluoride removal system, since fluoride has different properties comparing with natural organic matter. Therefore, more research is needed to be done on waste disposal of fluoride and methods to separate fluoride and aluminium.
-
-## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
-
-["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
-
-[EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)
 
 # Manual
 The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
@@ -365,73 +426,7 @@ Here, you should describe the function of each state in your method file, both i
 ### Set Points
 Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
 
-## Python Code
 
-### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
-
-```python
-import math as m
-import numpy as np
-from aide_design.play import*
-G = 9.80665 * u.m/u.s**2
-"""Define the gravitational constant, in m/s²."""
- #@u.wraps(u.m**2, u.m, False)
-
-def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
-  """Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
-   Parameters
-  ----------
-  T:  scalar (float) (optional argument)
-      Temperature of water
-   q_sys:  scalar (float)
-      Flow rate through system
-   d_system: scalar (float)
-      Diameter of system tubing i.e. tubing from fluoride constant head tank to flocculator
-   d_micro:  scalar (float)
-      Diameter of microbore tubing from PACl constant head tank to T-joint where PACl mixes with fluoride
-   l_micro:  scalar (float)
-      Length of microbore tubing
-   q_PACl: scalar (float)
-      Desired flow rate of PACl
-"""
-  #calculate dynamic viscosity and water density
-  T=298*u.K
-  mu = pc.viscosity_dynamic(T)
-  rho = pc.density_water(T)
-  print(mu)
-  print(rho)
-
-  #calculate cross-sectional area of microbore tubing
-  a_micro = pc.area_circle(d_micro)
-  #calculate cross-sectional area of system tubing
-  a_sys = pc.area_circle(d_sys)
-  #calculate required height difference
-  #This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
-  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
-
-  return(delta_h)
-
-q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
-d_sys = (3/16*u.inch).to(u.m)
-d_micro = (0.022*u.inch).to(u.m)
-l_micro = (78*u.cm).to(u.m)
-q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
-
-required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
-
-```
 
 ```python
 # To convert the document from markdown to pdf
