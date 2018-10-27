@@ -255,6 +255,8 @@ The recorded mass flow rate of coagulant can then be converted to volumetric flo
 
 Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system.
 
+![IV_bag](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true)
+
 **END OF DRAFT 2**
 
 ***
