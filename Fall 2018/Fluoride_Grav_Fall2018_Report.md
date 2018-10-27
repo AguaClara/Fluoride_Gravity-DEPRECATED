@@ -62,6 +62,7 @@ The objectives for the 2018 Fall Fluoride Gravity team are to improve the gravit
 
 The dynamic interactions between fluoride, Natural Organic Matter (NOM), and the aluminum based coagulants used in traditional drinking water treatment processes are important to consider when treating water sources containing significant amounts of NOM and fluoride. While many of the sources of water in India come from wells, and therefore the NOM content is generally low, interactions between these three types particles are have not been vastly studied. The presence of fluoride reduced the capacity of water treatment systems to remove other contaminants such as turbidity and NOM due to fluoride's capacity to inhibit aluminum hydroxide precipitation [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). In the presence of fluoride, aluminum precipitates become smaller in size compared to precipitates created in fluoride-free solutions. Water with fluoride produced more particles with diameters smaller than 10&mu;m than tests without fluoride. These results suggest that removal of fluoride is more than just particulate matter due to the difficulty of settling and filtering of smaller particles in the sedimentation and filtration of water treatment. Tests with both NOM and fluoride also showed similar effects with smaller floc sizes, adding to the difficulty of treatment.
 
+<<<<<<< HEAD
 ### Effect of pH on Fluoride removal
 The difficulty of fluoride removal also lies in the environmental factor. At a pH value below 5, nearly all the fluoride present in fluoride and aluminum based coagulant solution are in the form of a fluoro-aluminum complexation (Gong et al. 2012 in [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). Such complexation is soluble in water and cannot be removed by coagulation which therefore makes fluoride removal by traditional methods at pH values below 5 unlikely. However, at pH values greater than 8 nearly all fluoride exists freely as fluoride ion, allowing the formation of flocs to occur. While parameters, such as pH can be carefully controlled in the lab, it varies can vary depending on local geology and other chemical factors out in the field. Further research about the expected chemistry of groundwater in regions like India would help the team's overall understanding. For example, if pH is rarely observed to be 5 in groundwater then the effect of pH would also be minimal. However, not enough research have been done to make such assumptions, and the critical pH transition points are also not fully understood yet. Fluoride removal was observed to occur best in a coagulation treatment process when the molar ratio between hydroxide and fluoride was greater than 2.4 [OH<sup>-</sup>]:[F<sup>-</sup>] (Hu et al., 2005). More research should be done to find other critical pH values for effective fluoride removal with aluminum based coagulants.
 
@@ -71,9 +72,25 @@ Tthe formation of fluoro-aluminum complexation is also responsible for an observ
 ###Collection and Analysis of Fluoride Samples
 
 There are three main critical interferences that can impact the accuracy of the Ion-Selective Electrode (ISE) fluoride probe. The first is the presence of polyvalent cations such as Fe<sup>+3</sup> and Al<sup>+3</sup> which form complexes with F<sup>-</sup>. ISE fluoride probes can only detect solubilized fluoride and therefor would give inaccurate fluoride readings when in the presence of Fe<sup>+3</sup> and Al<sup>+3</sup> as is the case when Polyaluminum Chloride (PACl) coagulant is added to our experiments. As a remedy for this interference, Total Ionic Strength Adjuster Buffer (TISAB) solution is added to samples to solubilize the fluoride in the sample. The use of TISAB is also critical in remedying a second source of interference which is pH. TISAB solution is a buffer that keeps the sample at a constant pH of about 5-5.5 to avoid ISE probe interference from hydroxide at high pH and bifluoride formation, undetectable to ISE probe, at lower pH. Lastly, the temperature of the samples can also be a significant source of error in fluoride measurements. In order to collect accurate data, samples should not deviate more than $\pm 1^\circ$C from those used to create the standard curve or from each other ([EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)).
+=======
+### Effect of pH on Fluoride Removal
+
+Environmental conditions also increase the difficulty in fluoride removal. At a pH value below 5, nearly all the fluoride present in fluoride and aluminum based coagulant solution are in the form of a fluoro-aluminum complexation (Gong et al. 2012 in [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1))). Such complexation is soluble in water and cannot be removed by coagulation which therefore makes fluoride removal by traditional methods at pH values below 5 unlikely. However, at pH values greater than 8 nearly all fluoride exists freely as fluoride ion, allowing the formation of flocs to occur. While parameters, such as pH can be carefully controlled in the lab, it varies can vary depending on local geology and other chemical factors out in the field. Further research about the expected chemistry of groundwater in regions like India would help the team's overall understanding. For example, if pH is rarely observed to be 5 in groundwater then the effect of pH would also be minimal. However, not enough research have been done to make such assumptions, and the critical pH transition points are also not fully understood yet. Fluoride removal was observed to occur best in a coagulation treatment process when the molar ratio between hydroxide and fluoride was greater than 2.4 [OH<sup>-</sup>]:[F<sup>-</sup>] (Hu et al., 2005). More research should be done to find other critical pH values for effective fluoride removal with aluminum based coagulants.
+
+### Formation of Fluoro-aluminium Complexation
+
+The formation of fluoro-aluminum complexation is also responsible for an observed increase in residual aluminum concentration [(Herrboldt, 2016)]((https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)). Formation of aluminum hydroxide is negatively affected by the presence of fluoro-aluminum which disallows the formation of larger diameter particles which in return reduces a system's capacity to remove both fluoride and residual aluminum. When comparing experiments that contained aluminum coagulant and NOM mixtures with aluminum coagulant and fluoride mixtures, both of which contained aluminum concentration of 8.0 $\mathrm{\frac{mg}{L}}$, the amount of residual aluminum was found to be 0.058$\mathrm{\frac{mg}{L}}$ and 0.244$\mathrm{\frac{mg}{L}}$ respectively. Thus, residual aluminum concentration increased by nearly an order of magnitude when fluoride was present. This shows that unintended residual aluminum release in the effluent water supply from systems can be a concern.
+
+
+### Collection and Analysis of Fluoride Samples
+>>>>>>> 9a6ebafc0c9e24e22811ca79dfba525ce361a3f4
 
 Several quality control measures should be taken into consideration, such as the use of containers. The first is the highly recommended use of polyethylene plastic over glassware as fluoride can adsorb to glass, which may result in inaccurate readings. Another quality control measure is the use of an Initial Calibration Verification (ICV) standard and a Continuing Calibration Verification (CCV) standard. These would consist of a solution of known fluoride concentration within the mean expected fluoride concentration that is being tested. The ICV would be utilized as a way to test the accuracy of the calibration curve prior to the analysis of unknown samples. Similarly, The CCV would be use after every 10 samples as a way to check that the fluoride probe has not drifted significantly from the standard curve. Both ICV and CCV controls should be within 10% of their known values. A final quality control measure that is suggested is the use of a blank after each ICV and CCV. The control blank would contain 1 part water and 1 part TISAB to ensure that the fluoride probe was not contaminated in some way with residual fluoride. These are methods that would surely enhance the accuracy of the teams data.
 
+<<<<<<< HEAD
+=======
+Quality control measures that should be taken into consideration, such as the selection of containers for samples. The use of polyethylene plastic is highly recommended over glassware as fluoride can be absorbed by glass which results in inaccurate readings. The use of an Initial Calibration Verification (ICV) standard and a Continuing Calibration Verification (CCV) standard can also act as a quality control precedure for fluoride measurements. These would consist of a solution of known fluoride concentration within the mean expected fluoride concentration that is being tested. The ICV would be utilized to test the accuracy of the calibration curve prior to the analysis of unknown samples. Similarly, The CCV would be used after every 10 samples to check that the fluoride probe has not drifted significantly from the standard curve. Both ICV and CCV controls should be within 10% of their known values. A final quality control measure suggested is the use of a blank sample after each ICV and CCV. The control blank would contain 1 part water and 1 part TISAB to ensure that the fluoride probe was not contaminated with residual fluoride. Quality control measures that would highly enhance the accuracy of the teams data.
+>>>>>>> 9a6ebafc0c9e24e22811ca79dfba525ce361a3f4
 
 #### Future Literature Review
 
@@ -263,11 +280,10 @@ Explain what you have learned and how that influences your next steps. Why does 
 Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
-Since we have now completed calculations with flow rate and head loss, we are able to carry out test on he gravity powered apparatus. For the next steps, we would like to  With the IV dripping system, we would like to install in at the exit of the constant head tank for PACl
-Continue developing IV dripping system
-Take into consideration effects of pH and temperature on fluoride removal
-Verify calculation with experiments
-Research on how to deal with fluoride waste products (eg separating fluoride from alum)
+
+For the next steps, the team would like to carry out experiments on the gravity powered apparatus with the incorporation of flow rates and headloss calculations. This means that the tubing lengths and tank heights would be adjusted in the system. We would like to verify our calculations with the experiments. Incorporating IV dripping system as a control for constant flow rate is also one of our priorities. Currently, our IV dripping chamber has not been connected to the exit of PACl constant head tank because of difficulty in searching for the right tubing size and connections. However, while experimenting the IV dripping chamber with a dripping bag instead of a constant head tank, we will set up the proper connection as soon as possible.
+
+Furthermore, since it was found that both pH and temperature can impact fluoride measurements especially at such a low content, we would like to incorporate thermometer and pH probe in our experiment in order to determine the magnitude of their effects. Then, we would like to check with the local environmental parameters of India, in order to further improve and match with their parameters in our experiments. In addition, we are still unsure about the disposal of waste for the fluoride removal system, since fluoride has different properties comparing with natural organic matter. Therefore, more research is needed to be done on waste disposal of fluoride and methods to separate fluoride and aluminium.
 
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
@@ -336,8 +352,9 @@ from aide_design.play import*
 G = 9.80665 * u.m/u.s**2
 """Define the gravitational constant, in m/s²."""
  #@u.wraps(u.m**2, u.m, False)
+
 def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
-"""Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
+  """Returns height difference (delta_h) between the water level in the fluoride constant head tank and the water level in the PACl constant head tank.
    Parameters
   ----------
   T:  scalar (float) (optional argument)
@@ -353,31 +370,31 @@ def required_height(q_sys, d_sys, d_micro, l_micro, q_PACl):
    q_PACl: scalar (float)
       Desired flow rate of PACl
 """
-#calculate dynamic viscosity and water density
-T=298*u.K
-mu = pc.viscosity_dynamic(T)
-rho = pc.density_water(T)
-print(mu)
-print(rho)
+  #calculate dynamic viscosity and water density
+  T=298*u.K
+  mu = pc.viscosity_dynamic(T)
+  rho = pc.density_water(T)
+  print(mu)
+  print(rho)
 
-#calculate cross-sectional area of microbore tubing
-a_micro = pc.area_circle(d_micro)
-#calculate cross-sectional area of system tubing
-a_sys = pc.area_circle(d_sys)
-#calculate required height difference
-#This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
-delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
-return delta_h
+  #calculate cross-sectional area of microbore tubing
+  a_micro = pc.area_circle(d_micro)
+  #calculate cross-sectional area of system tubing
+  a_sys = pc.area_circle(d_sys)
+  #calculate required height difference
+  #This equation was derived from the modified Bernoulli equation, accounting for head loss due to friction through the microbore tubing.
+  delta_h = -1/(2*G)*((q_sys-q_PACl)/a_sys)**2 + ((q_PACl/a_micro)**2)/(2*G) + (32*mu*l_micro*(q_PACl/a_micro))/(rho*G*d_micro**2)
+
+  return(delta_h)
+
 q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
 d_sys = (3/16*u.inch).to(u.m)
 d_micro = (0.022*u.inch).to(u.m)
 l_micro = (78*u.cm).to(u.m)
 q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
-required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
-```
 
-```python
-# Comment
+required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
+
 ```
 
 ```python
