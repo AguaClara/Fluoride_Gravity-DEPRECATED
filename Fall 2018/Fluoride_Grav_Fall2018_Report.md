@@ -308,7 +308,7 @@ The recorded mass flow rate of coagulant can then be converted to volumetric flo
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system (Figure 9). The idea is that the users will be able to easily measure the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this setup, the IV bag functions as a constant head tank which feeds the drip chamber (Figure 10). 
+Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system (Figure 9). The idea is that the users will be able to easily measure the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this setup, the IV bag functions as a constant head tank which feeds the drip chamber (Figure 10).
 
 ###The IV bag is not sealed, and has an opening at the top to allow for refilling and also keeps the gauge pressure at zero. However, the drip chamber is not at atmospheric pressure. If we are to use the drip chamber as our constant head tank then we must also account for any pressures in the chamber. We have not done this calculation yet but plan to do it soon. -address this
 
@@ -328,6 +328,7 @@ Another proposed method to measure and regulate coagulant is by using an intrave
 The team plans to carry out experiments on the gravity-powered apparatus with the incorporation of flow rate and head loss calculations. In order to accomplish this, the tubing lengths and tank heights would be adjusted. These experiments would verify the flow rates obtained by the headloss calculations.  
 
 The IV drip chamber was implemented
+bluh
 
 Furthermore, since it was found that both pH and temperature can impact fluoride measurements especially at such a low content, we would like to incorporate thermometer and pH probe in our experiment in order to determine the magnitude of their effects. Then, we would like to check with the local environmental parameters of India, in order to further improve and match with their parameters in our experiments. In addition, we are still unsure about the disposal of waste for the fluoride removal system, since fluoride has different properties comparing with natural organic matter. Therefore, more research is needed to determine how to appropriately dispose of fluoride waste or find ways of separating fluoride and aluminum.
 
