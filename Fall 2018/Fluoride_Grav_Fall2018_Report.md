@@ -1,5 +1,6 @@
 # Fluoride Gravity, Fall 2018
 #### Cheer Tsang, Kevin Sarmiento, Ching Pang
+bluh
 
 [EM: Hi team! I will be putting my comments in brackets under the paragragh in which I am referring to. Thanks!]
 
