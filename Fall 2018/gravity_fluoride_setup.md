@@ -57,7 +57,7 @@ q_sys = (0.76*u.mL/u.s).to(u.m**3/u.s)
 d_sys = (3/16*u.inch).to(u.m)
 d_micro = (0.022*u.inch).to(u.m)
 l_micro = (78*u.cm).to(u.m)
-q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
+q_PACl = (0.01583*u.mL/u.s).to(u.m**3/u.s)
 
 required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 
