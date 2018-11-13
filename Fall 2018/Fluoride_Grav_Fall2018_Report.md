@@ -27,7 +27,7 @@ Fluoride contamination of drinking water is a common public health issue in some
 
 [EM: Is your goal to create a research apparatus or go create an apparatus that will successfully remove fluoride in the field?]
 
-[CT: The goal is to create a apparatus that will be used for research purposes only. Then, researchers in the field can use this apparatus to conduct feasability tests to determine if using our system of coagulation/flocculation/sedimentation to remove fluoride in drinking water is a viable solution in the intended setting. If these tests are successful, then we can start thinking about designing a real fluoride removal system to be used by communities in India. I added a sentence to the abstract and will explain this in more detail in the introduction.]
+[CT: The goal is to create a apparatus that will be used for research purposes only. Then, researchers in the field can use this apparatus to conduct feasibility tests to determine if using our system of coagulation/flocculation/sedimentation to remove fluoride in drinking water is a viable solution in the intended setting. If these tests are successful, then we can start thinking about designing a real fluoride removal system to be used by communities in India. I added a sentence to the abstract and will explain this in more detail in the introduction.]
 
 ## Introduction
 
@@ -339,6 +339,8 @@ Furthermore, since it was found that both pH and temperature can impact fluoride
 EPA (2018) [EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)
 
 Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
+
+
 
 ###add previous fluoride report as citation
 
