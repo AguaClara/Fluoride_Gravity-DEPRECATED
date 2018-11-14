@@ -33,21 +33,23 @@ Fluoride contamination of drinking water is a common public health issue in some
 
 The expansion of AguaClara Cornell technology to new places around the world, like India, has uncovered new challenges and prompted new goals. The bulk of the AguaClara plants that have been constructed to date are located in Central America where surface waters, such as rivers and lakes, are a major source of water for AguaClara purification plants. These waters have high turbidities due to sediments, Natural Organic Matter (NOM), and other particulate matter. In addition, these waters also carry biological contaminants that can pose serious health threat without proper treatment of water.
 
-In contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers ([World Bank, 2017](http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishing)). Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
+In contrast to Central America, 85% of the Indian population obtains their drinking water from groundwater sources such a wells and aquifers ([World Bank, 2017](http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishing)). Compared to surface water, groundwater has a much lower turbidity due to natural filtration processes which use the soil and underlying rock material to filter particulate matter from water. While this natural filtration process is capable of removing undissolved particulate matter and pathogenic microorganisms, it also allows minerals and metals to leach from the surrounding geological landscape into the groundwater. The types of contaminants seen in the water of one region depend heavily on the types of parent rock material and soils found in that region. Therefore, there is a lot of variability between regions when it comes to contamination of groundwater with agents such as fluoride.
 
-India is geographically located on one of a number of Fluoride Belts that exists around the world. These are expanses of land that are geologically rich in fluoride and therefore have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India alone contains about 14% of the total fluoride deposited on the earth's crust  [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7). The coupling of high groundwater fluoride concentrations with a high population dependency on groundwater for consumptions has produced a serious public health problem that needs to be addressed.
+India is geographically located on one of a number of Fluoride Belts that exists around the world. These are expanses of land that are geologically rich in fluoride and therefore have a much greater capacity to leach fluoride into groundwater [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India alone contains about 14% of the total fluoride deposited on the earth's crust  [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7). The coupling of high groundwater fluoride concentrations with a high population dependency on groundwater for consumptions has produced a serious public health problem that needs to be addressed.
 
 There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. One of the risks associated with low exposure to fluoride is an increased development of dental cavities. The American Dental Association has set the recommended concentration of fluoride in drinking water to 0.7 $\mathrm{\frac{mg}{L}}$ in order to prevent the onset of dental cavities [(ADA, 2017)](https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements). As a result, fluoride has become a common additive to municipal water systems in places such as the United States, where there is little to no fluoride naturally present in the water. New York City, for example, adds fluoride to its water in order to achieve a concentration of 0.7 $\mathrm{\frac{mg}{L}}$ in its effluent water supply [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). There are, however, a number of health risks associated with the consumption of fluoride at higher concentrations.
 
-The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water to 1.5 $\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the over consumption of fluoride, can begin with water concentrations above 0.9 $\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop at fluoride concentrations above 3 $\mathrm{\frac{mg}{L}}$. Lastly, at concentrations above 10 $\mathrm{\frac{mg}{L}}$, crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The number of cases of dental fluorosis, the mildest indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent of the total population of some regions [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). In total, it is estimated that 66 million people in India are consuming fluoride contaminated water [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established mean fluoride concentration in Indian groundwater, concentrations in some extreme cases have been measured as high as 20 $\mathrm{\frac{mg}{L}}$ in some regions, but most frequently are below 5 $\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
+The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water to 1.5 $\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the over consumption of fluoride, can begin with water concentrations above 0.9 $\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop at fluoride concentrations above 3 $\mathrm{\frac{mg}{L}}$. Lastly, at concentrations above 10 $\mathrm{\frac{mg}{L}}$, crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The number of cases of dental fluorosis, the mildest indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent of the total population of some regions [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). In total, it is estimated that 66 million people in India are consuming fluoride contaminated water [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established mean fluoride concentration in Indian groundwater, concentrations in some extreme cases have been measured as high as 20 $\mathrm{\frac{mg}{L}}$ in some regions, but most frequently are below 5 $\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/). In order to provide safe drinking water to the people living in these regions of the world effective and feasible fluoride removal technologies need to be developed, which is the overarching goal of the fluoride team.
 
 The Bureau of Indian Standards has created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$, and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). AguaClara has set its fluoride standards to match the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with stock fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations these filtration systems may encounter out in the field.
 
-[EM: Although the effects of overconsumption of fluoride is important, it was a bit too detailed for this report. It takes many, many paragraphs to get to the point of this report. It started out as though the purpose was about fluoride effects, not fluoride removal.
+[EM: Although the effects of overconsumption of fluoride is important, it was a bit too detailed for this report. It takes many, many paragraphs to get to the point of this report. It started out as though the purpose was about fluoride effects, not fluoride removal.]
 
-The Fluoride Gravity team is focused on modifying and testing the gravity powered fluoride removal apparatus. The goal is to make it easy to adjust and control key variables such as flow rate, PACl concentration, and fluoride concentration. The gravity-powered apparatus will then be used to conduct feasibility analyses on site, which will determine if the proposed system of fluoride removal is a viable solution in the intended setting. If these tests are successful, AguaClara can begin designing a marketable product that can used by communities in India.
+[CT: We condensed the introduction a little, but we believe that providing the background of the issue as well as presenting the consequences of elevated fluoride levels is important in understanding why we are removing fluoride. Please let us know what else we can do to make out point more clear!]
 
-The 2018 Fall Fluoride Gravity team aims to improve the gravity-powered system by making it as compact and easy to operate for field testing and laboratory work. Fluoride removal efficiency of the gravity powered system should also be matched to that of the automated system. The team also aims to create a fabrication and operation manual of the gravity apparatus for easy operation and future reference. Furthermore, the team hopes to gain a general understanding of the mechanisms involved in fluoride removal through literature review and experimentation.
+The Fluoride Gravity team's objective this semester was to modify and test the gravity-powered fluoride removal apparatus. The goal was to make it easy to adjust and control key variables such as flow rate, PACl concentration, and fluoride concentration. The gravity-powered apparatus will then be used to conduct feasibility analyses on site, which will determine if the proposed system of fluoride removal is a viable solution in the intended setting. If these tests are successful, AguaClara can begin designing a marketable product that can used by communities in India.
+
+The 2018 Fall Fluoride Gravity team optimized the gravity-powered system by making it compact and easy to operate for field testing and laboratory work. Fluoride removal efficiency of the gravity powered system was compared to that of the automated system. The team also created a fabrication and operation manual of the gravity apparatus for easy operation and future reference. Furthermore, the team strived to gain a general understanding of the mechanisms involved in fluoride removal through literature review and experimentation.
 
 ## Literature Review
 
@@ -291,7 +293,7 @@ Since the flow rate of coagulant is very small, it is difficult to measure and v
 
 #### Balance
 
-A balance was added to the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank into the coagulant constant head tank, the balance measures the rate of mass decrease over time. The mass flow rate can then be converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
+A balance was added to the bottom of the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank into the coagulant constant head tank, the balance measures the rate of mass decrease over time. The mass flow rate can then be converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
 
 
 ![balance_system](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
@@ -304,35 +306,33 @@ The balance was connected to ProCoDA, and the mass over time was recorded (Figur
 
 **Figure 8:** The mass flow of coagulant from the coagulant stock tank over time. The slope of the graph was -0.0019, which indicates that the mass flow rate was 1.9 mg/s. The graph appears stepwise because the balance only has a precision of 0.1 g.
 
-The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship.
+The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship. However, accuracy with this flow rate measuring technique was suspected to be low. The reason for this was the uncertainty in the ability of the float valve to respond to the low flow rates that we were working with. This uncertainty prompted the introduction of second method for measuring flow rate out of the PACl constant head tank, the IV drip chamber.
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant is by using an intravenous (IV) system (Figure 9). The idea is that the users will be able to easily measure the flow rate by counting the number of drops in a given time span. Most IV drip chambers come with a specification of drops per mL. This allows users to convert drops per unit time to mL per unit time. In this setup, the IV bag functions as a constant head tank which feeds the drip chamber (Figure 10).
+Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). The idea is that the user would be able to easily measure the flow rate by counting the amount of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber with 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate and it also serves to check the results of the scale.
 
-###The IV bag is not sealed, and has an opening at the top to allow for refilling and also keeps the gauge pressure at zero. However, the drip chamber is not at atmospheric pressure. If we are to use the drip chamber as our constant head tank then we must also account for any pressures in the chamber. We have not done this calculation yet but plan to do it soon. -address this
+Flow measurements were taken to verify the method of counting drops to determine flow rate. In order to do this, the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found
+[here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
 
+The first iteration of this system consisted of the drip chamber connected to a 90$\degree$ elbow that was attached to the constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
-<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/IVbag%20(2).jpg?raw=true" height=500>
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
-**Figure 9:** An IV drip system was added after the coagulant stock tank to regulate flow and allow for easy measurements for coagulant flow rate.   
+**Figure 11:** The IV drip chamber was added after the PACl constant head tank.
 
-<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Drip_chamber.jpg?raw=true.jpg?raw=true" height=500>
-
-
-**Figure 10:** The drip chamber is directly attached to the IV bag and maintains a constant height regardless of flow.
-
+## Results and Analysis
 
 ## Future Work
 
-The team plans to carry out experiments on the gravity-powered apparatus with the incorporation of flow rate and head loss calculations. In order to accomplish this, the tubing lengths and tank heights would be adjusted. These experiments would verify the flow rates obtained by the headloss calculations.  
-
-The IV drip chamber was implemented
-bluh
-
-Furthermore, since it was found that both pH and temperature can impact fluoride measurements especially at such a low content, we would like to incorporate thermometer and pH probe in our experiment in order to determine the magnitude of their effects. Then, we would like to check with the local environmental parameters of India, in order to further improve and match with their parameters in our experiments. In addition, we are still unsure about the disposal of waste for the fluoride removal system, since fluoride has different properties comparing with natural organic matter. Therefore, more research is needed to determine how to appropriately dispose of fluoride waste or find ways of separating fluoride and aluminum.
+After the implementation of the new PACl constant head tank experiments will be rerun to determine the flow rates at different platform heights. Further microbore tubing lengthening or shortening can then be done in order to optimize the system as a whole.
 
 [EM: Both paragraphs are too informal.]
+
+## Conclusions
+Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
+
+Make sure that you defend your conclusions with facts and results.
 
 ## Bibliography
 
@@ -342,7 +342,48 @@ Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Ef
 
 
 
-###add previous fluoride report as citation
+###add previous fluoride report as citation, add all other citations
+
+
+
+# Manual
+The manual provides details on how to construct and operate the gravity-powered fluoride removal apparatus.
+
+## Fabrication Details
+The frame of the apparatus was built using metal 80/20 bars.
+
+something about tanks for fluoride and PACL
+
+something about tubing
+
+something about flocculator
+
+something about reactor
+
+something about sliders
+
+add pictures and measurements (maybe make a schematic idk)
+
+## Special Components
+If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+
+maybe add links for sliders/IV chamber
+
+## Experimental Methods
+### Set-up
+Step 1.
+* Put tasks in a sequential order.
+* It is okay to have sub-lists.
+  - Like this.
+
+### Experiment
+Step 1.
+
+### Cleaning Procedure
+Step 1.
+
+## Experimental Checklist
+Another potential section could include a list of things that you need to check before running an experiment.
 
 **END OF DRAFT 2**
 
@@ -395,37 +436,7 @@ After describing a particular result, within a paragraph, go on to connect your 
 * What went wrong?
 * If the data do not support your hypothesis, is there another hypothesis that describes your new data?
 
-## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
 
-Make sure that you defend your conclusions with facts and results.
-
-
-
-# Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
-
-## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
-
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
-
-## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
-
-### Experiment
-Step 1.
-
-### Cleaning Procedure
-Step 1.
-
-## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
 
 ## ProCoDA Method File
 Use this section to explain your method file. This could be broken up into several components as shown below:
