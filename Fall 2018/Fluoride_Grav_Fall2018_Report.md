@@ -309,21 +309,40 @@ The recorded mass flow rate of coagulant can then be converted to volumetric flo
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). The idea is that the user would be able to easily measure the flow rate by counting the amount of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber with 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate and it also serves to check the results of the scale.
+Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). This system would allow for an easy visual way to measure flow rate just by counting the amount of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber with 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate. Lastly, it also serves as a way double check the results of the scale derived flow rates.
 
-Flow measurements were taken to verify the method of counting drops to determine flow rate. In order to do this, the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found
-[here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
+Flow measurements were taken to verify the method of counting drops to determine flow rate. In order to do this, the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found [here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
 
-The first iteration of this system consisted of the drip chamber connected to a 90$\degree$ elbow that was attached to the constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
+The first experiment that was run gave the team very insightful information. It was observed that with a small change in height there was a rather large change in PACl flow rate. This would make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility even more.
+
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/PACl_flowrate_test1.JPG?raw=true">
+
+**Figure 9:**  Data from the first test showing the large change in flow rate relative to the change in delta H.
+
+Increasing the length of the microbore tubing the team was able to obtain data that was much more promising. The team desired a lower slope that would allow for greater operator precision.
+
+![Test 2](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/PACl_flowrate_test2.JPG?raw=true)
+
+**Figure 10:** Data from the second test shows a lower slope than that of the first test. This was done by increasing the length of the microbore tubing.
+
+However, these tests were preformed with the first version of the drip chamber which posed some challenges.
+
+The first iteration of this system consisted of the drip chamber connected to a 90$\degree$ elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
-**Figure 11:** The IV drip chamber was added after the PACl constant head tank.
+**Figure 9:** In the first version, the IV drip chamber was hung from a 90$\degree$ elbow where air become trapped.
+
+To reduce the probability of getting air bubbles in the system, the team removed the 90$\degree$ bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank.
+
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/New_constant_PACl_tank.jpeg?raw=true" height=500>
+
+**Figure 10:** New PACl constant head tank without 90$\degree$ elbows reduce bubbles in the system.
 
 
 ## Future Work
 
-After the implementation of the new PACl constant head tank experiments will be rerun to determine the flow rates at different platform heights. Further microbore tubing lengthening or shortening can then be done in order to optimize the system as a whole.
+After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. Further microbore tubing lengthening or shortening can then be done in order to optimize the system as a whole.
 
 [EM: Both paragraphs are too informal.]
 
@@ -361,7 +380,8 @@ The frame of the apparatus was built using aluminum 80/20 bars. The two types of
 **Figure 13:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
 ### Stock Tanks
 
-#####PACl tank Platforms
+#####PACl Tank Platforms
+
 Two platforms were made out of single rail 80/20 bars to support the constant PACl tank and the stock tank feeding the constant tank. The platforms were attached to sliders which moved along the double rail frame of the gravity apparatus. PVC sheets were secured to the top side of each platform and a hole drilled through the bottom of the lower platform to allow for the passage of the drip chamber as shown in figure 14.
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_PACl_platform.JPG?raw=true" height=250>
@@ -369,9 +389,12 @@ Two platforms were made out of single rail 80/20 bars to support the constant PA
 **Figure 14:** Bottom view of the platform that holds the constant PACl head tank. The platform above it also has the same dimensions.
 
 #####Fluoride Tank Platforms:
-Two PVC sheet platforms were added to the frame of the gravity apparatus to hold
+
+Two PVC sheet platforms were added to the frame of the gravity apparatus to hold the 10L fluoride constant head tank bucket and the 12L fluoride stock tank that feeds the constant head tank. The dimensions of both of these are shown in figure 15.
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_fluoride_platflorm.JPG?raw=true" height=300>
+
+**Figure 15:** PVC sheet platform to hold fluoride tank.
 
 ### Tubing
 The system tubing has a diameter of 0.47625 cm (3/16"). This tubing was used to route water from the fluoride constant head tank to the flocculator, from the flocculator to the sedimentation tube, and from the sedimentation tube to the outflow. The diameter of microbore tubing used was 0.05588 cm (0.022"). Microbore tubing was used from the PACl constant head tank to the T-joint where PACl mixed with the system flow.
