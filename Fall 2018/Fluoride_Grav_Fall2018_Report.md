@@ -354,21 +354,31 @@ The manual provides details on how to construct and operate the gravity-powered 
 ## Fabrication Details
 The frame of the apparatus was built using metal 80/20 bars.
 
+### Frame
+
+### Stock Tanks
 something about tanks for fluoride and PACL
 
+### Tubing
 something about tubing
 
+### Flocculator
 something about flocculator
 
+### Reactor
 something about reactor
 
-something about sliders
 
 add pictures and measurements (maybe make a schematic idk)
 
 ## Special Components
 If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
 
+### Sliding Tracks
+
+something about sliders
+
+### IV Drip Chamber
 maybe add links for sliders/IV chamber
 
 ## Experimental Methods
