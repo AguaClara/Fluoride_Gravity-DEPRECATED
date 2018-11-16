@@ -352,9 +352,9 @@ Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Ef
 The manual provides details on how to construct and operate the gravity-powered fluoride removal apparatus.
 
 ## Fabrication Details
-The frame of the apparatus was built using metal 80/20 bars.
 
 ### Frame
+The frame of the apparatus was built using metal 80/20 bars.
 
 ### Stock Tanks
 something about tanks for fluoride and PACL
