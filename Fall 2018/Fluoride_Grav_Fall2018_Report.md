@@ -357,6 +357,14 @@ EPA (2018) [EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/
 
 Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
 
+India Groundwater: A Valuable but Diminishing Resource. (2017). Retrieved from http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishing
+
+World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
+
+Mondal, D., Dutta, G., & Gupta, S. (2015). Inferring the fluoride hydrogeochemistry and effect of consuming fluoride-contaminated drinking water on human health in some endemic areas of Birbhum district, West Bengal. Environmental Geochemistry and Health, 38(2), 557-576. doi:10.1007/s10653-015-9743-7
+
+
+
 
 
 ###add previous fluoride report as citation, add all other citations
