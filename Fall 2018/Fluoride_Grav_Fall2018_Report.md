@@ -375,9 +375,6 @@ World Health Organization. (2004). Fluoride in Drinking Water: A Global Perspect
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
 
-
-###add previous fluoride report as citation, add all other citations
-
 ***
 
 # Manual
@@ -397,7 +394,7 @@ The frame of the apparatus was built using aluminum 80/20 bars. The two types of
 **Figure 13:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
 ### Stock Tanks
 
-#####PACl Tank Platforms
+##### PACl Tank Platforms
 
 Two platforms were made out of single rail 80/20 bars to support the constant PACl tank and the stock tank feeding the constant tank. The platforms were attached to sliders which moved along the double rail frame of the gravity apparatus. PVC sheets were secured to the top side of each platform and a hole drilled through the bottom of the lower platform to allow for the passage of the drip chamber as shown in figure 14.
 
@@ -405,7 +402,7 @@ Two platforms were made out of single rail 80/20 bars to support the constant PA
 
 **Figure 14:** Bottom view of the platform that holds the constant PACl head tank. The platform above it also has the same dimensions.
 
-#####Fluoride Tank Platforms:
+##### Fluoride Tank Platforms:
 
 Two PVC sheet platforms were added to the frame of the gravity apparatus to hold the 10L fluoride constant head tank bucket and the 12L fluoride stock tank that feeds the constant head tank. The dimensions of both of these are shown in figure 15.
 
@@ -437,8 +434,6 @@ The adjustable sliders were purchased from the McMaster-Carr Supply Company. The
 
 * [Side-Mount Bearing, 1-7/8" Long for 2" High Double Rail T-Slotted Framing](https://www1.mcmaster.com/47065T779), Product Number (47065T779)
 * [Hand Brake for 1" & 2" Wide Sleeve Bearing Carriage for T-Slotted Framing](https://www1.mcmaster.com/60585K31), Product Number (60585K31)
-
-(maybe add a pic of sliders)
 
 ### IV Drip Chamber
 The IV drip chamber used in the apparatus was purchased from Truecare via Amazon. The product name is: ["I.V. Administration Set with GVS Easydrop Flow Rregulator, DEHP-Free, 1 Y-Site, 15 Filter in Drip chamber, Swivel, Luer Lock, 92""](https://www.amazon.com/Administration-Easydrop-Rregulator-DEHP-Free-chamber/dp/B00UNZ8N8I/ref=sr_1_2?ie=UTF8&qid=1539207200&sr=8-2&keywords=iv+drip+set). The team decided to purchase this particular IV drip chamber because it specifies 20 drops per milliliter, which allows for smaller drops and, thus, a smaller flow rate. This allows for more precision when adjusting the coagulant flow rate.
