@@ -85,7 +85,7 @@ Several quality control measures should be taken into consideration, such as the
 
 A coagulant-sedimentation process was used to remove fluoride. A series of bench experiments were conducted using polyaluminum chloride (PACl) as the coagulant and varying concentrations of fluoride.
 
-The Spring 2016 team conducted bench tests using clay and PACl, and were able to successfully create a floc blanket. After adding in fluoride, their system was able to remove 85% of the initial fluoride ([Longo, 2016](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view)). The Summer 2017 team determined that the addition of clay was unnecessary, since it caused an increase in effluent turbidity ([Akpan et al., 2017](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md)). Thus, the Fall 2017 team ran experiments with only fluoride and PACl, without the addition of clay. They determined that their reactors would fail after 10 hours due to sludge buildup in the reactor. After switching to a new reactor geometry designed by the High Rate Sedimentation 2017 Summer Team (see ["Fabrication Details > Sedimentation Tube"](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md) for fabrication details), the time to failure increased, allowing for higher upflow velocities. Thus, the Fall 2017 team determined that a upflow velocity of 1.5 mm/s was optimal for preventing sludge buildup in the reactor. The team then ran experiments with various PACl concentrations to create an adsorption model, which would allow users to determine an optimal PACl dosage for the influent fluoride concentration.
+The Spring 2016 team conducted bench tests using clay and PACl, and were able to successfully create a floc blanket. After adding in fluoride, their system was able to remove 85% of the initial fluoride ([Longo, 2016](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view)). The Summer 2017 team determined that the addition of clay was unnecessary, since it caused an increase in effluent turbidity ([Akpan et al., 2017](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md)). Thus, the Fall 2017 team ran experiments with only fluoride and PACl, without the addition of clay. They determined that their reactors would fail after 10 hours due to sludge buildup in the reactor. After switching to a new reactor geometry designed by the High Rate Sedimentation 2017 Summer Team, the time to failure increased, allowing for higher upflow velocities. Thus, the Fall 2017 team determined that a upflow velocity of 1.5 mm/s was optimal for preventing sludge buildup in the reactor. The team then ran experiments with various PACl concentrations to create an adsorption model, which would allow users to determine an optimal PACl dosage for the influent fluoride concentration.
 
 The Spring 2018 team began constructing a gravity-powered apparatus for fluoride removal ([Akpan et. al, 2018](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md)).
 
@@ -95,7 +95,7 @@ The Spring 2018 team began constructing a gravity-powered apparatus for fluoride
 
 The principle behind the design is that the difference in head between the surface of the constant head tank of the influent and the effluent supplies enough potential energy to cause flow through the system. Float valves in the constant head tanks for fluoride and PACl were utilized to keep the water level and thus, the flow, constant throughout the system. The PACl concentration in the coagulant stock tank is fixed. Therefore, the concentration of coagulant into the system is determined by its flow rate. In order to change the PACl concentration throughout the system to accommodate for varying system flow rates, the PACl flow rate is adjusted accordingly.
 
-The Summer 2018 team modified the gravity-powered apparatus fabricated by the Spring 2018 team. Adjustable sliders were added to allow for easy height adjustments of the sedimentation tube, coagulant stock tank, and coagulant constant head tank, and thus adjusting the flow rate of the system (Figure 1) Fabrication details can be found in the [Summer 2018 Final Report](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fluoride_Summer2018.md#sedimentation-tube).
+The Summer 2018 team modified the gravity-powered apparatus fabricated by the Spring 2018 team. Adjustable sliders were added to allow for easy height adjustments of the sedimentation tube, coagulant stock tank, and coagulant constant head tank, and thus adjusting the flow rate of the system (Figure 1).
 
 [EM: I still don't see the connection between flow rate and fluoride removal. Is there an optimal flow rate at which removal occurs? Is it to fix the concentration of coagulant? I'm having difficulty understanding why it is necessary to build an apparatus with an adjustable flow rate. Please clarify how this apparatus will be implemented in a plant (or is it independent of a plant? Or is it in tandem with the EStaRS filters in India?)]
 
@@ -103,7 +103,7 @@ The Summer 2018 team modified the gravity-powered apparatus fabricated by the Sp
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true" height=500>
 
-**Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders. 
+**Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders.
 
 The Summer 2018 team also ran a series of bench experiments with varying concentrations of fluoride and PACl to create an adsorption model. Fluoride concentrations ranging from 3 to 20 mg/L and PACl concentrations of 10 to 50 mg/L were tested. Experiments were run on the bench setup utilized by previous semesters (Figure 2).
 
@@ -350,34 +350,59 @@ The manual provides details on how to construct and operate the gravity-powered 
 ## Fabrication Details
 
 ### Frame
-The frame of the apparatus was built using metal 80/20 bars.
+The frame of the apparatus was built using aluminum 80/20 bars. The two types of bars used here are double rail bars and single rail bars.
 
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_front.JPG?raw=true" height=300>
 
+**Figure 12:** Three 155 cm double rail 80/20 bars were used as the main skeleton of the gravity apparatus. Four 60cm single rail 80/20 cross bars are used along the frame to support the platforms and create stability.
 
+<img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_side.JPG?raw=true" height=300>
+
+**Figure 13:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
 ### Stock Tanks
-something about tanks for fluoride and PACL
+
+#####PACl tank Platforms
+Two platforms were made out of single rail 80/20 bars to support the constant PACl tank and the stock tank feeding the constant tank. The platforms were attached to sliders which moved along the double rail frame of the gravity apparatus. PVC sheets were secured to the top side of each platform and a hole drilled through the bottom of the lower platform to allow for the passage of the drip chamber as shown in figure 14.
+
+<img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_PACl_platform.JPG?raw=true" height=250>
+
+**Figure 14:** Bottom view of the platform that holds the constant PACl head tank. The platform above it also has the same dimensions.
+
+#####Fluoride Tank Platforms:
+Two PVC sheet platforms were added to the frame of the gravity apparatus to hold
+
+<img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_fluoride_platflorm.JPG?raw=true" height=300>
 
 ### Tubing
-something about tubing
+The system tubing has a diameter of 0.47625 cm (3/16"). This tubing was used to route water from the fluoride constant head tank to the flocculator, from the flocculator to the sedimentation tube, and from the sedimentation tube to the outflow. The diameter of microbore tubing used was 0.05588 cm (0.022"). Microbore tubing was used from the PACl constant head tank to the T-joint where PACl mixed with the system flow.
 
 ### Flocculator
-something about flocculator
+
+The flocculator was designed by the [Fall 2017 High G Flocculation Team](https://confluence.cornell.edu/display/AGUACLARA/High+G+Flocculation?preview=/348605616/350974755/High%20G%20Flocculation%20Final%20Report%20Fall%202017.pdf). It consists of 0.17 cm inner diameter tubing wrapped around a cardboard cylinder with a diameter of 8 cm. There are 41 turns in the flocculator, which makes up a length of 27 cm.
+
+
+<img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/flocculator.jpg?raw=true" height=200>
+
+**Figure 16:** The current coiled flocculator design.
 
 ### Reactor
-something about reactor
 
-
-add pictures and measurements (maybe make a schematic idk)
+The current sedimentation tube design was created by the [Summer 2017 High Rate Sedimentation Team](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation). For fabrication details of the reactor, see ["Fabrication Details > Sedimentation Tube"](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fluoride_Summer2018.md#sedimentation-tube).
 
 ## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+The special components for the apparatus include adjustable sliders and the IV drip chamber.
 
-### Sliding Tracks
+### Adjustable Sliders
+The adjustable sliders were purchased from the McMaster-Carr Supply Company. The following components were needed:
 
-something about sliders
+* [Side-Mount Bearing, 1-7/8" Long for 2" High Double Rail T-Slotted Framing](https://www1.mcmaster.com/47065T779), Product Number (47065T779)
+* [Hand Brake for 1" & 2" Wide Sleeve Bearing Carriage for T-Slotted Framing](https://www1.mcmaster.com/60585K31), Product Number (60585K31)
+
+(maybe add a pic of sliders)
 
 ### IV Drip Chamber
-maybe add links for sliders/IV chamber
+The IV drip chamber used in the apparatus was purchased from Truecare via Amazon. The product name is: ["I.V. Administration Set with GVS Easydrop Flow Rregulator, DEHP-Free, 1 Y-Site, 15 Filter in Drip chamber, Swivel, Luer Lock, 92""](https://www.amazon.com/Administration-Easydrop-Rregulator-DEHP-Free-chamber/dp/B00UNZ8N8I/ref=sr_1_2?ie=UTF8&qid=1539207200&sr=8-2&keywords=iv+drip+set). The team decided to purchase this particular IV drip chamber because it specifies 20 drops per milliliter, which allows for smaller drops and, thus, a smaller flow rate. This allows for more precision when adjusting the coagulant flow rate.
+
 
 ## Experimental Methods
 ### Set-up
