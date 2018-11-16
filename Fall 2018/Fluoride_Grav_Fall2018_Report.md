@@ -157,7 +157,7 @@ To find the head loss in the coiled flocculator we will utilize the following eq
 
 $\Delta H_2 = \frac{32\mu VL}{\rho gd^2} 0.37 De^{0.36}$
 
-**citation**
+[Garber, 2004](https://www.seas.upenn.edu/~belab/LabProjects/2004/be310s04m5.doc)
 
 Where $De$ is the Dean Number, found experimentally by C.M White. It is a dimensionless quantity that establishes a relationship between the inertial, centripetal, and viscous forces in a fluid, and is used to find the pressure drop in a coiled tube. It represented by the following expression:
 
