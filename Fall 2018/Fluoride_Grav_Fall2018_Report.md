@@ -331,13 +331,13 @@ The first iteration of this system consisted of the drip chamber connected to a 
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
-**Figure 9:** In the first version, the IV drip chamber was hung from a 90$\degree$ elbow where air become trapped.
+**Figure 11:** In the first version, the IV drip chamber was hung from a 90$\degree$ elbow where air become trapped.
 
 To reduce the probability of getting air bubbles in the system, the team removed the 90$\degree$ bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank.
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/New_constant_PACl_tank.jpeg?raw=true" height=500>
 
-**Figure 10:** New PACl constant head tank without 90$\degree$ elbows reduce bubbles in the system.
+**Figure 12:** New PACl constant head tank without 90$\degree$ elbows reduce bubbles in the system.
 
 
 ## Future Work
@@ -390,11 +390,11 @@ The frame of the apparatus was built using aluminum 80/20 bars. The two types of
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_front.JPG?raw=true" height=300>
 
-**Figure 12:** Three 155 cm double rail 80/20 bars were used as the main skeleton of the gravity apparatus. Four 60cm single rail 80/20 cross bars are used along the frame to support the platforms and create stability.
+**Figure 13:** Three 155 cm double rail 80/20 bars were used as the main skeleton of the gravity apparatus. Four 60cm single rail 80/20 cross bars are used along the frame to support the platforms and create stability.
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_side.JPG?raw=true" height=300>
 
-**Figure 13:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
+**Figure 14:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
 ### Stock Tanks
 
 #####PACl Tank Platforms
@@ -403,7 +403,7 @@ Two platforms were made out of single rail 80/20 bars to support the constant PA
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_PACl_platform.JPG?raw=true" height=250>
 
-**Figure 14:** Bottom view of the platform that holds the constant PACl head tank. The platform above it also has the same dimensions.
+**Figure 15:** Bottom view of the platform that holds the constant PACl head tank. The platform above it also has the same dimensions.
 
 #####Fluoride Tank Platforms:
 
@@ -411,7 +411,7 @@ Two PVC sheet platforms were added to the frame of the gravity apparatus to hold
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_fluoride_platflorm.JPG?raw=true" height=300>
 
-**Figure 15:** PVC sheet platform to hold fluoride tank.
+**Figure 16:** PVC sheet platform to hold fluoride tank.
 
 ### Tubing
 The system tubing has a diameter of 0.47625 cm (3/16"). This tubing was used to route water from the fluoride constant head tank to the flocculator, from the flocculator to the sedimentation tube, and from the sedimentation tube to the outflow. The diameter of microbore tubing used was 0.05588 cm (0.022"). Microbore tubing was used from the PACl constant head tank to the T-joint where PACl mixed with the system flow.
@@ -423,7 +423,7 @@ The flocculator was designed by the [Fall 2017 High G Flocculation Team](https:/
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/flocculator.jpg?raw=true" height=200>
 
-**Figure 16:** The current coiled flocculator design.
+**Figure 17:** The current coiled flocculator design.
 
 ### Reactor
 
