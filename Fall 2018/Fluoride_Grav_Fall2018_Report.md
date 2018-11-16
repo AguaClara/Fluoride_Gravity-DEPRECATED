@@ -101,13 +101,13 @@ The Summer 2018 team modified the gravity-powered apparatus fabricated by the Sp
 
 [CT: I believe this apparatus will be implemented independent of a plant, since the groundwater being used for drinking water in India is relatively turbidity-free (will double-check this). Since it's gravity powered, the idea is that the concentration of coagulant is fixed; thus, the concentration of coagulant into the system is determined by its flow rate (similar to the way the chemical dose controller works to regulate chlorine dose). The purpose of making it easy to adjust the overall flow rate of the system is that this system will be used for research in the field. When this system is used by researchers on site with real groundwater in India, they can experiment with different flow rates through the system to determine the optimum flow rate for fluoride removal.]
 
-![Gravity powered reactor](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true)
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true" height=500>
 
 **Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders.
 
 The Summer 2018 team also ran a series of bench experiments with varying concentrations of fluoride and PACl to create an adsorption model. Fluoride concentrations ranging from 3 to 20 mg/L and PACl concentrations of 10 to 50 mg/L were tested. Experiments were run on the bench setup utilized by previous semesters (Figure 2).
 
-![Bench_setup](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
+<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true" height=400>
 
 **Figure 3:** Schematic for bench system.
 
@@ -141,7 +141,7 @@ The flow rate through the gravity-powered apparatus depends on piezometric head.
 
 Water in the gravity-powered system flows from the fluoride stock tank, to the fluoride constant head tank, to the flocculator, up the sedimentation tube, and out the effluent line.
 
-![Systemflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true)
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/system_flow_2.png?raw=true" height=500>
 
 **Figure 5:** The system flow rate is determined by the height difference between the water level of the fluoride constant head tank and the effluent line. The height difference, and thus the flow rate, can be controlled by the adjustable slider on effluent line.
 
@@ -176,8 +176,8 @@ The total head loss for the system flow rate will be:
 $\Delta H_{tot}=\Delta H_1 + \Delta H_2$
 
 #### Coagulant Flow Rate
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true" height=500>
 
-![PAClflowrate](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/headloss_diagram2.png?raw=true)
 **Figure 6:** The flow rate of PACl is determined by the height difference between the water level of the fluoride constant head tank and the water level of the coagulant constant head tank. The height of the PACl constant head tank can be adjusted, which allows for user control of the PACl flow rate.
 
 To calculate the required height difference between the water level of the fluoride constant head tank and the water level of the coagulant constant head tank, the following equations were used:
@@ -295,8 +295,7 @@ Since the flow rate of coagulant is very small, it is difficult to measure and v
 
 A balance was added to the bottom of the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank into the coagulant constant head tank, the balance measures the rate of mass decrease over time. The mass flow rate can then be converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
 
-
-![balance_system](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
+<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true" height=500>
 
 **Figure 7:** The balance was placed under the coagulant stock tank and was used to measure the change in mass over time as the coagulant flows from the stock tank to the constant head tank.
 
@@ -321,9 +320,6 @@ The first iteration of this system consisted of the drip chamber connected to a 
 
 **Figure 11:** The IV drip chamber was added after the PACl constant head tank.
 
-## Results and Analysis
-
-blah
 
 ## Future Work
 
@@ -355,6 +351,8 @@ The manual provides details on how to construct and operate the gravity-powered 
 
 ### Frame
 The frame of the apparatus was built using metal 80/20 bars.
+
+
 
 ### Stock Tanks
 something about tanks for fluoride and PACL
