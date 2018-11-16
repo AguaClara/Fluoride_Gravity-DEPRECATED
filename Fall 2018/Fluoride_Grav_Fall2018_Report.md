@@ -157,9 +157,7 @@ To find the head loss in the coiled flocculator we will utilize the following eq
 
 $\Delta H_2 = \frac{32\mu VL}{\rho gd^2} 0.37 De^{0.36}$
 
-[Garber, 2004](https://www.seas.upenn.edu/~belab/LabProjects/2004/be310s04m5.doc)
-
-Where $De$ is the Dean Number, found experimentally by C.M White. It is a dimensionless quantity that establishes a relationship between the inertial, centripetal, and viscous forces in a fluid, and is used to find the pressure drop in a coiled tube. It represented by the following expression:
+Where $De$ is the Dean Number, found experimentally by C.M White ([Garber, 2004](https://www.seas.upenn.edu/~belab/LabProjects/2004/be310s04m5.doc)). It is a dimensionless quantity that establishes a relationship between the inertial, centripetal, and viscous forces in a fluid, and is used to find the pressure drop in a coiled tube. It represented by the following expression:
 
 $De=Re\sqrt\frac{D}{d}$
 
@@ -342,14 +340,10 @@ To reduce the probability of getting air bubbles in the system, the team removed
 
 ## Future Work
 
-After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. Further microbore tubing lengthening or shortening can then be done in order to optimize the system as a whole.
+After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can then be lengthened or shortened to find an elevation change to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible. 
 
-[EM: Both paragraphs are too informal.]
-
-## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.
+## Conclusion
+The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate.
 
 ## Bibliography
 
@@ -391,7 +385,8 @@ The frame of the apparatus was built using aluminum 80/20 bars. The two types of
 
 <img src= "https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_apparatus_side.JPG?raw=true" height=300>
 
-**Figure 14:** Base was made out of 90cm single rail 80/20 and the supports 30cm each. The distance between the two vertical double rail 80/20 pieces was 30cm.  
+**Figure 14:** Base was made out of 90 cm single rail 80/20 and the supports 30 cm each. The distance between the two vertical double rail 80/20 pieces was 30 cm.  
+
 ### Stock Tanks
 
 ##### PACl Tank Platforms
@@ -436,26 +431,45 @@ The adjustable sliders were purchased from the McMaster-Carr Supply Company. The
 * [Hand Brake for 1" & 2" Wide Sleeve Bearing Carriage for T-Slotted Framing](https://www1.mcmaster.com/60585K31), Product Number (60585K31)
 
 ### IV Drip Chamber
-The IV drip chamber used in the apparatus was purchased from Truecare via Amazon. The product name is: ["I.V. Administration Set with GVS Easydrop Flow Rregulator, DEHP-Free, 1 Y-Site, 15 Filter in Drip chamber, Swivel, Luer Lock, 92""](https://www.amazon.com/Administration-Easydrop-Rregulator-DEHP-Free-chamber/dp/B00UNZ8N8I/ref=sr_1_2?ie=UTF8&qid=1539207200&sr=8-2&keywords=iv+drip+set). The team decided to purchase this particular IV drip chamber because it specifies 20 drops per milliliter, which allows for smaller drops and, thus, a smaller flow rate. This allows for more precision when adjusting the coagulant flow rate.
+The IV drip chamber used in the apparatus was purchased from Truecare via Amazon. The product name is: ["I.V. Administration Set with GVS Easydrop Flow Rregulator, DEHP-Free, 1 Y-Site, 15 Filter in Drip chamber, Swivel, Luer Lock, 92"](https://www.amazon.com/Administration-Easydrop-Rregulator-DEHP-Free-chamber/dp/B00UNZ8N8I/ref=sr_1_2?ie=UTF8&qid=1539207200&sr=8-2&keywords=iv+drip+set). The team decided to purchase this particular IV drip chamber because it specifies 20 drops per milliliter, which allows for smaller drops and, thus, a smaller flow rate. This allows for more precision when adjusting the coagulant flow rate.
 
 
-## Experimental Methods
+## Operation Manual
 ### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
-
-### Experiment
-Step 1.
+1. Fill stock tanks:
+    - Fill fluoride stock tank with water and the desired concentration of fluoride.
+    - Fill PACl stock tank with DI water and desired concentration of PACl.
+2. Open valves at outlets of stock tanks and allow constant head tanks to fill. Once the water level equilibrates in the fluoride and PACl constant head tanks, system operation can begin.
+3. To run the system, open the valves at the outlets of the fluoride and PACl constant head tanks.
+4. Use the adjustable slider to move the effluent line to its lowest position. This will allow the system to operate at its maximum flow rate.
+5. When starting operation for the first time or after a prolonged period of non-use, the sedimentation tube may take a while to fill up with water.
+    - Air bubbles trapped in the tubing may prevent the sedimentation tube from filling up.
+    - To solve this issue, remove the sedimentation tank from the frame with the tubing still attached and place it on the ground. This will allow air bubbles to flow out of the system and water to fill up the sedimentation tube.
+6. To adjust the system flow rate, use the adjustable slider to raise or lower the height of the effluent line.
+    - Raising the effluent line will decrease the flow rate.
+    - Lowering the effluent line will increase the flow rate.
+7. In order to adjust the flow rates of coagulant through the system, use the adjustable slider to raise and lower the platform where the coagulant constant head tank is located. For consistency, the distance between the coagulant stock tank and the coagulant constant head tank was set to be 25 cm.
 
 ### Cleaning Procedure
-Step 1.
+To prevent the system from collecting dust and growing algae, make sure to change out all the water after it has been in use for a prolonged period of time. Flush the system if the water appears turbid or any algae growths appear in the tanks or tubing.
+
+If fluoride removal experiments are done, the whole system should be flushed prior to the start of the next experiment.
+
+To flush the system:
+1. Close the fluoride stock and constant head tank valves
+2. Unplug the tubing that connects to the valve but not the actual valve.
+3. Connect the tubing to the sink by running a long spare tube from the sink to the gravity apparatus. Use a tube connector to join the two ends.
+4. Either place the effluent line in a large bucket or add tubing so that it reaches the sink for disposal
+5. Run water from the sink through the system for a couple of minutes.
+
+If there is noticeable buildup of residue in the flocculator or tubing further cleaning may be necessary. To clean this the flocculator or tubing should be removed and moved to the sink directly. A small piece of sponge should be cut and placed inside the tubing. Connect the tubing with the small sponge piece to the sink and run it through a few times until the tubing is clean enough to use.
 
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
-
-
+1. Check that the constant head tanks are filled.
+2. Check that all tubing is connected and that there are no leaks.
+3. Check that there are no air bubbles in the system. Air bubbles tend to accumulate at the top of the sedimentation tube.  
+4. Check that all valves are open.
+5. Check that the flow adjustor out of the IV drip chamber is open.
 
 ```python
 # To convert the document from markdown to pdf
