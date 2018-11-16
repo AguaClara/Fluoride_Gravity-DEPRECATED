@@ -346,7 +346,7 @@ Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Ef
 
 ###add previous fluoride report as citation, add all other citations
 
-
+***
 
 # Manual
 The manual provides details on how to construct and operate the gravity-powered fluoride removal apparatus.
