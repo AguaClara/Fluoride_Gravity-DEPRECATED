@@ -103,7 +103,7 @@ The Summer 2018 team modified the gravity-powered apparatus fabricated by the Sp
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Gravity_system_schematic.png?raw=true" height=500>
 
-**Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders.
+**Figure 2:** Modified gravity powered reactor shown with 3 adjustable sliders. 
 
 The Summer 2018 team also ran a series of bench experiments with varying concentrations of fluoride and PACl to create an adsorption model. Fluoride concentrations ranging from 3 to 20 mg/L and PACl concentrations of 10 to 50 mg/L were tested. Experiments were run on the bench setup utilized by previous semesters (Figure 2).
 
