@@ -353,18 +353,27 @@ Make sure that you defend your conclusions with facts and results.
 
 ## Bibliography
 
-EPA (2018) [EPA Method 9214](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf)
+American Dental Organization. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
+
+Arlappa, N., Aatif Qureshi, I., & Srinivas, R. (2013). Fluorosis in India: An overview. International Journal of Research and Development of Health, 1(3). Retrieved from http://www.ijrdh.com/files/11.Fluorosis.pdf
+
+Bureau of Indian Standards. (2012). IS 10500: Drinking water. Retrieved from https://archive.org/details/gov.in.is.10500.2012/page/n3.
 
 Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
 
-India Groundwater: A Valuable but Diminishing Resource. (2017). Retrieved from http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishing
+India Groundwater: A Valuable but Diminishing Resource. (2017). Retrieved from http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishingLeChevallier,
 
-World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
+M. W., & Au, K. (2004). Water treatment and pathogen control: Process efficiency in achieving safe drinking-water. Geneva: World Health Organization.
 
 Mondal, D., Dutta, G., & Gupta, S. (2015). Inferring the fluoride hydrogeochemistry and effect of consuming fluoride-contaminated drinking water on human health in some endemic areas of Birbhum district, West Bengal. Environmental Geochemistry and Health, 38(2), 557-576. doi:10.1007/s10653-015-9743-7
 
+United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
 
+United States, Environmental Protection Agency. (1996). Potentiometric Determination Fluoride in Aqueous Samples with Ion-Selective Electrode.
 
+World Health Organization. (2004). Fluoride in Drinking Water: A Global Perspective. Fluoride in Drinking Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf
+
+World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
 
 
 ###add previous fluoride report as citation, add all other citations
