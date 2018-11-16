@@ -3,7 +3,7 @@
 
 [EM: Hi team! I will be putting my comments in brackets under the paragragh in which I am referring to. Thanks!]
 
-#### October 24, 2018
+#### November 16, 2018
 This publication Fluoride, Fall 2018 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Ching Pang, Kevin Sarmiento, and Cheer Tsang and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
  ## Index
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
