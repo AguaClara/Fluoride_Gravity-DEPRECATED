@@ -319,33 +319,31 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 
-#Replace coordinates here with your data. Make as many coordinates as necessary.
-
 #x coordinates are the height difference between fluoride constant head tank and PACl constant head tank
 #y coordinates are the measured flow rates
 
 data_points = np.array([[5, 0.00991333],
                        [10,0.0158],
                        [15,0.0269333],
-                       [20,0.03577])
+                       [20,0.03577]])
 
 x_points = data_points[:,0]
-y_points = data_points[:,1] # You can perform operations on your data here such as np.log10(data_points[:,1])
+y_points = data_points[:,1]
 
 linreg = stats.linregress(x_points, y_points)
 slope, intercept, r_value = linreg[0:3]
 
-start = x_points[-1] # Change as desired
-end = x_points[0] # last element plus one; change as desired
+start = x_points[0] # Change as desired
+end = x_points[-1] # last element plus one; change as desired
 plt.plot(x_points, y_points, 'o')
 plt.plot(np.arange(start,end,0.1), np.arange(start, end,0.1)*slope + intercept)
-plt.xlabel('-log(Concentration) (mg/L)')
-plt.ylabel('Voltage')
-plt.title('Calibration Curve')
+plt.xlabel('Height Difference between Fluoride Constant Head Tank and PACl Constant Head Tank (cm)')
+plt.ylabel('Measured Flow Rate (mL/s)')
+plt.title('Measured Flow Rates at Varying Height Differences')
 plt.minorticks_on()
 plt.grid(which = 'major')
 plt.grid(which = 'minor')
-plt.savefig("filename.png",dpi=1000)
+plt.savefig("flow_rate1.png",dpi=1000)
 plt.show()
 
 
@@ -361,6 +359,45 @@ print("R-squared:", r_value ** 2)
 **Figure 9:**  Data from the first test showing the large change in flow rate relative to the change in delta H.
 
 Increasing the length of the microbore tubing the team was able to obtain data that was much more promising. The team desired a lower slope that would allow for greater operator precision.
+
+```python
+import matplotlib.pyplot as plt
+%matplotlib inline
+import numpy as np
+from scipy import stats
+
+#x coordinates are the height difference between fluoride constant head tank and PACl constant head tank
+#y coordinates are the measured flow rates
+
+data_points = np.array([[8, 0.001461618533],
+                       [10,0.003709630733],
+                       [15,0.006501696067],
+                       [20,0.009081729333]])
+
+x_points = data_points[:,0]
+y_points = data_points[:,1]
+
+linreg = stats.linregress(x_points, y_points)
+slope, intercept, r_value = linreg[0:3]
+
+start = x_points[0] # Change as desired
+end = x_points[-1] # last element plus one; change as desired
+plt.plot(x_points, y_points, 'o')
+plt.plot(np.arange(start,end,0.1), np.arange(start, end,0.1)*slope + intercept)
+plt.xlabel('Height Difference between Fluoride Constant Head Tank and PACl Constant Head Tank (cm)')
+plt.ylabel('Measured Flow Rate (mL/s)')
+plt.title('Measured Flow Rates at Varying Height Differences')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+plt.savefig("flow_rate1.png",dpi=1000)
+plt.show()
+
+
+print("Slope:", slope)
+print("Intercept:", intercept)
+print("R-squared:", r_value ** 2)
+```
 
 ![Test 2](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/PACl_flowrate_test2.JPG?raw=true)
 
