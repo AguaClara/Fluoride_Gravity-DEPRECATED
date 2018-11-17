@@ -405,17 +405,17 @@ print("R-squared:", r_value ** 2)
 
 However, these tests were preformed with the first version of the drip chamber which posed some challenges.
 
-The first iteration of this system consisted of the drip chamber connected to a 90$\degree$ elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
+The first iteration of this system consisted of the drip chamber connected to a 90 degree elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
-**Figure 11:** In the first version, the IV drip chamber was hung from a 90$\degree$ elbow where air become trapped.
+**Figure 11:** In the first version, the IV drip chamber was hung from a 90 degree elbow where air become trapped.
 
-To reduce the probability of getting air bubbles in the system, the team removed the 90$\degree$ bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank.
+To reduce the probability of getting air bubbles in the system, the team removed the 90 degree bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank.
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/New_constant_PACl_tank.jpeg?raw=true" height=500>
 
-**Figure 12:** New PACl constant head tank without 90$\degree$ elbows reduce bubbles in the system.
+**Figure 12:** New PACl constant head tank without the 90 degree elbow reduce bubbles in the system.
 
 
 ## Future Work
