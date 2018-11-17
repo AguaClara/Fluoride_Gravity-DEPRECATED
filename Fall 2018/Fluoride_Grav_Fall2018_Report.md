@@ -313,6 +313,49 @@ Flow measurements were taken to verify the method of counting drops to determine
 
 The first experiment that was run gave the team very insightful information. It was observed that with a small change in height there was a rather large change in PACl flow rate. This would make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility even more.
 
+```python
+import matplotlib.pyplot as plt
+%matplotlib inline
+import numpy as np
+from scipy import stats
+
+#Replace coordinates here with your data. Make as many coordinates as necessary.
+
+#x coordinates are the height difference between fluoride constant head tank and PACl constant head tank
+#y coordinates are the measured flow rates
+
+data_points = np.array([[5, 0.00991333],
+                       [10,0.0158],
+                       [15,0.0269333],
+                       [20,0.03577])
+
+x_points = data_points[:,0]
+y_points = data_points[:,1] # You can perform operations on your data here such as np.log10(data_points[:,1])
+
+linreg = stats.linregress(x_points, y_points)
+slope, intercept, r_value = linreg[0:3]
+
+start = x_points[-1] # Change as desired
+end = x_points[0] # last element plus one; change as desired
+plt.plot(x_points, y_points, 'o')
+plt.plot(np.arange(start,end,0.1), np.arange(start, end,0.1)*slope + intercept)
+plt.xlabel('-log(Concentration) (mg/L)')
+plt.ylabel('Voltage')
+plt.title('Calibration Curve')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+plt.savefig("filename.png",dpi=1000)
+plt.show()
+
+
+print("Slope:", slope)
+print("Intercept:", intercept)
+print("R-squared:", r_value ** 2)
+
+```
+
+
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/PACl_flowrate_test1.JPG?raw=true">
 
 **Figure 9:**  Data from the first test showing the large change in flow rate relative to the change in delta H.
@@ -340,7 +383,7 @@ To reduce the probability of getting air bubbles in the system, the team removed
 
 ## Future Work
 
-After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can then be lengthened or shortened to find an elevation change to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible. 
+After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can then be lengthened or shortened to find an elevation change to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible.
 
 ## Conclusion
 The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate.
