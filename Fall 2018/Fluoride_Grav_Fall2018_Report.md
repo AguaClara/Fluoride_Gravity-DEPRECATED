@@ -230,6 +230,8 @@ Additionally, using the desired fluoride flow rate through the system of 0.76 mL
 
  $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
 
+However, these calculations are no longer a viable method of determining flow rate for the final version of the fluoride gravity system. These equations were only valid for the earlier versions of the gravity apparatus which contained tubing and simple connectors. The addition of an IV drip chamber, discussed further in the following section, altered the head loss and therefore required additional calculation which are not trivial or well developed from our understanding. The team opted to instead carry out measurements and create curves that could be used to determine the optimal heights for the desired flow rates. This is discussed further in the IV drip section.
+
 #### Python Code
 
 A [Python function](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/gravity_fluoride_setup.md) was created with the headloss equation derived above. The user can input the flow rate of the system and the desired flow rate of coagulant, and the function will output the required height difference between the fluoride constant head tank and the coagulant constant head tank.
@@ -287,7 +289,7 @@ required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 ```
 
 ### Measuring Coagulant Flow Rate
-Since the flow rate of coagulant is very small, it is difficult to measure and verify that the experimental flow rates are within range of the mathematically derived flow rates. The team came up with several solutions to easily measure the flow rate of coagulant.
+In order for the team to create a standard curve for the flow rate of PACl it was necessary to develop a method to accurately and easily measure the flow rate of PACl. This proved to be a challenge due to the small flow rates that the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
 
 #### Balance
 
