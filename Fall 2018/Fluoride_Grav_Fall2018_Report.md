@@ -289,7 +289,7 @@ required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 ```
 
 ### Measuring Coagulant Flow Rate
-In order for the team to create a standard curve for the flow rate of PACl it was necessary to develop a method to accurately and easily measure the flow rate of PACl. This proved to be a challenge due to the small flow rates that the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
+In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to firsrt accurately and easily measure the flow rate. This proved to be a challenge due to the small flow rates that the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
 
 #### Balance
 
@@ -311,9 +311,9 @@ The recorded mass flow rate of coagulant can then be converted to volumetric flo
 
 Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). This system would allow for an easy visual way to measure flow rate just by counting the amount of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber with 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate. Lastly, it also serves as a way double check the results of the scale derived flow rates.
 
-Flow measurements were taken to verify the method of counting drops to determine flow rate. In order to do this, the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found [here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
+In order to determine the flow rate the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found [here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
 
-The first experiment that was run gave the team very insightful information. It was observed that with a small change in height there was a rather large change in PACl flow rate. This would make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility even more.
+The team carried out these measurements at 5 cm intervals and got very insightful information by doing so. It was observed that with a small change in height there was a large change in PACl flow rate. This was concerning because it would make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility even more by decreasing the amount the flow rate changed in response to a change in height.
 
 ```python
 import matplotlib.pyplot as plt
@@ -405,27 +405,30 @@ print("R-squared:", r_value ** 2)
 
 **Figure 10:** Data from the second test shows a lower slope than that of the first test. This was done by increasing the length of the microbore tubing.
 
-However, these tests were preformed with the first version of the drip chamber which posed some challenges.
+However, the previous tests were preformed with the first version of the drip chamber which posed some challenges.
 
-The first iteration of this system consisted of the drip chamber connected to a 90 degree elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
+The first version of this system consisted of the drip chamber connected to a 90 degree elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow, adding an undetermined amount of head loss to the system. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
-**Figure 11:** In the first version, the IV drip chamber was hung from a 90 degree elbow where air become trapped.
+**Figure 11:** The First version had the IV drip chamber hung from a 90 degree elbow and experienced problems with air bubbles becoming trapped in the elbow.
 
-To reduce the probability of getting air bubbles in the system, the team removed the 90 degree bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank.
+To reduce the probability of getting air bubbles in the system, the team removed the 90 degree bend and instead connected the drip chamber to the bottom of a newly fabricated constant head tank. A hole was also drilled through the platform to allow the IV chamber to hang freely.
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/New_constant_PACl_tank.jpeg?raw=true" height=500>
 
 **Figure 12:** New PACl constant head tank without the 90 degree elbow reduce bubbles in the system.
 
+While this fix worked better than the previous version, the team was still encountering issues with reproducibility. The flow rate curves that were measured varied significantly every day that were measured. It was believed the issue stemmed from a number of sources. First, between tests, particularly tests on different days, the PACl stock tank was set to its zero position where no flow would take place. However, the hydrostatic pressure from the flocculator would drive water into the drip chamber, filling it up completely by the time the team returned to work. This forced us to flush the water out and rerun water through the chamber. During this process, air would be introduced into the tubing which many times would stop the flow entirely. A solution that we found to this problem was to pinch the IV tubing to prevent undesired backflow while the system was not in use. (image) Using this technique the team was able to reproduced the same flow rates between tests with less than 1% variations between them.
+
+Even with this solution there were other scenarios that can cause flow rates to vary between tests. This occurred when the team was setting up to run an actual test with fluoride and PACl instead of just water. This required the entire system to be flushed. After adding coagulant to the constant head tank it was observed that air once again changed the flow rate curve that was previously determined. This was believed to be fixed by adding a ball valve before the drip chamber. Closing the valve before emptying out the container prevents air from entering the tubing where it can then alter the flow rate curve.
 
 ## Future Work
 
 After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can then be lengthened or shortened to find an elevation change to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible.
 
 ## Conclusion
-The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate.
+The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate. It was also observed that the scale measurements are not the most reliable method for measuring flow rate when compared to the IV drip chamber drop counting method. Using the drip chamber to count the number of drops that fall during a given time interval is not only more accurate but also easy to do by anybody and does not require electric balance and ProCoDa. 
 
 ## Bibliography
 
