@@ -311,7 +311,7 @@ required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 ```
 
 ### Measuring Coagulant Flow Rate
-In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to firsrt accurately and easily measure the flow rate. This proved to be a challenge due to the small flow rates that the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
+In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This proved to be a challenge due to the low flow rates the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
 
 #### Balance
 
@@ -444,6 +444,8 @@ To reduce the probability of getting air bubbles in the system, the team removed
 While this fix worked better than the previous version, the team was still encountering issues with reproducibility. The measured flow rate curves varied significantly every day. It was believed the issue stemmed from a number of sources. First, between tests, particularly tests on different days, the PACl stock tank was set to its zero position where no flow would take place. However, the hydrostatic pressure from the flocculator would drive water into the drip chamber, filling it up completely by the time the team returned to work. This forced us to flush the water out and rerun water through the chamber. During this process, air would be introduced into the tubing which many times would stop the flow entirely. A solution that we found to this problem was to pinch the IV tubing to prevent undesired backflow while the system was not in use. (image) Using this technique, the team was able to reproduced the same flow rates between tests with less than 1% percentage of error among tests.
 
 However, there were other scenarios that cause flow rates to vary between tests. When the team was setting up to run an actual test with fluoride and PACl instead of just water, the entire system was required to be flushed. After adding coagulant to the constant head tank, it was observed that air once again changed the flow rate curve that was previously determined. This was believed to be fixed by adding a ball valve before the drip chamber. Closing the valve before emptying out the container prevented air from entering the tubing where it could then alter the flow rate curve.
+
+(added valve)
 
 ## Future Work
 
