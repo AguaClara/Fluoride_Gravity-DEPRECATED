@@ -16,5 +16,5 @@ See the [Fluoride - Auto repository](https://github.com/AguaClara/fluoride) for 
 * Fall 2018
   - [Fall 2018 Report](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md)
   - [Fall 2018 Symposium](https://docs.google.com/presentation/d/1zUhva35X0-_1o3RLzeis4E_ulAN4rfLVFNWJWVaX3iM/edit?usp=sharing)
-  - [Fall 2018 Final Presentation](https://docs.google.com/presentation/d/15C-QUAlcFC1fCtsf0PomJqXiPuu_jBoPrGk902efx8c/edit?usp=sharing) [Video](https://drive.google.com/file/d/14-6PPrK5vNXzt6FiKWMJf9oETvqO0NNK/view?usp=sharing)
+  - [Fall 2018 Final Presentation](https://docs.google.com/presentation/d/15C-QUAlcFC1fCtsf0PomJqXiPuu_jBoPrGk902efx8c/edit?usp=sharing) and [Video](https://drive.google.com/file/d/14-6PPrK5vNXzt6FiKWMJf9oETvqO0NNK/view?usp=sharing)
 
