@@ -309,11 +309,11 @@ required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 ```
 
 ### Measuring Coagulant Flow Rate
-In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This proved to be a challenge due to the low flow rates the team was aiming to achieve. The team came up with several solutions to easily measure the flow rate of coagulant.
+In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This was proved to be a challenge due to the low flow rates the team was aiming for. The team came up with several solutions to easily measure the flow rate of coagulant.
 
 #### Balance
 
-A balance was added to the bottom of the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance measures the mass flow rate out of the coagulant stock tank. As coagulant flows out of the coagulant stock tank into the coagulant constant head tank, the balance measures the rate of mass decrease over time. The mass flow rate can then be converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
+A balance was added to the bottom of the coagulant stock tank to verify coagulant flow rate (Figure 7). The balance was used to measure the mass flow rate out of the coagulant stock tank. As coagulant flowed out of the coagulant stock tank into the coagulant constant head tank, the balance measured the rate of mass decrease over time. The mass flow rate was then converted to volumetric flow rate to obtain the flow rate of coagulant through the system.
 
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true" height=500>
 
