@@ -544,10 +544,18 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 1. Make fluoride stock solution with desired concentration in the large 18L bucket (stock fluoride tank) as described in the methods section.
 
 2. Filling fluoride stock tanks:
-  - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill. Make sure the constant head tank valve is closed.
+  - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill to its equilibrium level. Make sure the constant head tank valve is closed.
 3. Getting fluoride solution to run through the system:
   - Open constant head tank valve to allow solution to run through the flocculator.
-    - Air in the system will not allow the system to fill properly
+    - Air in the system usually prevents the system from filling entirely on its own.
+      - To get solution through the flocculator and sedimentation tank, connect a pump to the effluent line. The goal is to use the pump the pull the solution through the system until it can sustain the flow on its own.
+      -  Make sure pump is set to rotate in the correct direction to force air and water out of the effluent line.
+      - Turn pump on.
+      - Stop pump when solution has reached the effluent line.
+      - disconnect pump and place the effluent line at its zero position to prevent spilling. At this point the system will flow on its own by lowering the effluent line below the zero position.
+4. Disconnect the microbore tubing from the flexible tubing, allowing fluoride solution to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing fluoride solution to run through it first forces the air out and makes the next few steps easier.)
+  - Keep the end of the microbore in a small bucket to prevent spilling
+  - plug microbore tubing if time between this step and step 6 is significantly long. 
 --------
     - Fill fluoride stock tank with water and the calculated volume of super stock fluoride solution to obtain desired concentration.
     - Open fluoride stock tank valve (image) and allow constant head tanks to fill. Keep the constant head tank valve closed.
@@ -555,11 +563,17 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 3. Make PACl stock solution as described in the methods section in a bucket larger than 2L.
 4. Filling PACl stock tank:
   - Fill the stock PACl tank with the stock solution and allow it to fill the constant head tank. Make sure the PACl constant head tank valve is closed.
-  - Once fully filled, open the valve and allow PACl solution to flow through the drip chamber and through the flexible tubing.
+  - Once fully filled, open the valve and allow PACl solution to flow through the drip chamber and through the flexible tubing. (Make sure that the flexible tubing is not connected to the microbore tubing yet)
     - If there is no flow with the valve open, use a hammer to gently tap air out of the valve.
-    - If air remains in the flexible tubing then use a syringe to force the fluid through the tubing. (image)
-5. Once the flow has been established connect the flexible tubing to the microbore tubing.
-  - If air
+    - If air remains in the flexible tubing, use a syringe to force the fluid through the tubing. (image)
+    - Once a flow has been established, close the top ball valve and pinch the flexible tubing with the blue choke to stop the flow and prevent air from entering.
+
+5. Connecting the flexible tubing to the microbore tubing:
+
+- Submerge the flexible tubing and the microbore tubing together in a small bucket of water. (This prevents air from getting trapped in the connection)
+- Open the PACl valve and release the choke to allow PACl to flow through the flexible tubing.
+- Once flowing, submerge both tubes and connect them together.
+- close the blue choke to prevent fluoride solution from filling the IV drip chamber.
 
 
     - Fill PACl stock tank with DI water and calculated volume of super stock PACl to obtain desired concentration.
