@@ -434,7 +434,7 @@ While this solution worked better than the previous version, the team was still 
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Flow_choke.jpg?raw=true" height=500>
 
-**Figure 13:** By closing the blue valve, backflow into the drip chamber could be prevented.
+**Figure 13:** By closing this blue choke, backflow into the drip chamber could be prevented.
 
 However, there were other scenarios that cause flow rates to vary between tests. When the team ran a preliminary test with fluoride and PACl instead of only water, the entire system had to be flushed. After adding coagulant to the constant head tank, it was observed that air once again changed the flow rate curve that was previously determined. A ball valve was added after the drip chamber to solve this issue. Closing the valve before emptying out the container prevented air from entering the tubing where it could then alter the flow rate curve.
 
@@ -540,7 +540,7 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 
 ## Operation Manual
 ### Initial Set-up
-#### Follow this procedure when gravity system is not filled yet
+#### Follow this procedure if gravity system is not filled with water or fluoride and PACl solutions yet
 1. Make fluoride stock solution with desired concentration in the large 18L bucket (stock fluoride tank) as described in the methods section.
 
 2. Filling fluoride stock tanks:
@@ -555,41 +555,46 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
       - disconnect pump and place the effluent line at its zero position to prevent spilling. At this point the system will flow on its own by lowering the effluent line below the zero position.
 4. Disconnect the microbore tubing from the flexible tubing, allowing fluoride solution to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing fluoride solution to run through it first forces the air out and makes the next few steps easier.)
   - Keep the end of the microbore in a small bucket to prevent spilling
-  - plug microbore tubing if time between this step and step 6 is significantly long. 
+  - plug microbore tubing if time between this step and step 6 is significantly long.
 --------
     - Fill fluoride stock tank with water and the calculated volume of super stock fluoride solution to obtain desired concentration.
     - Open fluoride stock tank valve (image) and allow constant head tanks to fill. Keep the constant head tank valve closed.
 --------
-3. Make PACl stock solution as described in the methods section in a bucket larger than 2L.
-4. Filling PACl stock tank:
-  - Fill the stock PACl tank with the stock solution and allow it to fill the constant head tank. Make sure the PACl constant head tank valve is closed.
-  - Once fully filled, open the valve and allow PACl solution to flow through the drip chamber and through the flexible tubing. (Make sure that the flexible tubing is not connected to the microbore tubing yet)
+5. Make PACl stock solution as described in the methods section in a bucket larger than 2L.
+6. Filling PACl stock tank:
+  - Fill the PACl stock tank with the stock solution and allow it to flow down into the constant head tank. Make sure the PACl constant head tank valve is closed.
+  - Once filled, open the PACl valve and allow PACl solution to flow through the drip chamber and through the flexible tubing. (Make sure that the flexible tubing is not connected to the microbore tubing yet)
     - If there is no flow with the valve open, use a hammer to gently tap air out of the valve.
     - If air remains in the flexible tubing, use a syringe to force the fluid through the tubing. (image)
-    - Once a flow has been established, close the top ball valve and pinch the flexible tubing with the blue choke to stop the flow and prevent air from entering.
+    - Once a flow has been established, close the PACl valve and pinch the flexible tubing with the blue choke to stop the flow and prevent air from entering.
 
-5. Connecting the flexible tubing to the microbore tubing:
+7. Connecting the flexible tubing to the microbore tubing:
 
 - Submerge the flexible tubing and the microbore tubing together in a small bucket of water. (This prevents air from getting trapped in the connection)
 - Open the PACl valve and release the choke to allow PACl to flow through the flexible tubing.
 - Once flowing, submerge both tubes and connect them together.
-- close the blue choke to prevent fluoride solution from filling the IV drip chamber.
+- Close the blue choke to prevent fluoride solution from back filling into the IV drip chamber.
 
 
     - Fill PACl stock tank with DI water and calculated volume of super stock PACl to obtain desired concentration.
     - To prevent air bubbles from building up in the tubing, allow stock solution to flow through the tubing to remove air before connecting to the microbore tubing (image).
 
-4. To run the system, open the valves at the outlets of the fluoride and PACl constant head tanks.
-    - Running the system for the first time may require the use of pumps to overcome the friction caused by air in the system. (image)
+8. System is ready to run. To start a test:
+  - Make sure all fluoride and PACl constant head tank valves are open, including the blue choke on the PACl flexible tubing.
+  - Set the effluent line at the desired position below the zero mark with the adjustable slider. (Remember, the height difference between the effluent line and the top of the constant head tank water level determines the system flow rate)
+  - Set the PACl constant head tank at the desired height above the zero mark by adjusting the platform height with the adjustable sliders. (Similarly, PACl flow rate is determined by the height difference between the top of the fluoride constant head tank and the top of the PACl constant head tank)
 
-5. Use the adjustable slider to move the effluent line to its lowest position. This will allow the system to operate at its maximum flow rate.
-6. When starting operation for the first time or after a prolonged period of non-use, the sedimentation tube may take a while to fill up with water.
-    - Air bubbles trapped in the tubing may prevent the sedimentation tube from filling up.
-    - To solve this issue, remove the sedimentation tank from the frame with the tubing still attached and place it on the ground. This will allow air bubbles to flow out of the system and water to fill up the sedimentation tube.
-7. To adjust the system flow rate, use the adjustable slider to raise or lower the height of the effluent line.
-    - Raising the effluent line will decrease the flow rate.
-    - Lowering the effluent line will increase the flow rate.
-8. In order to adjust the flow rates of coagulant through the system, use the adjustable slider to raise and lower the platform where the coagulant constant head tank is located. For consistency, the distance between the coagulant stock tank and the coagulant constant head tank was set to be 25 cm.
+9. Measure flow rates:
+  - Measuring system flow rate:
+    - A 10mL graduated cylinder and a timer is used to measure the amount of time it takes for the effluent flow to fill the 10mL graduated cylinder. (To get flow rate in mL/s divide 10mL by the number of seconds it takes to fill the cylinder. This is a quick way to verify flow rate)
+    - A more precise way to calculate system flow rate is to use the scale that is connected to ProCoDa. By placing a small bucket on the scale the mass rate of change can be measured and converted to a volumetric flow rate.
+  - Measuring PACl flow rate:
+    - Using a timer, measure the amount of time it takes for 20 drops to fall from the drip chamber. (20 drops is equivalent to 1mL. To calculate flow rate in mL/s divide 1mL by the number of seconds it takes for 20 drops to fall.)
+10. Ending experiments: To prevent having to repeat the previous procedure, a few end of experiment procedures are suggested.
+  - When finished running the gravity system, close the PACl valve and the blue choke on the flexible tubing. (Prevents fluoride from back filling into the drip chamber and PACl stock.)
+  - Set the effluent line to its zero position
+  - Close all the valves on the gravity apparatus. (The sedimentation tube, when full, is at a higher position than the fluoride constant head tank and therefore would backflow into the fluoride constant head tank.)
+  - Following these steps would allow the users to run their next experiments by only opening all the valves and setting the effluent line and PACl constant head tank in the corresponding positions below and above the zero mark line respectively. 
 
 ### Cleaning Procedure
 To prevent the system from collecting dust and growing algae, make sure to change out all the water after it has been in use for a prolonged period of time. Flush the system if the water appears turbid or any algae growths appear in the tanks or tubing.
