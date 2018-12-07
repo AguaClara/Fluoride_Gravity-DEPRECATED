@@ -20,6 +20,9 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
   - [Measuring Coagulant Flow Rate](#measuring-coagulant-flow-rate)
     - [Balance](#balance)
     - [IV Drip System](#iv-drip-system)
+- [Results](#results)
+  - [Calculating Stock Concentrations](#calculating-stock-concentrations)
+    - [PACl Stock Concentration](#pacl-stock-concentration)
 - [Future Work](#future-work)
 - [Conclusion](#conclusion)
 - [Bibliography](#bibliography)
@@ -36,7 +39,7 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
     - [Adjustable Sliders](#adjustable-sliders)
     - [IV Drip Chamber](#iv-drip-chamber)
   -[Operation Manual](#operation-manual)
-    - [Set-up](#set-up)
+    - [Initial Set-up](#initial-set-up)
     - [Cleaning Procedure](#cleaning-procedure)
   - [Experimental Checklist](#experimental-checklist)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
