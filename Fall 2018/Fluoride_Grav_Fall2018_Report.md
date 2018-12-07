@@ -13,6 +13,7 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
 - [Previous Work](#previous-work)
 - [Methods](#methods)
   - [Experimental Apparatus](#experimental-apparatus)
+  - [Head Loss Calculations](#head-loss-calculations)
     - [System Flow Rate](#system-flow-rate)
     - [Coagulant Flow Rate](#coagulant-flow-rate)
     - [Python Code](#python-code)
