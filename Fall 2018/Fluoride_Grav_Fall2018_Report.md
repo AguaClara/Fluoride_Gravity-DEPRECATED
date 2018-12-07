@@ -192,15 +192,17 @@ To calculate the required height difference between the water level of the fluor
 
 First, the energy equation was applied from the PACl constant head tank to the connection junction point at $H_3$. Note that the tubing used to connect to the PACl tank is microbore tubing.
 
-$\frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_f$
+$\frac{P_C}{\gamma} + \frac{V_C^2}{2g} + H_1 = \frac{P_D}{\gamma} + \frac{V_D^2}{2g} + H_3 + H_t$
 
 * The $\frac{P_C}{\gamma}$ term can be ignored since the container is open to the atmosphere so gauge pressure at C is zero.
 
-* $\frac{V_C^2}{2g}$ also drops out because the velocity at point C is zero due to a float valve that keeps the water level constant.
+* $\frac{V_C^2}{2g}$ also drops out because the velocity at point C can be assumed to be zero.
+
+* $H_t$ describes total head loss
 
 Applying these assumptions, the following expression was obtained:
 
- 1) $H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_f$
+ 1) $H_1 - H_3 = \frac{P_D}{\gamma } + \frac{V_D^2}{2g} +H_t$
 
 Then, the Bernoulli Equation was applied from the fluoride constant head tank to the connection junction. This was done assuming that the head loss from the tubing was negligible since it has a diameter of $\frac{1}{4}$ inches and its length is very small.
 
@@ -220,25 +222,30 @@ The pressures going into the junction were assumed to be equal:
 
 Combining equations 1, 2 and 3, the following expression is obtained:
 
-$H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_f$
+$H_1 - H_3 = \frac{\gamma(H_2-H_3 -\frac{V_B^2}{2g})}{\gamma } + \frac{V_D^2}{2g} +H_t$
 
 Which can be simplified to:
 
-$H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_f$
-
-Where $H_f$ is described by the Hagen–Poiseuille equation, since the microbore tubing consists of a length that is much greater than its diameter:
-
-$\frac{32\mu LV_D}{\rho gd^2}$
+$H_1 - H_2 = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_t$
 
 Thus, the desired head for the PACl tank is:
 
-$\Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + \frac{32\mu LV_D}{\rho gd^2}$
+$\Delta h = -\frac{V_B^2}{2g} + \frac{V_D^2}{2g} + H_t$
 
 Additionally, using the desired fluoride flow rate through the system of 0.76 mL/s, and desired maximum PACl flow rates (which was estimated to be 1% of the system flow rate), it was determined that both $\frac{V_B^2}{2g}$ and $\frac{V_D^2}{2g}$ are less than 1% of total head loss and therefore can be ignored.
 
- Finally, the height difference between the coagulant constant head tank and the fluoride constant head tank is given by:
+ Finally, the height difference between the coagulant constant head tank and the fluoride constant head tank is shown to be just the sum of all the head loss:
 
- $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
+$\Delta h = H_t$
+
+Where $H_t$ is described by the major and minor losses encountered from the PACl constant head tank to the connection junction,
+
+$H_t= h_{major} + h_{minor}$
+
+$H_t= \sum \frac{V^2}{2g}(\sum f\frac{L}{D}+\sum K_L)$
+
+
+
 
 #### Python Code
 
@@ -296,10 +303,10 @@ required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 
 ```
 
-However, these calculations were not used in determining flow rate for the final version of the fluoride gravity system. These equations were only valid for the earlier versions of the gravity apparatus which contained tubing and simple connectors. The addition of an IV drip chamber, discussed further in the following section, altered the head loss and therefore required additional calculations. The team opted to instead carry out measurements and create curves that could be used to empirically determine the optimal heights for the desired flow rates.
+However, these calculations were not used in determining flow rate for the final version of the fluoride gravity system. These equations were only valid for the earlier versions of the gravity apparatus which contained tubing and simple connectors. The addition of an IV drip chamber, discussed further in the following section, requires further study to accurately determine major and minor loss coefficients. The team opted instead to carry out measurements and create curves that could be used to empirically determine the optimal heights for the desired flow rates.
 
 ### Measuring Coagulant Flow Rate
-In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This was proved to be a challenge due to the low flow rates of the coagulant dose. The team came up with two methods to easily measure the flow rate of coagulant: 1) using a balance to measure the mass flow rate, 2) using an IV drip chamber to count the number of drops per time.
+In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This proved to be a challenge due to the low coagulant flow rates that are typically required. The team came up with two methods to easily measure the flow rate of coagulant: 1) using a balance to measure the mass flow rate, 2) using an IV drip chamber to count the number of drops per time.
 
 #### Balance
 
@@ -315,16 +322,16 @@ The balance was connected to ProCoDA, and the mass over time was recorded (Figur
 
 **Figure 8:** The mass flow of coagulant from the coagulant stock tank over time. The slope of the graph was -0.0019, which indicates that the mass flow rate was 1.9 mg/s. The graph appears stepwise because the balance only has a precision of 0.1 g.
 
-The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship. However, accuracy with this flow rate measuring technique was suspected to be low. The reason for this was the uncertainty in the ability of the float valve to respond to the low flow rates. This uncertainty prompted the introduction of second method for measuring flow rate out of the PACl constant head tank, the IV drip chamber.
+The recorded mass flow rate of coagulant can then be converted to volumetric flow rate using a density relationship. However, uncertainty in the float valve's ability of the to respond to the low flow rates was a suspected source of error in the measurements. This uncertainty prompted the introduction of a second method for measuring flow rate out of the PACl constant head tank, the IV drip chamber.
 
 
 #### IV Drip System
 
-Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). This system would allow for an easy visual way to measure flow rate just by counting the amount of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber with 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate. Lastly, it also serves as a way double check the results of the scale derived flow rates.
+Another proposed method to measure and regulate coagulant flow rate was to use an intravenous (IV) system (Figure 11). This system allows users to measure flow rate by simply counting the number of drops that fall within a given time period. Most IV drip chambers specify the number of drops that equal a milliliter of water; the current setup uses a drip chamber that releases 20 drops per milliliter. This would allow the user to convert drops per unit time to mL per unit time to get a flow rate. Lastly, it also serves as a way to double check the results of the scale derived flow rates.
 
 In order to determine the flow rate the team timed the amount of time it took for 20 drops to fall in the drip chamber. Since the IV drip chamber specified 20 drops per milliliter, the flow rate was calculated by dividing 1 mL by the recorded time. The calculated flow rates can be found [here](https://docs.google.com/spreadsheets/d/1IfbS2UFp3Ce4mH5M0O0il0AwW0HiAQ8-2CF-pYxHCLg/edit?usp=sharing).
 
-The team carried out these measurements at 5 cm intervals and got very insightful information by doing so. It was observed that with a small change in height there was a large change in PACl flow rate. This was concerning because it would make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility even more by decreasing the amount the flow rate changed in response to a change in height.
+The team then used this technique to measurement flow rates at different $\Delta h$ values, each at 5 cm intervals from each other. It was observed that with a small change in height there was a large change in PACl flow rate. This was concerning because such a set up can make it hard to control flow rates and reproduce them on a consistent basis. To overcome this issue the team decided to increase the length of the microbore tubing. This would increase head loss and increase the total height of the apparatus a bit but would increase reproducibility more by decreasing the amount the flow rate changed in response to a change in height.
 
 ```python
 import matplotlib.pyplot as plt
@@ -369,7 +376,7 @@ print("R-squared:", r_value ** 2)
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/PACl_flowrate_test1.JPG?raw=true">
 
-**Figure 9:**  Data from the first test showing the large change in flow rate relative to the change in delta H.
+**Figure 9:**  Data from the first test showing the large change in flow rate relative to the change in $\Delta h$.
 
 Increasing the length of the microbore tubing the team was able to obtain data that was much more promising. The team desired a lower slope that would allow for greater operator precision.
 
@@ -418,7 +425,7 @@ print("R-squared:", r_value ** 2)
 
 However, the previous tests were preformed with the first version of the drip chamber which posed some challenges.
 
-The first version of this system consisted of the drip chamber connected to a 90 degree elbow that attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow, adding an undetermined amount of head loss to the system. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
+The first version of this system consisted of an IV drip chamber connected to a 90 degree elbow that then attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow, creating an undetermined amount of head loss in the system. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/iv_system.jpg?raw=True" height=500>
 
@@ -430,7 +437,7 @@ To reduce the probability of air bubbles in the system, the team removed the 90 
 
 **Figure 12:** Modified PACl constant head tank without the 90 degree elbow reduce bubbles in the system.
 
-While this solution worked better than the previous version, the team was still encountering issues with reproducibility. The measured flow rate curves varied significantly each time the system was stopped and restarted. It was believed the issue stemmed from a number of sources. First, between tests, particularly tests on different days, the PACl stock tank was set to its zero position where no flow would take place. However, the hydrostatic pressure from the flocculator would drive water into the drip chamber, filling it up completely by the time the system was restarted. This required a complete flushing of the chamber. During this process, air would be re-introduced into the tubing which would often stop the flow entirely. A solution to this problem was to pinch the IV tubing to prevent undesired backflow while the system was not in use (Figure 13). Using this technique, the team was able to reproduce the same flow rates between tests with less than 1% of error among tests.
+While this solution worked better than the previous version, the team was still encountering issues with reproducibility. The measured flow rate curves varied significantly each time the system was stopped and restarted. It was believed the issue stemmed from a number of sources. First, between tests, particularly tests on different days, the PACl stock tank was set to its zero position where no flow would take place. However, the hydrostatic pressure from the flocculator would drive water into the drip chamber, filling it completely by the time the system was restarted. This required a complete flushing of the chamber. During this process, air would be re-introduced into the tubing which would often stop the flow entirely. A solution to this problem was to pinch the IV tubing to prevent undesired backflow while the system was not in use (Figure 13). Using this technique, the team was able to reproduce the same flow rates between tests with less than 1% of change in the slopes among tests.
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Flow_choke.jpg?raw=true" height=500>
 
@@ -456,8 +463,8 @@ Using the empirical methods detailed above, an optimal height range and flow rat
   - The PACl flow rate was chosen in order for the PACl flow rate to have a negligible effect on the total system flow rate.
 - PACl flow rate > 0.0015 mL/s
   - Flow rates slower than 0.0015 mL/s are not ideal because at this rate, it would take more than 30 seconds for a single drop to fall in the drip chamber. With such a long period between each drop of PACl, there would be an inconsistent flow of PACl in the system. In addition, it would be tedious to count the drops to measure the flow rate.  
-
-(Include calculations of how we got 0.0015mL ≤ PACL flow rate ≤ 0.015 mL/s)
+- PACl flow rate < 0.015mL/s
+  - At higher flow rates than 0.015mL/s drops would fall too quick, less than 3 seconds between drops. 
 
 (Include calculations of what heights these flow rates correspond to)
 
@@ -472,7 +479,26 @@ In order to determine the required stock concentration of PACl to achieve the fl
 
 The range of PACl concentration in the system was determined to be: 5 to 50 mg/L. This range was determined by previous Fluoride teams as the optimal range for treating fluoride ([Akpan et al., 2017](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md)).
 
-(Include calculations on how we got 2500)
+With the aforementioned parameters and considerations in mind, the following expression was used to calculate an ideal PACl stock concentration:
+
+$Q_{system} C_{system} = Q_{stock} C_{stock}$
+
+- Applying minimum flow rate constraint gives: $Q_{stock}=0.0015mL/s$
+- Desired minimum corresponding system concentration: $C_{system}=5mg/L$
+- Standard system flow rate: $Q_{system}=0.76mL/s$
+
+$C_{stock}=2533mL/s$
+
+Similarly,
+- Applying maximum flow rate constraint gives: $Q_{stock}=0.015mL/s$
+- Desired maximum corresponding system concentration: $C_{system}=50mg/L$
+- Standard system flow rate: $Q_{system}=0.76mL/s$
+
+$C_{stock}=2533mL/s$
+
+The value of $C_{stock}$ was then rounded to 2500mL/s to make stock production easier.
+
+With the PACl stock concentration of 2500mg/L all the previous parameters are satisfied.
 
 Thus, the optimal stock PACl concentration was determined to be 2500 mg/L.
 
