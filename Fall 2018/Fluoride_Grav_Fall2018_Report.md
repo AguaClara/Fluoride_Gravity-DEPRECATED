@@ -423,7 +423,10 @@ print("R-squared:", r_value ** 2)
 
 **Figure 10:** Data from the second test shows a lower slope than that of the first test. This was done by increasing the length of the microbore tubing.
 
-However, the previous tests were preformed with the first version of the drip chamber which posed some challenges.
+However, the previous tests were performed with the first version of the drip chamber which posed some challenges.
+
+![Final](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/avgflowvsheight.png?raw=true)
+**Figure 11:** PACl flow rate at various heights was used to establish a linear relationship between the system PACl concentration and height.
 
 The first version of this system consisted of an IV drip chamber connected to a 90 degree elbow that then attached to the PACl constant head tank. While running experiments with this setup, it was observed that air bubbles became trapped in the elbow, creating an undetermined amount of head loss in the system. This caused the flow rates to vary drastically between tests. This prompted the team to alter the drip chamber design to improve reproducibility.  
 
