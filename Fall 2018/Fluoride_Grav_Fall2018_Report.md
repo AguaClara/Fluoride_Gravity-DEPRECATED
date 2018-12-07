@@ -464,11 +464,9 @@ Using the empirical methods detailed above, an optimal height range and flow rat
 - PACl flow rate > 0.0015 mL/s
   - Flow rates slower than 0.0015 mL/s are not ideal because at this rate, it would take more than 30 seconds for a single drop to fall in the drip chamber. With such a long period between each drop of PACl, there would be an inconsistent flow of PACl in the system. In addition, it would be tedious to count the drops to measure the flow rate.  
 - PACl flow rate < 0.015mL/s
-  - At higher flow rates than 0.015mL/s drops would fall too quick, less than 3 seconds between drops. 
+  - At higher flow rates than 0.015mL/s drops would fall too quick, less than 3 seconds between drops.
 
-(Include calculations of what heights these flow rates correspond to)
-
-Thus, the optimal PACl flow rates for the system are: **0.0015mL ≤ PACL flow rate ≤ 0.015 mL/s**. Since PACl flow rate is a linear function of height difference, this flow rate range corresponds to a height range of ___ .
+Thus, the optimal PACl flow rates for the system are: **0.0015mL ≤ PACL flow rate ≤ 0.015 mL/s**.
 
 In order to determine the required stock concentration of PACl to achieve the flow rate range, the following guidelines were used:
 
@@ -508,6 +506,8 @@ Thus, the optimal stock PACl concentration was determined to be 2500 mg/L.
 ## Future Work
 
 After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can be lengthened or shortened as needed to find the elevation changes desired to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible. Continued testing for the reproducibility of the flow rate curves is probably also important to continue to carry out to see if there are any shifts in the flow rate with respect to time caused by build up of air or degradation of the IV drip chamber.  Additionally, tests with fluoride and PACl can be done to test its similarity to the Fluoride Auto team's fluoride removal data.
+(BotGeo)
+
 
 ## Conclusion
 The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate. It was also observed that the scale measurements are not the most reliable method for measuring flow rate when compared to the IV drip chamber drop counting method. Using the drip chamber to count the number of drops that fall during a given time interval is not only more accurate but also easy to do by anybody and does not require electric balance and ProCoDa.
@@ -622,10 +622,7 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 4. Disconnect the microbore tubing from the flexible tubing, allowing fluoride solution to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing fluoride solution to run through it first forces the air out and makes the next few steps easier.)
   - Keep the end of the microbore in a small bucket to prevent spilling
   - plug microbore tubing if time between this step and step 6 is significantly long.
---------
-    - Fill fluoride stock tank with water and the calculated volume of super stock fluoride solution to obtain desired concentration.
-    - Open fluoride stock tank valve (image) and allow constant head tanks to fill. Keep the constant head tank valve closed.
---------
+
 5. Make PACl stock solution as described in the methods section in a bucket larger than 2L.
 6. Filling PACl stock tank:
   - Fill the PACl stock tank with the stock solution and allow it to flow down into the constant head tank. Make sure the PACl constant head tank valve is closed.
