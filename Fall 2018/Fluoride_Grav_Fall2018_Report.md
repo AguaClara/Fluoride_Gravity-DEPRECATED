@@ -240,8 +240,6 @@ Additionally, using the desired fluoride flow rate through the system of 0.76 mL
 
  $\Delta h = \frac{32\mu LV_D}{\rho gd^2}$
 
-However, these calculations were not used in determining flow rate for the final version of the fluoride gravity system. These equations were only valid for the earlier versions of the gravity apparatus which contained tubing and simple connectors. The addition of an IV drip chamber, discussed further in the following section, altered the head loss and therefore required additional calculations. The team opted to instead carry out measurements and create curves that could be used to empirically determine the optimal heights for the desired flow rates.
-
 #### Python Code
 
 A [Python function](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/gravity_fluoride_setup.md) was created with the headloss equation derived above. The user can input the flow rate of the system and the desired flow rate of coagulant, and the function will output the required height difference between the fluoride constant head tank and the coagulant constant head tank.
@@ -297,6 +295,8 @@ q_PACl = (0.0076*u.mL/u.s).to(u.m**3/u.s)
 required_height(q_sys, d_sys, d_micro, l_micro, q_PACl)
 
 ```
+
+However, these calculations were not used in determining flow rate for the final version of the fluoride gravity system. These equations were only valid for the earlier versions of the gravity apparatus which contained tubing and simple connectors. The addition of an IV drip chamber, discussed further in the following section, altered the head loss and therefore required additional calculations. The team opted to instead carry out measurements and create curves that could be used to empirically determine the optimal heights for the desired flow rates.
 
 ### Measuring Coagulant Flow Rate
 In order for the team to create a standard curve for the PACl flow rate it was necessary to develop a method to accurately and easily determine the flow rate. This was proved to be a challenge due to the low flow rates of the coagulant dose. The team came up with two methods to easily measure the flow rate of coagulant: 1) using a balance to measure the mass flow rate, 2) using an IV drip chamber to count the number of drops per time.
@@ -434,7 +434,7 @@ While this solution worked better than the previous version, the team was still 
 
 <img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Flow_choke.jpg?raw=true" height=500>
 
-**Figure 13:** By closing this blue choke, backflow into the drip chamber could be prevented.
+**Figure 13:** By closing the blue choke, backflow into the drip chamber between experiments could be prevented.
 
 However, there were other scenarios that cause flow rates to vary between tests. When the team ran a preliminary test with fluoride and PACl instead of only water, the entire system had to be flushed. After adding coagulant to the constant head tank, it was observed that air once again changed the flow rate curve that was previously determined. A ball valve was added after the drip chamber to solve this issue. Closing the valve before emptying out the container prevented air from entering the tubing where it could then alter the flow rate curve.
 
@@ -442,36 +442,75 @@ However, there were other scenarios that cause flow rates to vary between tests.
 
 **Figure 14:** The ball valve was added after the drip chamber to prevent air from entering the microbore tubing when emptying and refilling the PACl constant head tank.
 
+## Results
+
+### Calculating Stock Concentrations
+
+#### PACl Stock Concentration
+
+Using the empirical methods detailed above, an optimal height range and flow rate was determined. In order to make the system as compact as possible, but also easily adjustable, a height range of 30 cm was set as the target range. Thus, the highest and lowest desired PACl flow rate had to correspond with the defined range. After adjusting and measuring a range of flow rates, the following guidelines were used to define a range of desired PACl flow rates:
+
+- System flow rate = 0.76 mL/s
+  - The system flow rate was established to achieve an upflow velocity of 1.5 mm/s in the sedimentation tube.
+- PACl flow rate < 10% of system flow rate
+  - The PACl flow rate was chosen in order for the PACl flow rate to have a negligible effect on the total system flow rate.
+- PACl flow rate > 0.0015 mL/s
+  - Flow rates slower than 0.0015 mL/s are not ideal because at this rate, it would take more than 30 seconds for a single drop to fall in the drip chamber. With such a long period between each drop of PACl, there would be an inconsistent flow of PACl in the system. In addition, it would be tedious to count the drops to measure the flow rate.  
+
+(Include calculations of how we got 0.0015mL ≤ PACL flow rate ≤ 0.015 mL/s)
+
+(Include calculations of what heights these flow rates correspond to)
+
+Thus, the optimal PACl flow rates for the system are: **0.0015mL ≤ PACL flow rate ≤ 0.015 mL/s**. Since PACl flow rate is a linear function of height difference, this flow rate range corresponds to a height range of ___ .
+
+In order to determine the required stock concentration of PACl to achieve the flow rate range, the following guidelines were used:
+
+- Highly concentrated PACl stock
+  - With a highly concentrated PACl stock, the PACl stock container does not have to be refilled as often.
+- Minimum desired PACl concentration in system: 5 mg/L
+- Maximum desired PACl concentration in system: 50 mg/L
+
+The range of PACl concentration in the system was determined to be: 5 to 50 mg/L. This range was determined by previous Fluoride teams as the optimal range for treating fluoride ([Akpan et al., 2017](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md)).
+
+(Include calculations on how we got 2500)
+
+Thus, the optimal stock PACl concentration was determined to be 2500 mg/L.
+
+(Include range of flow concentrations)
+
+
 ## Future Work
 
-After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can be lengthened or shortened as needed to find the elevation changes desired to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible. Continued testing for the reproducibility of the flow rate curves is probably also important to continue to carry out to see if there are any shifts in the flow rate with respect to time caused by build up of air or degradation of the IV drip chamber.  Additionally, tests with fluoride and PACl can be done to test its similarity to the fluoride auto's fluoride removal data.
+After the implementation of the new PACl constant head tank, experiments will be rerun to determine the flow rates at different platform heights. These results will allow the team to make further adjustments in order to optimize the system. Microbore tubing can be lengthened or shortened as needed to find the elevation changes desired to allow for a flow rate change that is easy to reproduce. Once that information is known, the team can resize the entire system based on the maximum flow rates that the system would need to achieve. This adjustment would help achieve the goal of making the system as compact as possible. Continued testing for the reproducibility of the flow rate curves is probably also important to continue to carry out to see if there are any shifts in the flow rate with respect to time caused by build up of air or degradation of the IV drip chamber.  Additionally, tests with fluoride and PACl can be done to test its similarity to the Fluoride Auto team's fluoride removal data.
 
 ## Conclusion
 The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate. It was also observed that the scale measurements are not the most reliable method for measuring flow rate when compared to the IV drip chamber drop counting method. Using the drip chamber to count the number of drops that fall during a given time interval is not only more accurate but also easy to do by anybody and does not require electric balance and ProCoDa.
 
 ## Bibliography
 
-American Dental Organization. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
+Akpan, P. Mehrabyan, T. Sausele, D. and Zhang, V. (2017). Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md.
 
-Arlappa, N., Aatif Qureshi, I., & Srinivas, R. (2013). Fluorosis in India: An overview. International Journal of Research and Development of Health, 1(3). Retrieved from http://www.ijrdh.com/files/11.Fluorosis.pdf
+American Dental Organization. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements.
+
+Arlappa, N., Aatif Qureshi, I., & Srinivas, R. (2013). Fluorosis in India: An overview. International Journal of Research and Development of Health, 1(3). Retrieved from http://www.ijrdh.com/files/11.Fluorosis.pdf.
 
 Bureau of Indian Standards. (2012). IS 10500: Drinking water. Retrieved from https://archive.org/details/gov.in.is.10500.2012/page/n3.
 
-Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)
+Herrboldt, J. P. (2016)["Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation."](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1).
 
 India Groundwater: A Valuable but Diminishing Resource. (2017). Retrieved from http://www.worldbank.org/en/news/feature/2012/03/06/india-groundwater-critical-diminishingLeChevallier,
 
 M. W., & Au, K. (2004). Water treatment and pathogen control: Process efficiency in achieving safe drinking-water. Geneva: World Health Organization.
 
-Mondal, D., Dutta, G., & Gupta, S. (2015). Inferring the fluoride hydrogeochemistry and effect of consuming fluoride-contaminated drinking water on human health in some endemic areas of Birbhum district, West Bengal. Environmental Geochemistry and Health, 38(2), 557-576. doi:10.1007/s10653-015-9743-7
+Mondal, D., Dutta, G., & Gupta, S. (2015). Inferring the fluoride hydrogeochemistry and effect of consuming fluoride-contaminated drinking water on human health in some endemic areas of Birbhum district, West Bengal. Environmental Geochemistry and Health, 38(2), 557-576. doi:10.1007/s10653-015-9743-7.
 
-United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
+United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf.
 
 United States, Environmental Protection Agency. (1996). Potentiometric Determination Fluoride in Aqueous Samples with Ion-Selective Electrode.
 
-World Health Organization. (2004). Fluoride in Drinking Water: A Global Perspective. Fluoride in Drinking Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf
+World Health Organization. (2004). Fluoride in Drinking Water: A Global Perspective. Fluoride in Drinking Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf.
 
-World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
+World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
 
 ***
 
@@ -540,13 +579,14 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 
 ## Operation Manual
 ### Initial Set-up
-#### Follow this procedure if gravity system is not filled with water or fluoride and PACl solutions yet
-1. Make fluoride stock solution with desired concentration in the large 18L bucket (stock fluoride tank) as described in the methods section.
+**Follow this procedure if gravity system is not filled with water or fluoride and PACl solutions yet:**
+
+1. Make fluoride stock solution with desired concentration in the large 18 L stock container (stock fluoride tank) as described in the Methods section.
 
 2. Filling fluoride stock tanks:
-  - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill to its equilibrium level. Make sure the constant head tank valve is closed.
+    - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill to its equilibrium level. Make sure the constant head tank valve is closed.
 3. Getting fluoride solution to run through the system:
-  - Open constant head tank valve to allow solution to run through the flocculator.
+    - Open constant head tank valve to allow solution to run through the flocculator.
     - Air in the system usually prevents the system from filling entirely on its own.
       - To get solution through the flocculator and sedimentation tank, connect a pump to the effluent line. The goal is to use the pump the pull the solution through the system until it can sustain the flow on its own.
       -  Make sure pump is set to rotate in the correct direction to force air and water out of the effluent line.
@@ -594,7 +634,7 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
   - When finished running the gravity system, close the PACl valve and the blue choke on the flexible tubing. (Prevents fluoride from back filling into the drip chamber and PACl stock.)
   - Set the effluent line to its zero position
   - Close all the valves on the gravity apparatus. (The sedimentation tube, when full, is at a higher position than the fluoride constant head tank and therefore would backflow into the fluoride constant head tank.)
-  - Following these steps would allow the users to run their next experiments by only opening all the valves and setting the effluent line and PACl constant head tank in the corresponding positions below and above the zero mark line respectively. 
+  - Following these steps would allow the users to run their next experiments by only opening all the valves and setting the effluent line and PACl constant head tank in the corresponding positions below and above the zero mark line respectively.
 
 ### Cleaning Procedure
 To prevent the system from collecting dust and growing algae, make sure to change out all the water after it has been in use for a prolonged period of time. Flush the system if the water appears turbid or any algae growths appear in the tanks or tubing.
