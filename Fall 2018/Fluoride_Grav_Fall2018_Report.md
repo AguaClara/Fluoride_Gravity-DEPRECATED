@@ -522,7 +522,11 @@ Previous Fluoride and High Rate Sedimentation teams observed a buildup of coagul
 
 **Figure 16:** Bottom sedimentation tube geometry designed using OnShape.
 
-The bottom geometry insert was 3D printed. Future experiments of the gravity apparatus with fluoride and PACl should include the bottom geometry insert to prevent the buildup of flocs and gelling in the bottom sedimentation tube.
+The bottom geometry insert in figure 17 was 3D printed. Future experiments of the gravity apparatus with fluoride and PACl should include the bottom geometry insert to prevent the buildup of flocs and gelling in the bottom sedimentation tube.
+
+<img src="https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/newbotgeoinsert.jpg?raw=true" height=500>
+
+**Figure 17:** 3D printed bottom sedimentation tube geometry insert.
 
 
 ## Future Work
