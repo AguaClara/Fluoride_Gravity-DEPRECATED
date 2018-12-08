@@ -645,9 +645,8 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
       - Stop pump when water has reached the effluent line.
       - Disconnect pump and place the effluent line at its zero position to prevent spilling. At this point the system will flow on its own when the effluent line is lowered below the zero position.
 
-4. On the PACl constant head tank, disconnect the microbore tubing from the IV drip chamber flexible tubing, allowing water to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing water to run through it first forces the air out and makes the next few steps easier.)
+4. On the PACl constant head tank, disconnect the microbore tubing from the IV drip chamber flexible tubing, allowing water to flow out through the microbore tubing. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing water to run through it first forces the air out and makes the next few steps easier.)
     - Keep the end of the microbore tubing in a small bucket to prevent spilling
-    - **Plug microbore tubing if time between this step and step 6 is significantly long.**
 
 5. Make PACl stock solution as described in the Methods section in a bucket larger than 2L.
 
