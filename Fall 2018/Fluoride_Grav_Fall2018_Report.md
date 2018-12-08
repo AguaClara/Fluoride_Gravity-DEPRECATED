@@ -666,7 +666,7 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
     - Fill PACl stock tank with DI water and calculated volume of super stock PACl to obtain desired concentration.
     - To prevent air bubbles from building up in the tubing, allow stock solution to flow through the tubing to remove air before connecting to the microbore tubing (image).
 
-8. System is ready to run. To start a test:
+    1. System is ready to run. To start a test:
   - Make sure all fluoride and PACl constant head tank valves are open, including the blue choke on the PACl flexible tubing.
   - Set the effluent line at the desired position below the zero mark with the adjustable slider. (Remember, the height difference between the effluent line and the top of the constant head tank water level determines the system flow rate)
   - Set the PACl constant head tank at the desired height above the zero mark by adjusting the platform height with the adjustable sliders. (Similarly, PACl flow rate is determined by the height difference between the top of the fluoride constant head tank and the top of the PACl constant head tank)
