@@ -632,7 +632,7 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 ### Initial Set-up
 **Follow this procedure if gravity system is not filled with water or fluoride and PACl solutions yet:**
 
-1. Make fluoride stock solution with desired concentration in the large 18 L stock container (stock fluoride tank) as described in the Methods section.
+1. Make fluoride stock solution with desired concentration in the large 18L stock container (stock fluoride tank) as described in the Methods section.
 
 2. Filling fluoride stock tanks:
     - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill to its equilibrium level. Make sure the constant head tank valve is closed.
@@ -662,7 +662,6 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 - Open the PACl valve and release the choke to allow PACl to flow through the flexible tubing.
 - Once flowing, submerge both tubes and connect them together.
 - Close the blue choke to prevent fluoride solution from back filling into the IV drip chamber.
-
 
     - Fill PACl stock tank with DI water and calculated volume of super stock PACl to obtain desired concentration.
     - To prevent air bubbles from building up in the tubing, allow stock solution to flow through the tubing to remove air before connecting to the microbore tubing (image).
