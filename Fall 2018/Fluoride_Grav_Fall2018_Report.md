@@ -23,6 +23,7 @@ This publication Fluoride, Fall 2018 was developed under Assistance Agreement No
 - [Results](#results)
   - [Calculating Stock Concentrations](#calculating-stock-concentrations)
     - [PACl Stock Concentration](#pacl-stock-concentration)
+  - [Sedimentation Tube Bottom Geometry](sedimentation-tube-bottom-geometry)
 - [Future Work](#future-work)
 - [Conclusion](#conclusion)
 - [Bibliography](#bibliography)
