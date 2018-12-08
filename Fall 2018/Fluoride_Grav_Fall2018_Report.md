@@ -531,11 +531,11 @@ After the implementation of the new PACl constant head tank, more experiments sh
 
  Both Fluoride Gravity and Auto teams are also currently working with bottom geometry team to improve the design of bottom geometry in the reactor to improve floc recirculation. This can potentially improve the floc blanket formation; since gel formation has previously been observed with fluoride particles in the reactor, a new bottom geometry design may prohibit floc aggregation at the bottom of the reactor. Although the bottom insert has been 3-D printed, the team has not yet installed the new insert into the sedimentation tube or run any tests with the gravity system to determine the effectiveness of the bottom insert. However, the [Fall 2018 High Rate Sedimentation (HRS) - Bottom Geometry](https://github.com/AguaClara/HRS-Bot-Geo) has run tests with clay and coagulant to observe the effect of the bottom insert. The [Fall 2018 Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) also ran tests with the bottom insert and observed a noticeable decrease in floc buildup. Therefore, future teams should collaborate with the HRS and Fluoride Auto teams to determine whether the bottom insert is an effective solution to reducing floc buildup in the sedimentation tube. Once that has been determined, future Fluoride Gravity teams should run full experiments with fluoride and PACl.
 
- Additionally, tests with fluoride and PACl should be done to test its similarity to the Fluoride Auto team's fluoride removal data. However, future teams should be cautious about the use of testing sample containers. Previous testing has been done mostly with glass sample bottles, but since it was found that glass can absorb some of the fluoride ions, future testing should be done primarily using plastic containers.
+ Additionally, tests with fluoride and PACl should be done to test its similarity to the Fluoride Auto team's fluoride removal data. However, future teams should be cautious about the material of testing sample containers. Previous testing has been done mostly with glass sample bottles, but since it was found that glass can adsorb some of the fluoride ions, future testing should be done primarily using plastic containers.
 
 
 ## Conclusion
-The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically and therefore the team proceeded to find theses using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations shown in the report inaccurate. It was also observed that the scale measurements are not the most reliable method for measuring flow rate when compared to the IV drip chamber drop counting method. Using the drip chamber to count the number of drops that fall during a given time interval is not only more accurate but also easy to do by anybody and does not require electric balance and ProCoDa.
+The Spring 2018 Fluoride Gravity team worked on optimizing the gravity-powered fluoride removal apparatus. Several modifications were made to the system this semester, such as installing a balance and an IV drip system to measure the coagulant flow rate into the system. The length of the microbore tubing has a significant impact on the coagulant flow rate due to the high frictional head loss. Thus, by modifying the length of the microbore tubing and adjusting the height of the coagulant constant head tank, the team determined a simple procedure for adjusting coagulant flow rates. There were however several challenges in determining flow rates analytically, and therefore, the team proceeded to determine flow rate using empirical methods. The addition of the drip chamber changed the fluid mechanics of the system enough to make the calculations not representative of the actual system. It was also observed that the scale measurements are not the most reliable method for measuring flow rate when compared to the IV drip chamber drop counting method. Using the drip chamber to count the number of drops that fall during a given time interval is not only more accurate but also more user-friendly and does not require electric balance and ProCoDA.
 
 ## Bibliography
 
@@ -636,52 +636,60 @@ The IV drip chamber used in the apparatus was purchased from Truecare via Amazon
 
 2. Filling fluoride stock tanks:
     - Once stock has been made, open the valve from the stock fluoride tank and allow the constant head tank to fill to its equilibrium level. Make sure the constant head tank valve is closed.
-3. Getting fluoride solution to run through the system:
+3. Getting fluoride to run through the system:
     - Open constant head tank valve to allow solution to run through the flocculator.
     - Air in the system usually prevents the system from filling entirely on its own.
-      - To get solution through the flocculator and sedimentation tank, connect a pump to the effluent line. The goal is to use the pump the pull the solution through the system until it can sustain the flow on its own.
+      - To obtain flow through the flocculator and sedimentation tank, connect a pump to the effluent line. The goal is to use the pump the pull the solution through the system until it can sustain the flow on its own.
       -  Make sure pump is set to rotate in the correct direction to force air and water out of the effluent line.
       - Turn pump on.
-      - Stop pump when solution has reached the effluent line.
-      - disconnect pump and place the effluent line at its zero position to prevent spilling. At this point the system will flow on its own by lowering the effluent line below the zero position.
-4. Disconnect the microbore tubing from the flexible tubing, allowing fluoride solution to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing fluoride solution to run through it first forces the air out and makes the next few steps easier.)
-  - Keep the end of the microbore in a small bucket to prevent spilling
-  - plug microbore tubing if time between this step and step 6 is significantly long.
+      - Stop pump when water has reached the effluent line.
+      - Disconnect pump and place the effluent line at its zero position to prevent spilling. At this point the system will flow on its own when the effluent line is lowered below the zero position.
 
-5. Make PACl stock solution as described in the methods section in a bucket larger than 2L.
+4. On the PACl constant head tank, disconnect the microbore tubing from the IV drip chamber flexible tubing, allowing water to flow out through the microbore tube. (Upon start-up, the microbore tubing contains air that prevents the flow of PACl. Allowing water to run through it first forces the air out and makes the next few steps easier.)
+    - Keep the end of the microbore tubing in a small bucket to prevent spilling
+    - **Plug microbore tubing if time between this step and step 6 is significantly long.**
+
+5. Make PACl stock solution as described in the Methods section in a bucket larger than 2L.
+
 6. Filling PACl stock tank:
-  - Fill the PACl stock tank with the stock solution and allow it to flow down into the constant head tank. Make sure the PACl constant head tank valve is closed.
-  - Once filled, open the PACl valve and allow PACl solution to flow through the drip chamber and through the flexible tubing. (Make sure that the flexible tubing is not connected to the microbore tubing yet)
+    - Fill the PACl stock tank with the stock solution and allow it to flow down into the constant head tank. Make sure the PACl constant head tank valve is closed.
+    - Once filled, open the PACl valve and allow PACl solution to flow through the drip chamber and through the flexible tubing. (Make sure that the flexible tubing is not connected to the microbore tubing yet)
     - If there is no flow with the valve open, use a hammer to gently tap air out of the valve.
-    - If air remains in the flexible tubing, use a syringe to force the fluid through the tubing. (image)
+    - If air remains in the flexible tubing, use a syringe to force the fluid through the tubing.
     - Once a flow has been established, close the PACl valve and pinch the flexible tubing with the blue choke to stop the flow and prevent air from entering.
 
 7. Connecting the flexible tubing to the microbore tubing:
 
-- Submerge the flexible tubing and the microbore tubing together in a small bucket of water. (This prevents air from getting trapped in the connection)
-- Open the PACl valve and release the choke to allow PACl to flow through the flexible tubing.
-- Once flowing, submerge both tubes and connect them together.
-- Close the blue choke to prevent fluoride solution from back filling into the IV drip chamber.
-
+    - Submerge the flexible tubing and the microbore tubing together in a small bucket of water. (This prevents air from getting trapped in the connection)
+    - Open the PACl valve and release the choke to allow PACl to flow through the flexible tubing.
+    - Once flowing, submerge both tubes and connect them together.
+    - Close the blue choke to prevent fluoride solution from back filling into the IV drip chamber.
     - Fill PACl stock tank with DI water and calculated volume of super stock PACl to obtain desired concentration.
-    - To prevent air bubbles from building up in the tubing, allow stock solution to flow through the tubing to remove air before connecting to the microbore tubing (image).
+    - To prevent air bubbles from building up in the tubing, allow stock solution to flow through the tubing to remove air before connecting to the microbore tubing.
 
-    1. System is ready to run. To start a test:
-  - Make sure all fluoride and PACl constant head tank valves are open, including the blue choke on the PACl flexible tubing.
-  - Set the effluent line at the desired position below the zero mark with the adjustable slider. (Remember, the height difference between the effluent line and the top of the constant head tank water level determines the system flow rate)
-  - Set the PACl constant head tank at the desired height above the zero mark by adjusting the platform height with the adjustable sliders. (Similarly, PACl flow rate is determined by the height difference between the top of the fluoride constant head tank and the top of the PACl constant head tank)
+### Running the System
+
+**Follow the steps below if flow has already been established in the system and the microbore tubing**
+
+8. System is ready to run. To start a test:
+    - Make sure all fluoride and PACl constant head tank valves are open, including the blue choke on the PACl flexible tubing.
+    - Set the effluent line at the desired position below the zero mark with the adjustable slider. (Remember, the height difference between the effluent line and the top of the constant head tank water level determines the system flow rate)
+    - Set the PACl constant head tank at the desired height above the zero mark by adjusting the platform height with the adjustable sliders. (Similarly, PACl flow rate is determined by the height difference between the top of the fluoride constant head tank and the top of the PACl constant head tank)
 
 9. Measure flow rates:
-  - Measuring system flow rate:
-    - A 10mL graduated cylinder and a timer is used to measure the amount of time it takes for the effluent flow to fill the 10mL graduated cylinder. (To get flow rate in mL/s divide 10mL by the number of seconds it takes to fill the cylinder. This is a quick way to verify flow rate)
-    - A more precise way to calculate system flow rate is to use the scale that is connected to ProCoDa. By placing a small bucket on the scale the mass rate of change can be measured and converted to a volumetric flow rate.
-  - Measuring PACl flow rate:
-    - Using a timer, measure the amount of time it takes for 20 drops to fall from the drip chamber. (20 drops is equivalent to 1mL. To calculate flow rate in mL/s divide 1mL by the number of seconds it takes for 20 drops to fall.)
-10. Ending experiments: To prevent having to repeat the previous procedure, a few end of experiment procedures are suggested.
-  - When finished running the gravity system, close the PACl valve and the blue choke on the flexible tubing. (Prevents fluoride from back filling into the drip chamber and PACl stock.)
-  - Set the effluent line to its zero position
-  - Close all the valves on the gravity apparatus. (The sedimentation tube, when full, is at a higher position than the fluoride constant head tank and therefore would backflow into the fluoride constant head tank.)
-  - Following these steps would allow the users to run their next experiments by only opening all the valves and setting the effluent line and PACl constant head tank in the corresponding positions below and above the zero mark line respectively.
+    - Measuring system flow rate:
+      - A 10 mL graduated cylinder and a timer is used to measure the amount of time it takes for the effluent flow to fill the 10mL graduated cylinder. (To get flow rate in mL/s divide 10mL by the number of seconds it takes to fill the cylinder. This is a quick way to verify flow rate)
+      - A more precise way to calculate system flow rate is to use the scale that is connected to ProCoDA. By placing a small bucket on the scale the mass rate of change can be measured and converted to a volumetric flow rate.
+    - Measuring PACl flow rate:
+      - Using a timer, measure the amount of time it takes for 20 drops to fall from the drip chamber. (20 drops is equivalent to 1mL. To calculate flow rate in mL/s divide 1mL by the number of seconds it takes for 20 drops to fall.)
+
+### Stopping the System
+
+10. Ending experiments: To prevent having to repeat the previous procedure, a few end of experiment procedures are suggested:
+    - When finished running the gravity system, close the PACl valve and the blue choke on the flexible tubing. (Prevents fluoride from back filling into the drip chamber and PACl stock.)
+    - Set the effluent line to its zero position
+    - Close all the valves on the gravity apparatus. (The sedimentation tube, when full, is at a higher position than the fluoride constant head tank and therefore would backflow into the fluoride constant head tank.)
+    - Following these steps would allow the users to run their next experiments by simply opening all the valves and setting the effluent line and PACl constant head tank in the corresponding positions below and above the zero mark line respectively.
 
 ### Cleaning Procedure
 To prevent the system from collecting dust and growing algae, make sure to change out all the water after it has been in use for a prolonged period of time. Flush the system if the water appears turbid or any algae growths appear in the tanks or tubing.
