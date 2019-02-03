@@ -3,10 +3,13 @@ Our goal is to fabricate a user-friendly gravity-powered fluoride removal system
 
 See the [Fluoride - Auto repository](https://github.com/AguaClara/fluoride) for more information and previous research. 
 
+## Research Advisor
+Tigran Mehrabyan (tm545@cornell.edu)
+
 ## Current Members:
-- Cheer Tsang (ct542@cornell.edu)
-- Ching Pang (cp546@cornell.edu)
-- Kevin Sarmiento (ks2255@cornell.edu)
+- Sarah Huang (slh268@cornell.edu)
+- Cindy Jin (cj359@cornell.edu)
+- Simar Kohli (sk2523@cornell.edu)
 
 ## Reports and Presentations
 * Summer 2018
