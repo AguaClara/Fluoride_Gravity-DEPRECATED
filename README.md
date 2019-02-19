@@ -6,7 +6,7 @@ See the [Fluoride - Auto repository](https://github.com/AguaClara/fluoride) for 
 ## Research Advisor
 Tigran Mehrabyan (tm545@cornell.edu)
 
-## Current Members:
+## Current Members
 - Sarah Huang (slh268@cornell.edu)
 - Cindy Jin (cj359@cornell.edu)
 - Simar Kohli (sk2523@cornell.edu)
