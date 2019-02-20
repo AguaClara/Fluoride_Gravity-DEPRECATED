@@ -142,7 +142,11 @@ Make sure that you defend your conclusions with facts and results.-->
 
 ## Bibliography
 EPA Method 9214. (1996, December). Retrieved from https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf
+
 Gebbie, P. (2001). Using Polyaluminium Coagulants in Water Treatment. Retrieved from http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf
+
 Herrboldt, J. P. (2016). Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation. Retrieved from https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1.
+
 Kowalchuk, E. E. (2011). Selective Fluoride Removal by Aluminum Precipitation and Membrane Filtration. Retrieved from https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds.
+
 Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of polymeric aluminium hydroxide with fluoride. Canadian Journal of Chemistry, 64(1), 24-29. doi:10.1139/v86-006
