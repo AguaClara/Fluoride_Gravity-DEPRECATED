@@ -49,6 +49,8 @@ In place of the IV drip chamber, microbore tubing connected to the PACl constant
 
 The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
 
+
+## Results and Analysis
 ### Determining the Effectiveness of New System
 #### Determining Coagulant Flow Rate
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
@@ -65,14 +67,7 @@ The strong correlation implies that the relationship in the decoupled system ope
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
-
-
-
-
-
-
-<!---## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
+<!---Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
 In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
 
 When describing your results, present your data, using the guidelines below:
