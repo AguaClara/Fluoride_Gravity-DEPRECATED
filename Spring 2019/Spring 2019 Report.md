@@ -38,10 +38,12 @@ Polyethylene containers, rather than glassware, should be used, as fluoride can 
 The gravity-powered apparatus was constructed as according to the fabrication manual in the Fluoride Gravity Fall 2018 report.
 
 Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator.
+
 <img src="IMG_20190209_092106.jpg">
 **Figure 1:** New connection linking the fluoride constant head tank with the flocculator.
 
 In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
+
 <img src="IMG_20190209_092113.jpg">
 **Figure 2:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank.
 
@@ -52,6 +54,7 @@ The system was tested with red dye in place of PACl and water to determine the e
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
 
 It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass.
+
 <img src="PACl vs height.PNG">
 
 **Figure 3:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
