@@ -34,44 +34,42 @@ Polyethylene containers, rather than glassware, should be used, as fluoride can 
 
 
 ## Methods
-<!---Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
-
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".-->
-
 ### Experimental Apparatus
-<!---Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
+The gravity-powered apparatus was constructed as according to the fabrication manual in the Fluoride Gravity Fall 2018 report.
 
-* Design (calculations, constraints):
-  * Use LaTeX to format equations in line ($\frac{-b\pm\sqrt{b^2-4ac}}{2a}$) or centered:
+Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator.
+<img src="IMG_20190209_092106.jpg">
+**Figure 1:** New connection linking the fluoride constant head tank with the flocculator.
 
-  \[\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
+In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
+<img src="IMG_20190209_092113.jpg">
+**Figure 2:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank.
 
-* Schematic (label parts)
-  <p align="center">
-    <img src="/Images/Example Schematic.png" height=300>
-  </p>
+The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
 
-  <p align="center">
-    Figure 1. Above is an example schematic drawing of the Summer 2018 High Rate Sedimentation apparatus. It is labeled with components, flow paths, sensors, and reactor geometry.
-  </p>
+### Determining the Effectiveness of New System
+#### Determining Coagulant Flow Rate
+The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
 
-* Image (from lab, label parts)
-  <p align="center">
-    <img src="/Images/Example Lab Image.JPG" height=300>
-  </p>
-  <p align="center">
-    Figure 2. Any photos taken in the lab should be clearly labeled and captioned as well.
-  </p>
+It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass.
+<img src="PACl vs height.PNG">
 
-* Materials (manufacturer, dimensions, and other specifications)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described-->
+**Figure 3:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
 
-<!---### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?-->
+The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system.
 
-## Results and Analysis
-<!---Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
+#### Determining Binding of PACl
+The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
+
+The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
+
+
+
+
+
+
+<!---## Results and Analysis
+Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
 In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
 
 When describing your results, present your data, using the guidelines below:
