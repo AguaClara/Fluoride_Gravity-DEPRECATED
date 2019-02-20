@@ -9,19 +9,19 @@
 <!---Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?-->
 
 ## Literature Review
-###Interaction between Polymeric Aluminum Hydroxide with Fluoride
+### Interaction between Polymeric Aluminum Hydroxide with Fluoride
 When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, form mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride leads to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH is less than 4, the predominant fluorocomplex is AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations is between 0.5 and 1, fluoride is observed to precipitate, replacing some of the hydroxide ions ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration is greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0,7, and a pH between 4 and 7.
 
-###Mechanisms Governing Removal of Fluoride
+### Mechanisms Governing Removal of Fluoride
 Of the potential mechanisms that may play a role in the removal of fluoride with polyaluminum chloride, including surface adsorption, coprecipitation, and precipitation, it appears that coprecipitation is the main mechanism [(Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Coprecipitation is the contamination of a precipitate by an impurity that is otherwise soluble under the conditions of precipitation [(Randtke in Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Occlusion and surface adsorption play major roles in this process.
 
-###Interactions Among Fluoride, NOM, and Alum During Coagulation Process
+### Interactions Among Fluoride, NOM, and Alum During Coagulation Process
 Experimental results from jar tests illuminate mechanisms of behind fluoroaluminum complexation [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). When fluoride was present in the system with alum, the residual aluminum increased significantly, indicating that fluoride is likely forming a soluble fluoroaluminum complex. In the removal of fluoride, NOM caused a decrease in fluoride removal  from 50.1% to 45.8%, whereas NOM removal was inhibited by the presence of fluoride, indicated that it is likely outcompeting NOM for complexation with aluminum or adsorption to aluminum solids. In the precipitation of aluminum with fluoride, the particles are concentrated at smaller particle diameters, perhaps suggesting that fluoride may be inhibiting flocculation by acting as a stabilizing agent or by inhibiting precipitation. It is hypothesized that fluoride prevents the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It is also hypothesized that, due to the way that fluoride can replace hydroxide in solids (Hao and Huang in [Herrboldt, 2016](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)), the formation of aluminum hydroxide complexes is disrupted.
 
-###pH Dependence of Fluoride Removal
+### pH Dependence of Fluoride Removal
 In a study by Gong et al. (2012), fluoroaluminum complexation was found to exhibit pH dependence. At pH values less than 5.0, almost all fluoride existed as fluoro-aluminum complexes, inhibiting its removal by coagulation. At pH levels greater than 8.0, fluoride almost exclusively as free fluoride, indicating that hydroxide has a greater affinity for aluminum at a higher pH [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1).
 
-###Collection and Analysis of Fluoride samples
+### Collection and Analysis of Fluoride samples
 An Ion-Selective Electrode (ISE) fluoride probe is used to measure the fluoride concentration of a sample. The following quality-control procedures should be followed.
 
 ISE fluoride probes can only detect solubilized fluoride, and would give inaccurate readings in the presence of Fe3+ and Al3+, such as in cases where polyaluminum chloride is added to the system. Total Ionic Strength Adjusting Buffer (TISAB) solution is added to samples to solubilize the fluoride in the sample and keep the sample at a constant pH of 5-5.5. Temperature should be kept constant with less than a 1 degree Celsius deviation [(EPA Method 9214)](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf).
@@ -29,7 +29,7 @@ ISE fluoride probes can only detect solubilized fluoride, and would give inaccur
 Polyethylene containers, rather than glassware, should be used, as fluoride can adsorb to glass. An Initial Calibration Verification standard and a Continuing Calibration Verification standard should also be used, consisting of solutions of known fluoride concentration within the mean expected fluoride concentration that should be tested. The ICV should be used to test the accuracy of the calibration curve and the CCV should be sued after every 10 samples to ensure that the fluoride probe has not drifted from the calibration curve. These controls should be within 10% of their known values. A control blank containing one part water and one part TISAB should also be used to enhance the accuracy of data in future experiments.
 
 
-##Previous Work
+## Previous Work
 <!---Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication. [(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)-->
 
 
