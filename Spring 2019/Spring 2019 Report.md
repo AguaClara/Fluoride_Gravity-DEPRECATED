@@ -61,7 +61,7 @@ It was hypothesized that the decoupled PACl system would exhibit the same linear
 
 **Figure 3:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
 
-The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system.
+The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Determining Binding of PACl
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
