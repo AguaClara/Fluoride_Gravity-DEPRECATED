@@ -40,11 +40,13 @@ The gravity-powered apparatus was constructed as according to the fabrication ma
 Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator.
 
 <img src="IMG_20190209_092106.jpg">
+
 **Figure 1:** New connection linking the fluoride constant head tank with the flocculator.
 
 In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
 
 <img src="IMG_20190209_092113.jpg">
+
 **Figure 2:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank.
 
 The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
