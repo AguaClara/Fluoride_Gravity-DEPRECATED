@@ -6,7 +6,12 @@
 <!---Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)-->
 
 ## Introduction
-<!---Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?-->
+AguaClara's mission of providing access to safe drinking water motivated new goals as the majority of the AguaClara purification plants are located in Central America, where the sources of surface water originate from rivers and lakes. By considering and analyzing the differences in drinking water collected from groundwater sources in other regions around the world, AguaClara can serve communities outside of Central America who are deprived of access to safe drinking water.
+ 
+At some locations where there is little to no fluoride in drinking water, fluoride is added in for the purpose of strengthening teeth and deteriorating natural deposits [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). However, there are detrimental consequences when there is a higher excess concentration of fluoride in the water being consumed by inhabitants in the area. For example, there has been moderate to high fluoride pollution in regions, such as Algeria, Thailand, Ghana, India, and Iran, whose major source of drinking water comes from groundwater sources due to the mobile dissolution of fluorite, apatite, and topaz from weathered rocks increasing the levels of fluoride in the groundwater [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). The effects of consuming excess fluoride include dental, skeletal, developmental, neurological, endocrine, reproductive, and carcinogenic issues that affect the health of the communities in areas of high fluoride concentrations [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). Therefore, the World Health Organization (WHO) regulated the concentration limit for fluoride in drinking water to be 1.5 mg/L [(Water-related diseases, 2016)](https://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/).
+In India, the Bureau of India Standards set an upper limit of fluoride concentrations in drinking water to be 1 mg/L [(Bureau of India Standards, 2012)](https://archive.org/details/gov.in.is.10500.2012). However, more than 65 million Indians consume drinking water above the recommended limit of 1.5 mg/L and some locations in India contain up to 20 mg/L, which are risking the health of many communities [(LeChevallier and Au, 2004)](https://www.who.int/water_sanitation_health/publications/9241562552/en/).
+ 
+AguaClara aspires to accord to the recommended limit of 1 mg/L or lower by the Bureau of India Standards and to implement the gravity-powered system of fluoride removal into the communities with excess concentrations of fluoride. The Fluoride Gravity team will be testing the gravity-powered apparatus with PACl and red dye substituted as fluoride to optimize the system of filtering fluoride out to 1 mg/L. If the gravity-powered fluoride removal apparatus operates in the optimal conditions of removing fluoride to a concentration of 1 mg/L, feasibility analysis on site will be performed to test whether the system can be used in the communities in India, which will allow AguaClara to provide access to safe drinking water in India and other locations that obtain water from groundwater sources. 
 
 ## Literature Review
 ### Interaction between Polymeric Aluminum Hydroxide with Fluoride
@@ -138,12 +143,24 @@ Make sure that you defend your conclusions with facts and results.-->
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
 
 ## Bibliography
-EPA Method 9214. (1996, December). Retrieved from https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf
+Bhattacharya, P., & Samal, A. (2018, April). Fluoride contamination in groundwater, soil and cultivated foodstuffs of
+India and its associated health risks: A Review. Research Journal of Recent Sciences, 7(4),36-47. Retrieved from http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf.
+Bureau of Indian Standards. (2012). IS 10500: Drinking water. Retrieved from https://archive.org/details/gov.in.is.10500.2012/page/n3.
 
-Gebbie, P. (2001). Using Polyaluminium Coagulants in Water Treatment. Retrieved from http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf
+EPA Method 9214. (1996, December). Retrieved from https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf.
+
+Gebbie, P. (2001). Using Polyaluminium Coagulants in Water Treatment. Retrieved from http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf.
 
 Herrboldt, J. P. (2016). Fluoride, Natural Organic Matter, and Particles: The Effect of Ligand Competition on the Size Distribution of Aluminum Precipitates in Flocculation. Retrieved from https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1.
 
 Kowalchuk, E. E. (2011). Selective Fluoride Removal by Aluminum Precipitation and Membrane Filtration. Retrieved from https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds.
 
-Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of polymeric aluminium hydroxide with fluoride. Canadian Journal of Chemistry, 64(1), 24-29. doi:10.1139/v86-006
+LeChevallier, M. W., & Au, K. (2014, December 10). Water treatment and pathogen control: Process efficiency in achieving safe drinking water. Retrieved from https://www.who.int/water_sanitation_health/publications/9241562552/en/.
+
+Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of polymeric aluminium hydroxide with fluoride. Canadian Journal of Chemistry, 64(1), 24-29. doi:10.1139/v86-006.
+
+United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf.
+
+World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
+
+
