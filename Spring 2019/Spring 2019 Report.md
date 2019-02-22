@@ -121,6 +121,8 @@ The red dye appeared to coagulate at the surface of the constant head tank. The 
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
 
 ## Bibliography
+Akpan, P., Mehrabyan, T,. Sausele, D., & Zhang, V. (2018). Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md.
+
 Bhattacharya, P., & Samal, A. (2018, April). Fluoride contamination in groundwater, soil and cultivated foodstuffs of
 India and its associated health risks: A Review. Research Journal of Recent Sciences, 7(4),36-47. Retrieved from http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf.
 Bureau of Indian Standards. (2012). IS 10500: Drinking water. Retrieved from https://archive.org/details/gov.in.is.10500.2012/page/n3.
@@ -134,6 +136,10 @@ Herrboldt, J. P. (2016). Fluoride, Natural Organic Matter, and Particles: The Ef
 Kowalchuk, E. E. (2011). Selective Fluoride Removal by Aluminum Precipitation and Membrane Filtration. Retrieved from https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds.
 
 LeChevallier, M. W., & Au, K. (2014, December 10). Water treatment and pathogen control: Process efficiency in achieving safe drinking water. Retrieved from https://www.who.int/water_sanitation_health/publications/9241562552/en/.
+
+Longo, A., Desai, D., & Dao, K. (2016). Fluoride Floc Blanket, Spring 2016. Retrieved from https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view.
+
+Pang, C., Sarmiento, K., & Tsang, C. (2018). Fluoride Gravity, Fall 2018. Retrieved from https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md.
 
 Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of polymeric aluminium hydroxide with fluoride. Canadian Journal of Chemistry, 64(1), 24-29. doi:10.1139/v86-006.
 
