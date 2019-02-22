@@ -3,15 +3,15 @@
 #### February 22, 2019
 
 ## Abstract
-<!---Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)-->
+Fluoride contamination of water is a significant issue within multiple developing nations like India, leading to adverse consequences on health (e.g. muscle weakness and atrophy, weakness, fatigue). The Fluoride Gravity Team’s objective is to develop a cost-effective, self-sufficient mechanism for extracting excess fluoride from drinking water. The Spring 2019 team hopes to further the gravity-powered system’s efficacy and potentially begin to run field-tests with the device. The application of such a device in real-world scenarios will be predicated upon success seen with the aforementioned field tests.
 
 ## Introduction
 AguaClara's mission of providing access to safe drinking water motivated new goals as the majority of the AguaClara purification plants are located in Central America, where the sources of surface water originate from rivers and lakes. By considering and analyzing the differences in drinking water collected from groundwater sources in other regions around the world, AguaClara can serve communities outside of Central America who are deprived of access to safe drinking water.
- 
+
 At some locations where there is little to no fluoride in drinking water, fluoride is added in for the purpose of strengthening teeth and deteriorating natural deposits [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). However, there are detrimental consequences when there is a higher excess concentration of fluoride in the water being consumed by inhabitants in the area. For example, there has been moderate to high fluoride pollution in regions, such as Algeria, Thailand, Ghana, India, and Iran, whose major source of drinking water comes from groundwater sources due to the mobile dissolution of fluorite, apatite, and topaz from weathered rocks increasing the levels of fluoride in the groundwater [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). The effects of consuming excess fluoride include dental, skeletal, developmental, neurological, endocrine, reproductive, and carcinogenic issues that affect the health of the communities in areas of high fluoride concentrations [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). Therefore, the World Health Organization (WHO) regulated the concentration limit for fluoride in drinking water to be 1.5 mg/L [(Water-related diseases, 2016)](https://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/).
 In India, the Bureau of India Standards set an upper limit of fluoride concentrations in drinking water to be 1 mg/L [(Bureau of India Standards, 2012)](https://archive.org/details/gov.in.is.10500.2012). However, more than 65 million Indians consume drinking water above the recommended limit of 1.5 mg/L and some locations in India contain up to 20 mg/L, which are risking the health of many communities [(LeChevallier and Au, 2004)](https://www.who.int/water_sanitation_health/publications/9241562552/en/).
- 
-AguaClara aspires to accord to the recommended limit of 1 mg/L or lower by the Bureau of India Standards and to implement the gravity-powered system of fluoride removal into the communities with excess concentrations of fluoride. The Fluoride Gravity team will be testing the gravity-powered apparatus with PACl and red dye substituted as fluoride to optimize the system of filtering fluoride out to 1 mg/L. If the gravity-powered fluoride removal apparatus operates in the optimal conditions of removing fluoride to a concentration of 1 mg/L, feasibility analysis on site will be performed to test whether the system can be used in the communities in India, which will allow AguaClara to provide access to safe drinking water in India and other locations that obtain water from groundwater sources. 
+
+AguaClara aspires to accord to the recommended limit of 1 mg/L or lower by the Bureau of India Standards and to implement the gravity-powered system of fluoride removal into the communities with excess concentrations of fluoride. The Fluoride Gravity team will be testing the gravity-powered apparatus with PACl and red dye substituted as fluoride to optimize the system of filtering fluoride out to 1 mg/L. If the gravity-powered fluoride removal apparatus operates in the optimal conditions of removing fluoride to a concentration of 1 mg/L, feasibility analysis on site will be performed to test whether the system can be used in the communities in India, which will allow AguaClara to provide access to safe drinking water in India and other locations that obtain water from groundwater sources.
 
 ## Literature Review
 ### Interaction between Polymeric Aluminum Hydroxide with Fluoride
@@ -31,11 +31,53 @@ An Ion-Selective Electrode (ISE) fluoride probe is used to measure the fluoride 
 
 ISE fluoride probes can only detect solubilized fluoride, and would give inaccurate readings in the presence of Fe3+ and Al3+, such as in cases where polyaluminum chloride is added to the system. Total Ionic Strength Adjusting Buffer (TISAB) solution is added to samples to solubilize the fluoride in the sample and keep the sample at a constant pH of 5-5.5. Temperature should be kept constant with less than a 1 degree Celsius deviation [(EPA Method 9214)](https://www.epa.gov/sites/production/files/2015-12/documents/9214.pdf).
 
-Polyethylene containers, rather than glassware, should be used, as fluoride can adsorb to glass. An Initial Calibration Verification standard and a Continuing Calibration Verification standard should also be used, consisting of solutions of known fluoride concentration within the mean expected fluoride concentration that should be tested. The ICV should be used to test the accuracy of the calibration curve and the CCV should be sued after every 10 samples to ensure that the fluoride probe has not drifted from the calibration curve. These controls should be within 10% of their known values. A control blank containing one part water and one part TISAB should also be used to enhance the accuracy of data in future experiments.
+Polyethylene containers, instead of glassware, should be used, since fluoride can adsorb to glass. An Initial Calibration Verification standard and a Continuing Calibration Verification standard should also be used, consisting of solutions of known fluoride concentration within the mean expected fluoride concentration that should be tested. The ICV should be used to test the accuracy of the calibration curve and the CCV should be sued after every 10 samples to ensure that the fluoride probe has not drifted from the calibration curve. These controls should be within 10% of their known values. A control blank containing one part water and one part TISAB should also be used to enhance the accuracy of data in future experiments.
 
 
 ## Previous Work
-<!---Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication. [(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)-->
+A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed filtration system using PACl and red dye as coagulants.
+
+The Spring 2016 team continued to develop a more efficient filtration system by testing coagulants like clay and PACl [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as effective in coagulation as PACl. [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 $\mathrm{\frac{mm}{s}}$ [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
+
+<img src="Fit with Langmuir Isotherm.png">
+
+**Figure 1:** A Langmuir Adsorption Model fitting data from trials conducted by Fall 2017 team.
+
+The 2018 cycle of teams managed to focus on developing a robust, gravity-powered filtration system [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md).
+
+<img src="Schematic.PNG">
+
+**Figure 2:** A schematic for the gravity-powered system with differences in height generated power.
+
+Some of the major designs of the model were created by the Spring 2018 team, and focused on deploying float valves to maintain a constant amount of water flowing through the system. Since the concentration of the PACl solution remained constant in the stock tank, a calculation of flow rate provided insight into the concentration of PACl actually entering in the system [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
+
+The Summer 2018 team furthered the flexibility of the filtration system by including sliders for controlling height differences between different tanks and pipes. This provided the ability for teams to adjust the flow rate within the system.
+
+<img src="Diagram.PNG">
+
+**Figure 3:** Adjustments made by the Summer 2018 team to the set-up to allow for height variations.
+
+The Summer 2018 team continued to conduct tests on varying PACl concentrations and fitted new data to the Langmuir adsorption spectrum created by the Fall 2017 team. Concentrations of fluoride (range: 3 to 20 mg/L) and PACl (range: 10 to 50 mg/L) were tested. A Langmuir isotherm was applied to the data to obtain a new uptake vs effluent model [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
+
+The following equation was used:
+ $$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{K_L\cdot q_m} $$
+
+where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
+
+The Summer 2018 team continued to conduct tests on varying PACl concentrations and fitted new data to the Langmuir adsorption spectrum created by the Fall 2017 team. Concentrations of fluoride (range: 3 to 20 mg/L) and PACl (range: 10 to 50 mg/L) were tested. A Langmuir isotherm was applied to the data to obtain a new uptake vs effluent model (Pang, 2018).
+
+The following equation was used:
+ $$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{K_L\cdot q_m} $$
+
+where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
+
+<img src="Fit with Langmuir Isotherm 2018.PNG">
+
+**Figure 4:** A Langmuir isotherm fitted with data from the Summer 2018 team.
+
+In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) worked to make the gravity-powered apparatus more efficient, and [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) spearheaded the development of an adsorption model by running more bench experiments [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
+
+Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the filtration system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
 
 ## Methods
@@ -74,70 +116,6 @@ The strong correlation implies that the relationship in the decoupled system ope
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
-<!---Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-
-```python
-import aguaclara.research.procoda_parser as pp
-import matplotlib.pyplot as plt
-import numpy as np
-
-time, influent_turbidity, effluent_turbidity = pp.get_data_by_time(
-      path="Data", columns=[0, 3, 4], start_date="6-14-2018",
-      start_time="15:40", end_time="23:30")
-elapsed_time = (np.array(time)-time[0])*24
-
-fig, ax1 = plt.subplots()
-ax1.set_xlabel("Time (hours)")
-ax1.set_ylabel("Effluent Turbidity (NTU)")
-line1, = ax1.plot(elapsed_time, effluent_turbidity, color="blue")
-
-ax2 = ax1.twinx()
-ax2.set_ylabel("Influent Turbidity (NTU)")
-ax2.set_ylim(60,120)
-line2, = ax2.plot(elapsed_time, influent_turbidity, color="green")
-
-plt.legend((line1, line2), ("Effluent", "Influent"))
-plt.savefig("Turbidity.png")
-```
-<p align="center">
-  <img src="/Images/Turbidity.png">
-</p>
-<p align="center">
-  Figure 3. Descriptive captions are very important for figures. Rather than including a title above your figure, write a caption below.
-</p>
-
-### Figure requirements
- - Create the graph using python (not Excel)
- - If the x axis is time then make zero time reflect the beginning of the test.
- - Use a white background for all graphs.
- - Most data will have both x and y values and thus should be presented using an xy scatter plot.
- - Label all axes and include units where appropriate.
- - Axis scale labels should be in the margin of the graph and not inside the graph border.
- - Eliminate parts of the range in both x and y axis that aren't used or that aren't meaningful.
- - Place a caption with a brief description below the graph. Add this caption using the wiki formatting, not in your graphing software.
- - Use data symbols to show data points unless there is so much data that the symbols overlap. If the data symbols overlap it is better to connect the data points with a line and not show the data symbols.
- - When presenting multiple plots on a single graph make sure that it is easy to distinguish the plots using the legend.
- - If curve fitting is used explain why and include the equation (elsewhere in the report).
- - If a model or theoretical curve is presented it should be a smooth curve without data points.
- - Use the same font in the graphs as you use in the text of the report.
- - Insert the graph in your report after the first reference to it in the text. Inserted the graph after the next paragraph break
- - Scale the size of the graph so it is large enough to see the data and read the text without having to follow a link to see a larger image. Avoid using hyperlinks on images because that causes the export to Microsoft Word option to not include the image.
-
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?-->
-
-## Conclusions
-<!---Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.-->
 
 ## Future Work
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
@@ -162,5 +140,3 @@ Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of poly
 United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf.
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
-
-
