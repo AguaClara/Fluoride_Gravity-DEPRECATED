@@ -118,7 +118,7 @@ The system was run in reverse, with red dye run through the PACl system to deter
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
 
-## Future Work
+<!--## Future Work
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
 
 ## Bibliography
