@@ -136,7 +136,7 @@ The red dye appeared to coagulate at the surface of the constant head tank. The 
 <!--## Future Work
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
 
-**[Hey team! Great start. I think the Lit Review section can get a bit dense, so try to go back to see if there are parts that you can improve and focus on making sure the logic of your points flow well. There seemed to be some confusion in your Previous Work section, so just make sure to follow up with Tigran and clear that up. Good use of figures, but could be improved. Please address my and Tigran comments for the next report and you should be good to go! Excited to see your work progress through the semester 😃]**
+**[Hey team! Great start. I think the Lit Review section can get a bit dense, so try to go back to see if there are parts that you can improve and focus on making sure the logic of your points flow well. There seemed to be some confusion in your Previous Work section, so just make sure to follow up with Tigran and clear that up. Good use of figures, but could be improved. Also, do not restart numbering of figures as Tigran mentioned. Please address my and Tigran comments for the next report and you should be good to go! Excited to see your work progress through the semester 😃]**
 
 ## Bibliography
 Akpan, P., Mehrabyan, T,. Sausele, D., & Zhang, V. (2018). Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md.
