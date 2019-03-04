@@ -70,7 +70,7 @@ The Summer 2018 team furthered the flexibility of the filtration system by inclu
 
 <img src="Diagram.PNG">
 
-**Figure 3:** Adjustments made by the Summer 2018 team to the set-up to allow for height variations.
+**Figure 3:** Adjustments made by the Summer 2018 team to the set-up to allow for height variations. **[Great use of figure here! I like how everything is clearly labeled.]**
 
 The Summer 2018 team continued to conduct tests on varying PACl concentrations and fitted new data to the Langmuir adsorption spectrum created by the Fall 2017 team. Concentrations of fluoride (range: 3 to 20 mg/L) and PACl (range: 10 to 50 mg/L) were tested. A Langmuir isotherm was applied to the data to obtain a new uptake vs effluent model [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
