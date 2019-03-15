@@ -125,7 +125,7 @@ The overall set up of the current system is shown in Figure 5.
 #### Coagulant Introduction and Fluoride Constant Head Tank Size Reduction
 The principal reason for modifying the method by which coagulant (PACl) was introduced into the system was the inefficiency of the IV drip chamber system set up by the Fall 2018 team (Figure 6).
 
-<img src="IV Drip.png">
+<img src="IV drip.png">
 
 **Figure 6:** The IV drip system that was implemented by Fall 2018 team. IV drip chamber was connected to coagulant constant head tank and flowed into flocculator
 
