@@ -146,13 +146,19 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 #### Volumetric Method: Second Redesign of System
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 7.9*10^(-4) mL*s^-1*cm^-1, demonstrating the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised. 
+
 
 <img src="PACl vs height volume.PNG">
 
 **Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 1.28*10^(-3) mL*s^-1*cm^-1, which demonstrates the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised. 
+
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Comparison Between Gravimetric Method and Volumetric Method
+
 The value of the coefficient of determination, $R^2$, was lower in the volumetric analysis graph than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. However, the mass balance's accuracy was confined to the hundredths place, which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
