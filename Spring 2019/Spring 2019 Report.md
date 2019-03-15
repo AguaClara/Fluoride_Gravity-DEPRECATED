@@ -14,7 +14,7 @@ Fluoride contamination of water is a significant issue faced by nations and peop
 
 
 ## Introduction
-AguaClara's mission of providing access to safe drinking water has motivated new goals as the majority of the AguaClara purification plants are located in Central America, where the sources of surface water originate from rivers and lakes **[I don't think we have any plants where their source is a lake... we focus on rivers and streams from mountains. Also, consider switching the ordering of your sentence to allow the paragraph to flow better. I.e. start with saying that the majority of AguaClara plants are in Central America and then mention that AguaClara's mission of providing access to safe drinking water for all has motivated us to expand and develop new goals.]**. By considering and analyzing the differences in drinking water collected from groundwater sources in other regions around the world, AguaClara can serve communities outside of Central America who are deprived of access to safe drinking water.
+The majority of AguaClara plants are located in Central America, where the sources of surface water originate from rivers and mountain streams. AguaClara's mission of providing access to safe drinking water for all has motivated the AguaClara team to expand and develop new goals **[I don't think we have any plants where their source is a lake... we focus on rivers and streams from mountains. Also, consider switching the ordering of your sentence to allow the paragraph to flow better. I.e. start with saying that the majority of AguaClara plants are in Central America and then mention that AguaClara's mission of providing access to safe drinking water for all has motivated us to expand and develop new goals.RESOLVED]**. By considering and analyzing the differences in drinking water collected from groundwater sources in other regions around the world, AguaClara can serve communities outside of Central America who are deprived of access to safe drinking water.
 
 At some locations where there is little to no fluoride in drinking water, fluoride is added in for the purpose of strengthening teeth and deteriorating natural deposits [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). However, there are detrimental consequences when there is an excess concentration of fluoride in the water being consumed by inhabitants in the area. For example, there has been moderate to high fluoride pollution in regions such as Algeria, Thailand, Ghana, India, and Iran, whose major source of drinking water comes from groundwater sources. The pollution of groundwater in these regions is due to the mobile dissolution of fluorite, apatite, and topaz from weathered rocks, increasing the levels of fluoride in the groundwater [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). The effects of consuming excess fluoride include dental, skeletal, developmental, neurological, endocrine, reproductive, and carcinogenic issues that affect the health of the communities in areas of high fluoride concentrations [(Bhattacharya and Samal, 2018)](http://www.isca.in/rjrs/archive/v7/i4/6.ISCA-RJRS-2018-028.pdf). Therefore, the World Health Organization (WHO) regulated the concentration limit for fluoride in drinking water to be 1.5 mg/L [(Water-related diseases, 2016)](https://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/).
 
@@ -106,13 +106,13 @@ Several changes were made to optimize the ease of use of the apparatus. The IV d
 
 <img src="IMG_20190209_092106.jpg">
 
-**Figure 1:** New connection linking the fluoride constant head tank with the flocculator. **[Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
+**Figure 5:** New connection linking the fluoride constant head tank with the flocculator. **[Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
 
 In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
 
 <img src="IMG_20190209_092113.jpg">
 
-**Figure 2:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **[The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
+**Figure 6:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **[The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
 
 The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
 
@@ -121,14 +121,31 @@ The system was tested with red dye in place of PACl and water to determine the e
 ### Determining the Effectiveness of New System
 #### Determining Coagulant Flow Rate
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
+It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
-It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass.
+##### Gravimetric Method
+ The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
 
 <img src="PACl vs height.PNG">
 
-**Figure 3:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
+**Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.RESOLVED]**
 
-The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
+##### Volumetric Method
+
+Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
+
+<img src = "PACl Flow Rate vs. Height Volumetric.JPG">
+
+**Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+
+The strong correlations using the two different methods in determining the flow rate of PACl entering the fluoride system implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
+
+##### Comparison Between Gravimetric Method and Volumetric Method
+
+The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method is more accurate due to using ProCoDa and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually.
+
+The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
+
 
 #### Determining Binding of PACl
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
