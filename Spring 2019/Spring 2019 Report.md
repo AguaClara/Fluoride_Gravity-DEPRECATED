@@ -62,7 +62,7 @@ A coagulant-sedimentation system was developed to extract fluoride from contamin
 The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay **[Clay is not a coagulant.] [Define your acronyms. i.e. polyaluminum chloride (PACl)]** [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system. **[Clay is not a coagulant... it cannot be compared to PACl. You might benefit from talking to Tigran about this to clear up any confusion.]** [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
 
 
-<img src="Fit with Langmuir Isotherm.png">
+<img src="Fit with Langmuir Isotherm.PNG">
 
 **Figure 1:** A Langmuir Adsorption Model fitting data from trials conducted by Fall 2017 team.
 
