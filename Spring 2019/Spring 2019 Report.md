@@ -211,6 +211,11 @@ The system was run in reverse, with red dye run through the PACl system to deter
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
 
+#### Determining Binding of PACl: Second Redesign of System
+The system was run in the correct orientation, with the red dye run through the fluoride tanks and PACl run through the PACl stock tanks. The PACl stock concentration was 1000 mg/L. The system was run at an upflow velocity of 0.48 mL/s.
+
+The red dye was able to bind with PACl in the flocculator, allowing for successful flocculation.
+
 ### Conditions for Flocculation
 In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
 
