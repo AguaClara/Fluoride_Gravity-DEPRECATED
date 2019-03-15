@@ -137,15 +137,15 @@ This was compared to a solution of red dye-PACl flocs collected directly from th
 #### Determining Coagulant Flow Rate
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate). It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
-#### Gravimetric Method
-The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
+#### Gravimetric Method: First Redesign of System
+The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the first redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
 
 <img src="PACl vs height gravity.PNG">
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
-#### Volumetric Method
-Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
+#### Volumetric Method: Second Redesign of System
+Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
 
 <img src="PACl vs height volume.PNG">
 
@@ -153,7 +153,7 @@ Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluorid
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. However, the mass balance's accuracy was confined to the hundredths place(?) which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance.
+The value of the coefficient of determination, $R^2$, was lower in the volumetric analysis graph than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. However, the mass balance's accuracy was confined to the hundredths place, which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
@@ -175,7 +175,30 @@ The implications of this result are the following:
 The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
 The system was sensitive to minute changes in the effluent velocity, indicating that there was a narrow optimal range with which the system was able to properly function.
 
-The ideal concentrations of PACl was thought to be modelled by the Python program in [location]. In the second redesign of the experiment, the Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm. Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 10).
+The ideal concentrations of PACl was thought to be modelled by the following Python program:
+```python
+import math as m
+import numpy as np
+from aguaclara.play import*
+#Input your concentrations you want your system to run at and the upflow velocity in your sed tube
+Conc_PACl_exp = 40 * (u.milligram / u.liter)#PACl concentration in your experiment
+upflow_velocity = 1.5 * (u.millimeter / u.second)
+#Change the above parameters for what you want in your experiment
+#Input your concentrations of your stock tanks
+Conc_PACl_stock = 1000 * (u.milligram / u.liter)
+Conc_fluoride_stock = 100 * (u.milligram / u.liter)
+
+D_sed_tube = 1*u.inch
+Area_sed_tube = np.pi*(D_sed_tube**2)/4
+Q_system = Area_sed_tube * upflow_velocity
+Q_system.to(u.milliliter/u.second)
+Q_PACl = (Q_system * Conc_PACl_exp / Conc_PACl_stock).to(u.milliliter/u.second)
+print(Q_PACl)
+Q_fluoride = (Q_system-Q_PACl)
+conc_fluoride_exp = Conc_fluoride_stock * Q_fluoride / Q_system
+print(conc_fluoride_exp)
+```
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 8). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 10).
 
 <img src="floc 310.gif">
 
