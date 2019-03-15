@@ -123,14 +123,14 @@ The system was tested with red dye in place of PACl and water to determine the e
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
 It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
-##### Gravimetric Method
- The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
+#### Gravimetric Method
+ The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
 
 <img src="PACl vs height.PNG">
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.RESOLVED]**
 
-##### Volumetric Method
+#### Volumetric Method
 
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
 
@@ -140,9 +140,9 @@ Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluorid
 
 The strong correlations using the two different methods in determining the flow rate of PACl entering the fluoride system implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
-##### Comparison Between Gravimetric Method and Volumetric Method
+#### Comparison Between Gravimetric Method and Volumetric Method
 
-The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method is more accurate due to using ProCoDa and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually.
+The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. 
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
