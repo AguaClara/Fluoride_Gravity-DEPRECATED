@@ -142,7 +142,7 @@ The strong correlations using the two different methods in determining the flow 
 
 #### Comparison Between Gravimetric Method and Volumetric Method
 
-The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. 
+The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. However, the mass balance's accuracy was confined to the hundredths place(?) which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
