@@ -145,6 +145,9 @@ The system was run in reverse, with red dye run through the PACl system to deter
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
 
+#### Gravimetric and Volumetric analysis
+The value of the coefficient of determination, R^2, was lower in the volumetric analysis graph than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. 
+
 ### Conditions for Flocculation
 In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
 
