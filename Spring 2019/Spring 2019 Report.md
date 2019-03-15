@@ -106,15 +106,15 @@ The gravity-powered apparatus was constructed as according to the fabrication ma
 
 Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator.
 
-<img src="IMG_20190209_092106.jpg">
+<img src="IMG_20190209_092106.png">
 
-**Figure 5:** New connection linking the fluoride constant head tank with the flocculator. **[Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
+**Figure 5:** New connection linking the fluoride constant head tank with the flocculator. **RESOLVED: [Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
 
 In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
 
-<img src="IMG_20190209_092113.jpg">
+<img src="IMG_20190209_092113.png">
 
-**Figure 6:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **[The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
+**Figure 6:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **RESOLVED: [The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
 
 The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
 
@@ -125,18 +125,18 @@ To test whether this result was specific to mechanics of flocculation that could
 
 Plastic beakers with 420 microliters of PACl was mixed with 400 milliliters of red dye in 400 mL of water. The solution was stirred using a stir bar for 15 minutes before leaving the solution to settle.
 
-This was compared to a solution of bound red dye with PACl directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 milliliters of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
+This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 milliliters of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
 ## Results and Analysis
 ### Determining the Effectiveness of New System
 #### Determining Coagulant Flow Rate
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate).
 
-It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDa to measure the change in mass.
+It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. The change in mass was measured from a balance connected to ProCoda. This was then converted to volumetric flow rate. The relationship between flow rate and height was determined in Figure 7.
 
 <img src="PACl vs height.PNG">
 
-**Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
+**Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
