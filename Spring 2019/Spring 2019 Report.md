@@ -25,8 +25,6 @@ AguaClara aspires to achieve the recommended limit of 1 mg/L or lower by the Bur
 
 **[Great Intro! Sums up your purpose very well.]**
 
-
-
 ## Literature Review
 ### Interaction between Polymeric Aluminum Hydroxide with Fluoride
 When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, formed mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride led to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH was less than 4, the predominant fluorocomplex was AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations was between 0.5 and 1, fluoride was observed to precipitate, replacing some of the hydroxide ions ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration was greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0,7, and a pH between 4 and 7.
@@ -144,26 +142,25 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 7.9*10^(-4) mL*s^-1*cm^-1, demonstrating the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised.
+
 #### Volumetric Method: Second Redesign of System
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
-The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 7.9*10^(-4) mL*s^-1*cm^-1, demonstrating the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised. 
-
 
 <img src="PACl vs height volume.PNG">
 
-**Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+*Figure 8:* The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
-The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 1.28*10^(-3) mL*s^-1*cm^-1, which demonstrates the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised. 
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 1.28*10^(-3) mL*s^-1*cm^-1, which demonstrates the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised.
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-
-The value of the coefficient of determination, $R^2$, was lower in the volumetric analysis graph than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the gravimetric method's data is more accurate due to using ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually. However, the mass balance's accuracy was confined to the hundredths place, which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance.
+The value of the coefficient of determination, R^2, was higher in the volumetric analysis graph (Figure 😎 than the R^2 value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 7). Therefore, the volumetric method's data is more accurate due the mass balance's accuracy was confined to the hundredths place which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
-#### Determining Binding of PACl
+#### Determining Binding of PACl: First Redesign of System
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
