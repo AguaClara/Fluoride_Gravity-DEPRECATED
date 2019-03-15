@@ -26,13 +26,17 @@ AguaClara aspires to achieve the recommended limit of 1 mg/L or lower by the Bur
 
 ## Literature Review
 ### Interaction between Polymeric Aluminum Hydroxide with Fluoride
-When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, form mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride leads to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH is less than 4, the predominant fluorocomplex is AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations is between 0.5 and 1, fluoride is observed to precipitate, replacing some of the hydroxide ions ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration is greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0,7, and a pH between 4 and 7.
+When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, formed mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride led to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH was less than 4, the predominant fluorocomplex was AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations was between 0.5 and 1, fluoride was observed to precipitate, replacing some of the hydroxide ions ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration was greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0,7, and a pH between 4 and 7.
+
 
 ### Mechanisms Governing Removal of Fluoride
-Of the potential mechanisms that may play a role in the removal of fluoride with polyaluminum chloride, including surface adsorption, coprecipitation, and precipitation, it appears that coprecipitation is the main mechanism [(Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Coprecipitation is the contamination of a precipitate by an impurity that is otherwise soluble under the conditions of precipitation [(Randtke in Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Occlusion and surface adsorption play major roles in this process.
+Of the potential mechanisms that may play a role in the removal of fluoride with polyaluminum chloride, including surface adsorption, coprecipitation, and precipitation, it appeared that coprecipitation is the main mechanism [(Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Coprecipitation is the contamination of a precipitate by an impurity that is otherwise soluble under the conditions of precipitation [(Randtke in Kowalchuk, 2011)](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1059&context=ce_etds). Occlusion and surface adsorption played major roles in this process.
 
 ### Interactions Among Fluoride, NOM, and Alum During Coagulation Process
-Experimental results from jar tests illuminate mechanisms of behind fluoroaluminum complexation [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). When fluoride was present in the system with alum, the residual aluminum increased significantly, indicating that fluoride is likely forming a soluble fluoroaluminum complex. In the removal of fluoride, NOM **[What is NOM? Define the terms that you use.]** caused a decrease in fluoride removal  from 50.1% to 45.8%, whereas NOM removal was inhibited by the presence of fluoride, indicated that it is likely outcompeting NOM for complexation with aluminum or adsorption to aluminum solids. In the precipitation of aluminum with fluoride, the particles are concentrated at smaller particle diameters, perhaps suggesting that fluoride may be inhibiting flocculation by acting as a stabilizing agent or by inhibiting precipitation. **[How does this inhibit flocculation? I am having a hard time following.]** It is hypothesized that fluoride prevents the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It is also hypothesized that, due to the way that fluoride can replace hydroxide in solids (Hao and Huang in [Herrboldt, 2016](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1)) **[Wrong way of using citation?? just say Herrboldt, 2016]**, the formation of aluminum hydroxide complexes is disrupted.
+Experimental results from jar tests illuminated mechanisms of behind fluoroaluminum complexation [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). When fluoride was present in the system with alum, the residual aluminum increased significantly, indicating that fluoride is likely forming a soluble fluoroaluminum complex. In the removal of fluoride, the presence of natural organic matter (NOM) caused a small decrease in fluoride removal from 50.1% to 45.8%, whereas NOM removal was greatly inhibited by the presence of fluoride [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1).  **RESOLVED: [What is NOM? Define the terms that you use.]** This indicates that in the removal of fluoride, fluoride was likely outcompeting NOM for complexation with aluminum or adsorption to aluminum solids.
+
+**RESOLVED:[How does this inhibit flocculation? I am having a hard time following.]** In the precipitation of aluminum with fluoride, fluoride was predicted to act in the following manner: since fluoride is a negatively charged species, fluoride must overcome the negative charge repulsion between particles in order to allow for aggregation. In the precipitation of fluoride with aluminum, the disruption of charges due to the negative repulsion stops collisions and ultimately causes particles to be concentrated at smaller particle diameters [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). In this manner, fluoride may inhibit the aggregation of flocs by acting as a stabilizing agent or by inhibiting precipitation. It was hypothesized that fluoride prevents the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It was also hypothesized that, due to the way that fluoride can replace hydroxide in solids , the formation of aluminum hydroxide complexes is disrupted.
+**RESOLVED: [Wrong way of using citation?? just say Herrboldt, 2016]**
 
 **[Please write more clearly. It is very difficult for me to follow the logic of this section.]**
 
@@ -104,16 +108,24 @@ Several changes were made to optimize the ease of use of the apparatus. The IV d
 
 <img src="IMG_20190209_092106.jpg">
 
-**Figure 1:** New connection linking the fluoride constant head tank with the flocculator. **[Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
+**Figure 5:** New connection linking the fluoride constant head tank with the flocculator. **[Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
 
 In place of the IV drip chamber, microbore tubing connected to the PACl constant head tank was used to drip PACl directly in the fluoride constant head tank at a constant rate, mixing with the fluoride and beginning the coagulation process. This change allowed the PACl and fluoride systems to become decoupled.
 
 <img src="IMG_20190209_092113.jpg">
 
-**Figure 2:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **[The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
+**Figure 6:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **[The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]**
 
 The system was tested with red dye in place of PACl and water to determine the extent of mixing, and it was observed that the fluoride constant head tank became a homogenous red mixture, coloring the waste line red as well, implying that the dye was able to be well mixed in the fluoride constant head tank under this new construct.
 
+### Jar Tests
+In previous runs of the second redesign of the gravity powered system, it was observed that red dye particles continued to float through the sedimentation tube regardless of its upflow velocity. That is, even when the system was stopped, all of the red dye flocs floated to the top of the sedimentation tube.
+
+To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted, using a magnetic stirrer to rapidly mix the solution to increase collision rates.
+
+Plastic beakers with 420 microliters of PACl was mixed with 400 milliliters of red dye in 400 mL of water. The solution was stirred using a stir bar for 15 minutes before leaving the solution to settle.
+
+This was compared to a solution of bound red dye with PACl directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 milliliters of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
 ## Results and Analysis
 ### Determining the Effectiveness of New System
@@ -124,7 +136,7 @@ It was hypothesized that the decoupled PACl system would exhibit the same linear
 
 <img src="PACl vs height.PNG">
 
-**Figure 3:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
+**Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **[Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
@@ -132,6 +144,38 @@ The strong correlation implies that the relationship in the decoupled system ope
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
 The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
+
+### Conditions for Flocculation
+In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
+
+When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator.
+
+[video of flocculation]
+**Figure 8:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
+
+The implications of this result are the following:
+The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
+The system was sensitive to minute changes in the effluent velocity, indicating that there was a narrow optimal range with which the system was able to properly function.
+
+The ideal concentrations of PACl was thought to be modelled by the Python program in [location]. In the second redesign of the experiment, the Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm. Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs.
+
+[insert picture/gif]
+**Figure 9:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the system.
+
+However, more tests must be done to conclude whether the ideal experimental concentrations of PACl correspond with the determined concentrations of PACl modelled by the Python program, and how the concentration of PACl through the system and the effluent velocity work together to cause flocculation.
+
+### Jar Testing
+With the independently mixed solution, it was observed that the solution was first homogenous, but after some time, small particles similar to flocs were observed to form. When these flocs were allowed to settle, the majority of these flocs settled to the bottom, with only a small amount of flocs remaining on the surface of the water.
+
+On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking.
+
+When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
+
+[insert picture]
+**Figure 10:**
+
+This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It is hypothesized that a difference in pH may prevent mixing and the proper settling of flocs.
+
 
 <!--## Future Work
 <!---Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?-->
