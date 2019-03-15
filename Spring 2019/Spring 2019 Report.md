@@ -133,7 +133,7 @@ When the system would be run under the previous set-up, hydrostatic pressure fro
 
 As a result, the team focused on creating a more effective drip system for introducing PACl while also being able to monitor flow rate/the rate of introduction of PACl into the system.
 
-##### First Redesign
+#### First Redesign
 
 Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator (Figure 6).
 
@@ -149,7 +149,7 @@ The team decided to directly drip the coagulant into the fluoride constant head 
 
 However, two major problems were noted with this procedure. The first was coagulation began in the tank as a result of dripping PACl directly into the tank. This could risk failure of the system if the coagulation blocked the outflow from the fluoride constant head tank. The second problem was a non-homogenous mixture was formed within the constant head tank, resulting in lower flocculation.
 
-##### Second Redesign
+#### Second Redesign
 The team determined that a new mechanism was necessary for effectively introducing the PACl into the system, one that would allow for easy calculation of flow rate, prevent re-introduction of air within the system, and create essentially a homogenous solution flowing into the flocculator.
 
 As a result, the team decided that a T-junction could be used in between the outflow of the fluoride constant head tank and the flocculator. The third hole on the T-junction would be connected to a translucent pipe in which the PACl microtubing would drip the coagulant into (Figure 7).
