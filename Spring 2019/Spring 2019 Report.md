@@ -150,7 +150,8 @@ In the first redesign of the system in which the microbore tubing dripped direct
 
 When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator.
 
-[video of flocculation]
+<img src="floc 224.gif">
+
 **Figure 8:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
 
 The implications of this result are the following:
@@ -159,8 +160,9 @@ The system was sensitive to minute changes in the effluent velocity, indicating 
 
 The ideal concentrations of PACl was thought to be modelled by the Python program in [location]. In the second redesign of the experiment, the Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm. Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs.
 
-[insert picture/gif]
-**Figure 9:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the system.
+<img src="floc 310.gif">
+
+**Figure 9:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
 
 However, more tests must be done to conclude whether the ideal experimental concentrations of PACl correspond with the determined concentrations of PACl modelled by the Python program, and how the concentration of PACl through the system and the effluent velocity work together to cause flocculation.
 
@@ -169,10 +171,11 @@ With the independently mixed solution, it was observed that the solution was fir
 
 On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking.
 
-When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
+<img src="jar 310.gif">
 
-[insert picture]
-**Figure 10:**
+**Figure 10:** The mechanics of the red dye are shown. The beaker on the left contains the solution acquired after flocculation and the beaker on the right contains the solution created through rapid stirring.
+
+When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
 This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It is hypothesized that a difference in pH may prevent mixing and the proper settling of flocs.
 
