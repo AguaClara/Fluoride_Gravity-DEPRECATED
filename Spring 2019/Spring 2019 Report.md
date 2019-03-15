@@ -135,35 +135,35 @@ As a result, the team focused on creating a more effective drip system for intro
 
 #### First Redesign
 
-Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator (Figure 6).
+Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator (Figure 7).
 
 <img src="IMG_20190209_092106.png">
 
-**Figure 6:** New connection linking the fluoride constant head tank with the flocculator. **RESOLVED: [Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
+**Figure 7:** New connection linking the fluoride constant head tank with the flocculator. **RESOLVED: [Consider circling the fitting you are referring to in the figure in red to make it even clearer what connection you are talking about. This can be done on Google Drawings.]**
 
 The team decided to directly drip the coagulant into the fluoride constant head tank by taping the end of the microtubing to the side of the tank (Figure 7). However, given that the size of the actual constant head tank was too large for proper mixing of the coagulant to occur, the constant head tank was reduced to a smaller size to allow for better mixing of the coagulant in the actual fluoride solution.
 
 <img src="IMG_20190209_092113.png">
 
-**Figure 7:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **RESOLVED: [The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]***
+**Figure 8:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank. **RESOLVED: [The micro-tubing here is really hard to see. Same as previous comment, consider circling it in red.]***
 
 However, two major problems were noted with this procedure. The first was coagulation began in the tank as a result of dripping PACl directly into the tank. This could risk failure of the system if the coagulation blocked the outflow from the fluoride constant head tank. The second problem was a non-homogenous mixture was formed within the constant head tank, resulting in lower flocculation.
 
 #### Second Redesign
 The team determined that a new mechanism was necessary for effectively introducing the PACl into the system, one that would allow for easy calculation of flow rate, prevent re-introduction of air within the system, and create essentially a homogenous solution flowing into the flocculator.
 
-As a result, the team decided that a T-junction could be used in between the outflow of the fluoride constant head tank and the flocculator. The third hole on the T-junction would be connected to a translucent pipe in which the PACl microtubing would drip the coagulant into (Figure 7).
+As a result, the team decided that a T-junction could be used in between the outflow of the fluoride constant head tank and the flocculator. The third hole on the T-junction would be connected to a translucent pipe in which the PACl microtubing would drip the coagulant into (Figure 9).
 
 <img src="new drip.jpg">
 
-**Figure 7:** The system works by dropping PACl in to the solution flowing out of the system (towards the flocculator). Flow rate can be calculated by counting the volume of PACl dispensed in a certain period of time, producing a flow rate. Alternatively, the number of drops dispensed can be tracked by shining a light through the translucent tubing. The volume of one drop can be calculated, multiplied by the number of drops introduced in a time frame, and divided by the total time taken.
+**Figure 9:** The system works by dropping PACl in to the solution flowing out of the system (towards the flocculator). Flow rate can be calculated by counting the volume of PACl dispensed in a certain period of time, producing a flow rate. Alternatively, the number of drops dispensed can be tracked by shining a light through the translucent tubing. The volume of one drop can be calculated, multiplied by the number of drops introduced in a time frame, and divided by the total time taken.
 
 #### Increasing Flocculator Length
-The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed coils around the main cardboard cylinder approximately 40 times, and was constructed from 46 ft of tubing (Figure 8).
+The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed coils around the main cardboard cylinder approximately 40 times, and was constructed from 46 ft of tubing (Figure 10).
 
 <img src="flocculator.jpg">
 
-**Figure 8** The flocculator (lengthened) in the filtration system
+**Figure 10** The flocculator (lengthened) in the filtration system
 
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall filtration system.  
 
@@ -182,27 +182,27 @@ This was compared to a solution of red dye-PACl flocs collected directly from th
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate). It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
 #### Gravimetric Method: First Redesign of System
-The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the first redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 9).
+The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the first redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 11).
 
 <img src="PACl vs height gravity.PNG">
 
-**Figure 9:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
+**Figure 11:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1}*cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
 #### Volumetric Method: Second Redesign of System
-Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 10).
+Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 12).
 
 <img src="PACl vs height volume.PNG">
 
-**Figure 10:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+**Figure 12:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $1.28*10^{-3} mL*s^{-1}*cm^{-1}$, which demonstrates the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 8) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 9). Therefore, the volumetric method's data is more accurate due the mass balance's accuracy was confined to the hundredths place which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
+The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 12) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 11). Therefore, the volumetric method's data is more accurate due the mass balance's accuracy was confined to the hundredths place which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
@@ -214,11 +214,11 @@ The red dye appeared to coagulate at the surface of the constant head tank. The 
 ### Conditions for Flocculation
 In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
 
-When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator (Figure 11).
+When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator (Figure 13).
 
 <img src="floc 224.gif">
 
-**Figure 11:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
+**Figure 13:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
 
 The implications of this result are the following:
 The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
@@ -247,22 +247,22 @@ Q_fluoride = (Q_system-Q_PACl)
 conc_fluoride_exp = Conc_fluoride_stock * Q_fluoride / Q_system
 print(conc_fluoride_exp)
 ```
-In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 8). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 12).
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 12). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 14).
 
 <img src="floc 310.gif">
 
-**Figure 12:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
+**Figure 14:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
 
 However, more tests must be done to conclude whether the ideal experimental concentrations of PACl correspond with the determined concentrations of PACl modelled by the Python program, and how the concentration of PACl through the system and the effluent velocity work together to cause flocculation.
 
 ### Jar Testing
 With the independently mixed solution, it was observed that the solution was first homogenous, but after some time, small particles similar to flocs were observed to form. When these flocs were allowed to settle, the majority of these flocs settled to the bottom, with only a small amount of flocs remaining on the surface of the water.
 
-On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 13).
+On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 15).
 
 <img src="jar 310.gif">
 
-**Figure 13:** The mechanics of the red dye are shown. The beaker on the left contains the solution acquired after flocculation and the beaker on the right contains the solution created through rapid stirring.
+**Figure 15:** The mechanics of the red dye are shown. The beaker on the left contains the solution acquired after flocculation and the beaker on the right contains the solution created through rapid stirring.
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
