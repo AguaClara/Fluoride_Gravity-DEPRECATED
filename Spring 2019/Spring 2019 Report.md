@@ -1,6 +1,6 @@
 # Fluoride Gravity, Spring 2019
 #### Sarah Huang, Cindy Jin, Simar Kohli
-#### February 22, 2019
+#### March 15, 2019
 This publication Fluoride, Spring 2019 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Sarah Huang, Cindy Jin, and Simar Kohli and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
 
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
@@ -59,10 +59,10 @@ Polyethylene containers, instead of glassware, should be used, since fluoride ca
 ## Previous Work
 A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed filtration system using polyaluminum chloride (PACl) as a coagulant.
 
-The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay **[Clay is not a coagulant.] [Define your acronyms. i.e. polyaluminum chloride (PACl)]** [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system.. **[Clay is not a coagulant... it cannot be compared to PACl. You might benefit from talking to Tigran about this to clear up any confusion.]** [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 $\mathrm{\frac{mm}{s}}$ [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
+The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay **[Clay is not a coagulant.] [Define your acronyms. i.e. polyaluminum chloride (PACl)]** [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system. **[Clay is not a coagulant... it cannot be compared to PACl. You might benefit from talking to Tigran about this to clear up any confusion.]** [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang, 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
 
 
-<img src="Fit with Langmuir Isotherm.png">
+<img src="Fit with Langmuir Isotherm.PNG">
 
 **Figure 1:** A Langmuir Adsorption Model fitting data from trials conducted by Fall 2017 team.
 
@@ -140,14 +140,14 @@ The flow rate of PACl was determined to have a linear relationship with the heig
 #### Gravimetric Method
 The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
 
-<img src="PACl vs height.PNG">
+<img src="PACl vs height gravity.PNG">
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
 #### Volumetric Method
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
 
-[insert graph]
+<img src="PACl vs height volume.PNG">
 
 **Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
@@ -165,7 +165,7 @@ The red dye appeared to coagulate at the surface of the constant head tank. The 
 ### Conditions for Flocculation
 In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
 
-When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator.
+When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator (Figure 9).
 
 <img src="floc 224.gif">
 
@@ -175,7 +175,7 @@ The implications of this result are the following:
 The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
 The system was sensitive to minute changes in the effluent velocity, indicating that there was a narrow optimal range with which the system was able to properly function.
 
-The ideal concentrations of PACl was thought to be modelled by the Python program in [location]. In the second redesign of the experiment, the Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm. Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs.
+The ideal concentrations of PACl was thought to be modelled by the Python program in [location]. In the second redesign of the experiment, the Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm. Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 10).
 
 <img src="floc 310.gif">
 
@@ -186,7 +186,7 @@ However, more tests must be done to conclude whether the ideal experimental conc
 ### Jar Testing
 With the independently mixed solution, it was observed that the solution was first homogenous, but after some time, small particles similar to flocs were observed to form. When these flocs were allowed to settle, the majority of these flocs settled to the bottom, with only a small amount of flocs remaining on the surface of the water.
 
-On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking.
+On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 11).
 
 <img src="jar 310.gif">
 
