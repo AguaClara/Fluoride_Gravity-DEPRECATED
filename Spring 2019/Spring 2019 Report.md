@@ -140,14 +140,14 @@ The flow rate of PACl was determined to have a linear relationship with the heig
 #### Gravimetric Method
 The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 7).
 
-<img src="PACl vs height.PNG">
+<img src="PACl vs height gravity.PNG">
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
 #### Volumetric Method
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
 
-<img src="PACl Flow Rate vs. Height Volumetric.jpg">
+<img src="PACl vs height volume.PNG">
 
 **Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
