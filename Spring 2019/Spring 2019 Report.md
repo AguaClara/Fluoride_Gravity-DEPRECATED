@@ -142,16 +142,16 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 **Figure 7:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height. **RESOLVED: [Refer to your figure in the body of this section so that if someone is skimming through your report, they can easily pinpoint which figure goes with what information.]**
 
-The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 7.9*10^(-4) mL*s^-1*cm^-1, demonstrating the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised.
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1}*cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
 #### Volumetric Method: Second Redesign of System
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the second redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 8).
 
 <img src="PACl vs height volume.PNG">
 
-*Figure 8:* The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+**Figure 8:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
-The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be 1.28*10^(-3) mL*s^-1*cm^-1, which demonstrates the flow rate of PACl flowing into the fluoride system increases by 7.9*10^(-4) mL/s per cm of height difference raised.
+The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $1.28*10^{-3} mL*s^{-1}*cm^{-1}$, which demonstrates the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
