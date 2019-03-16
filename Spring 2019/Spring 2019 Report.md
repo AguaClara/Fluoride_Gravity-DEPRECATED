@@ -57,7 +57,7 @@ Polyethylene containers, instead of glassware, should be used, since fluoride ca
 ## Previous Work
 A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed filtration system using polyaluminum chloride (PACl) as a coagulant.
 
-The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay **[Clay is not a coagulant.] [Define your acronyms. i.e. polyaluminum chloride (PACl)]** [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system. **[Clay is not a coagulant... it cannot be compared to PACl. You might benefit from talking to Tigran about this to clear up any confusion.]** [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
+The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay **[Clay is not a coagulant.] [Define your acronyms. i.e. polyaluminum chloride (PACl)]** [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system, **[Clay is not a coagulant... it cannot be compared to PACl. You might benefit from talking to Tigran about this to clear up any confusion.]** [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
 
 
 <img src="Fit with Langmuir Isotherm.PNG">
@@ -99,7 +99,7 @@ In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride 
 
 Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the filtration system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The goal of the Spring 2019 Fluoride team is to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the filtration system, itself.
+The goal of the Spring 2019 Fluoride team is to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the filtration system itself.
 
 **[At the end of this section, you should be tying the previous work to the goals of your team for this semester. Briefly explain how your team will be building off of previous work.]**
 
@@ -110,9 +110,9 @@ The gravity-powered apparatus was constructed as according to the fabrication ma
 ### Redesigning of Filtration System
 Despite the foundational work of the apparatus laid by the Fall 2018 team, it was determined the filtration system needed to focus on having modifications in three major areas:
 
-* Development of new method of introduction of Polyaluminum Chloride (PACl)
-*	Size reduction of Fluoride Constant Head Tank
-*	Increasing length of Flocculator
+* Development of new method of introduction of polyaluminum chloride (PACl)
+*	Size reduction of fluoride constant head tank
+*	Increasing length of flocculator
 
 However, most of the other aspects of the filtration system were kept the same (e.g. sliders for moving tanks up and down, the presence of stock and constant head tanks, and the sedimentation tube).
 
@@ -167,14 +167,14 @@ The length of the flocculator was increased to provide greater amount of time fo
 
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall filtration system.  
 
-### Jar Tests
+### Jar Testing: Methods
 In previous runs of the second redesign of the gravity powered system, it was observed that red dye particles continued to float through the sedimentation tube regardless of its upflow velocity. That is, even when the system was stopped, all of the red dye flocs floated to the top of the sedimentation tube.
 
 To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted, using a magnetic stirrer to rapidly mix the solution to increase collision rates.
 
-Plastic beakers with 420 microliters of PACl was mixed with 400 milliliters of red dye in 400 mL of water. The solution was stirred using a stir bar for 15 minutes before leaving the solution to settle.
+Plastic beakers with 420 uL of PACl was mixed with 400 mL of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
 
-This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 milliliters of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
+This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 mL of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
 ## Results and Analysis
 ### Determining the Effectiveness of New System
@@ -260,7 +260,7 @@ In the second redesign of the experiment, this Python program was used to determ
 
 However, more tests must be done to conclude whether the ideal experimental concentrations of PACl correspond with the determined concentrations of PACl modelled by the Python program, and how the concentration of PACl through the system and the effluent velocity work together to cause flocculation.
 
-### Jar Testing
+### Jar Testing: Results and Analysis
 With the independently mixed solution, it was observed that the solution was first homogenous, but after some time, small particles similar to flocs were observed to form. When these flocs were allowed to settle, the majority of these flocs settled to the bottom, with only a small amount of flocs remaining on the surface of the water.
 
 On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 15).
