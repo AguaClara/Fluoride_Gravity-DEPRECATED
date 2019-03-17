@@ -172,7 +172,7 @@ In previous runs of the second redesign of the gravity powered system, it was ob
 
 To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted, using a magnetic stirrer to rapidly mix the solution to increase collision rates.
 
-Plastic beakers with 420 uL of PACl was mixed with 400 mL of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
+Plastic beakers with 420 uL of PACl was mixed with 400 uL of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
 
 This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/mL of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 mL of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
