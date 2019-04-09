@@ -109,7 +109,7 @@ The principal reason for modifying the method by which coagulant (PACl) was intr
 
 <img src="IV drip.png">
 
-**Figure 6:** The IV drip system that was implemented by Fall 2018 team. IV drip chamber was connected to coagulant constant head tank and flowed into flocculator
+**Figure 6:** The IV drip system that was implemented by Fall 2018 team. IV drip chamber was connected to coagulant constant head tank and flowed into flocculator.
 
 When the system would be run under the previous set-up, hydrostatic pressure from the flocculator could drive water into the drip chamber, filling it completely by the time the system was restarted. This resulted in the team having to consistently flush out the chamber, however, this led to air being introduced into the tubing and stopping flow within the system, entirely [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md).
 
@@ -145,7 +145,7 @@ The length of the flocculator was increased to provide greater amount of time fo
 
 <img src="flocculator.jpg">
 
-**Figure 10** The flocculator (lengthened) in the filtration system
+**Figure 10:** The flocculator (lengthened) in the filtration system.
 
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall filtration system.  
 
@@ -170,6 +170,8 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 **Figure 11:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
 
+
+
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1}*cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
 #### Volumetric Method: Second Redesign of System
@@ -184,7 +186,7 @@ The slope of the best fit line of the flow rate of the PACl system versus the di
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 12) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 11). Therefore, the volumetric method's data is more accurate due **[Check grammar here]** the mass balance's accuracy was confined to the hundredths place which decreased the accuracy of the data measurement as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
+The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 12) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 11). Therefore, the volumetric method's data is more accurate due **[Check grammar here]** to the fact that the mass balance's accuracy was confined to the hundredths place. This decreased the accuracy of the data measurement, as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
@@ -216,21 +218,31 @@ The ideal concentrations of PACl was thought to be modelled by the following Pyt
 import math as m
 import numpy as np
 from aguaclara.play import*
-#Input your concentrations you want your system to run at and the upflow velocity in your sed tube
-Conc_PACl_exp = 40 * (u.milligram / u.liter)#PACl concentration in your experiment
+
+#Input the desired concentration of PACl through the system
+Conc_PACl_exp = 40 * (u.milligram / u.liter)
+#Input the desired upflow velocity in the sedimentation tube
 upflow_velocity = 1.5 * (u.millimeter / u.second)
-#Change the above parameters for what you want in your experiment
+
 #Input your concentrations of your stock tanks
 Conc_PACl_stock = 1000 * (u.milligram / u.liter)
 Conc_fluoride_stock = 100 * (u.milligram / u.liter)
 
+#Diameter of sedimentation tube
 D_sed_tube = 1*u.inch
+#Cross sectional area of sedimentation tube
 Area_sed_tube = np.pi*(D_sed_tube**2)/4
+
+#Calculate flow rate of system and input units of mL/s
 Q_system = Area_sed_tube * upflow_velocity
 Q_system.to(u.milliliter/u.second)
+#Calculate the flow rate of PACl through the relation Q(PACl)*C(PACl)=Q(system)*C(system), where Conc_PACl_exp is the concentration of PACl in the system
 Q_PACl = (Q_system * Conc_PACl_exp / Conc_PACl_stock).to(u.milliliter/u.second)
 print(Q_PACl)
+
+#Calculate the flow rate of fluoride through the relation Q(system)=Q(fluoride)+Q(PACl)
 Q_fluoride = (Q_system-Q_PACl)
+#Calculate the concentration of fluoride through the relation Q(system)*C(system)=Q(fluoride)*C(fluoride), where conc_fluoride_exp is concentration of fluoride in the system
 conc_fluoride_exp = Conc_fluoride_stock * Q_fluoride / Q_system
 print(conc_fluoride_exp)
 ```
