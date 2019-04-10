@@ -1,5 +1,5 @@
 #Volumetric Determined Average Flow Rate of PACl vs. Height
-#Second redesign of system
+#Second redesign of system (microbore tubing dripping into T system)
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -32,7 +32,3 @@ plt.plot(xvals,yvals,color='blue',label='y={:.6f}x+{:.6f}\nR\N{SUPERSCRIPT TWO}=
 plt.legend()
 
 plt.show()
-
-
-
-

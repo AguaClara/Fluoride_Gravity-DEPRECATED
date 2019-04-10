@@ -83,7 +83,7 @@ In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride 
 
 Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the filtration system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The goal of the Spring 2019 Fluoride team is to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the filtration system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
+The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the filtration system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
 
 ## Methods
 ### Experimental Apparatus
@@ -313,3 +313,118 @@ Parthasarathy, N., Buffle, J., & Haerdi, W. (1986). Study of interaction of poly
 United States, NYC Environmental Protection. (2016). New York City 2016 Drinking Water Supply and Quality Report. New York. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf.
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
+
+##Appendix
+###Code
+####Gravimetric Determination of Flow Rate: First Redesign
+```Python
+#Gravimetrically Determined Average Flow Rate of PACl vs. Height
+#First redesign of system (microbore tubing dripping PACl directly into fluoride constant head tank)
+
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+
+#Change in height of PACl system
+height=[5,10,15,20]
+#System flow rate measured from effluent
+flowrate=[0.00344,0.00894,0.0125,0.01542]
+
+#Plot data points from experiment
+plt.plot(height,flowrate,'o')
+
+#Formatting plot
+plt.xlabel('Height (cm)')
+plt.ylabel('Flow Rate (mL/s)')
+plt.title('Gravimetrically Determined Average Flow Rate of PACl')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+
+#Calculate linear regression and store stats in variables
+linreg=stats.linregress(height,flowrate)
+slope,intercept,r_value=linreg[0:3]
+
+#Plot linear regression and legend
+xvals=np.arange(0,25,0.01)
+yvals=slope*xvals+intercept
+plt.plot(xvals,yvals,color='blue',label='y={:.6f}x+{:.6f}\nR\N{SUPERSCRIPT TWO}={:.4f}'.format(slope,intercept,r_value**2))
+plt.legend()
+
+plt.show()
+```
+####Volumetric Determination of Flow Rate: Second Redesign
+```Python
+#Volumetric Determined Average Flow Rate of PACl vs. Height
+#Second redesign of system (microbore tubing dripping into T system)
+
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+
+#Change in height of PACl system
+height=[5,10,15,20,25,30]
+#System flow rate measured from effluent
+flowrate=[0.02583472335,0.03367053161,0.03962373578,0.04338574177,0.05256246053,0.05848966854]
+
+#Plot data points from experiment
+plt.plot(height,flowrate,'o')
+
+#Formatting plot
+plt.xlabel('Height (cm)')
+plt.ylabel('Flow Rate (mL/s)')
+plt.title('Volumetrically Determined Average Flow Rate of PACl')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+
+#Calculate linear regression and store stats in variables
+linreg=stats.linregress(height,flowrate)
+slope,intercept,r_value=linreg[0:3]
+
+#Plot linear regression and legend
+xvals=np.arange(0,35,0.01)
+yvals=slope*xvals+intercept
+plt.plot(xvals,yvals,color='blue',label='y={:.6f}x+{:.6f}\nR\N{SUPERSCRIPT TWO}={:.4f}'.format(slope,intercept,r_value**2))
+plt.legend()
+
+plt.show()
+```
+
+###Determination of Effluent Flow Rate
+```python
+#Effluent Flow Rate vs. Height
+#Second redesign of system
+
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+
+#Change in height of the effluent tube from the point of zero flow
+height=[5,10,15,20,25,30,35,40]
+#System flow rate measured from effluent line
+flowrate=[0.303921123,0.4525731793,0.6403088421,0.7827710055,0.8833781973,1.043483972,1.186551281,1.336794586]
+
+#Plot data points from experiment
+plt.plot(height,flowrate,'o')
+
+#Formatting plot
+plt.xlabel('Change in Height (cm)')
+plt.ylabel('Flow Rate (mL/s)')
+plt.title('Effluent Flow Rate of System')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+
+#Calculate linear regression and store stats in variables
+linreg=stats.linregress(height,flowrate)
+slope,intercept,r_value=linreg[0:3]
+
+#Plot linear regression and legend
+xvals=np.arange(0,45,0.01)
+yvals=slope*xvals+intercept
+plt.plot(xvals,yvals,color='blue',label='y={:.6f}x+{:.6f}\nR\N{SUPERSCRIPT TWO}={:.4f}'.format(slope,intercept,r_value**2))
+plt.legend()
+
+plt.show()
+```
