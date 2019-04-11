@@ -33,5 +33,7 @@ plt.legend()
 
 plt.show()
 
+plt.savefig('Gravimetric Plot.png')
+
 
 
