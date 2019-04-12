@@ -151,7 +151,7 @@ The reasoning behind increasing the flocculator’s length was that the PACl may
 
 ### Addition of Bottom Geometry in Sedimentation Tube
 The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 11). In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a [bottom geometry](
-https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12). The bottom geometry was obtained from the [High Rate Sedimentation: Bottom Geometry team](https://github.com/AguaClara/HRS-Bot-Geo). 
+https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12). The bottom geometry was obtained from the [High Rate Sedimentation: Bottom Geometry team](https://github.com/AguaClara/HRS-Bot-Geo).
 
 <img src = "before botgeo.gif" height = "350" width = "300">
 
@@ -161,7 +161,7 @@ https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.s
 
 **Figure 12:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
 
-The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube. The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
+The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube. The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 
 ### Jar Testing: Methods
@@ -264,7 +264,7 @@ print(conc_fluoride_exp)
 ```
 **[Make better use of comments to walk reader through each of your lines of code.]**
 
-In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 12). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 16).
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 14). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 16).
 
 <img src="floc 310.gif">
 
@@ -283,7 +283,7 @@ On the other hand, with the solution collected from the flocculator, it was obse
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
-This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figure 18 and 19).
+This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 18 and 19).
 
 <img src = "pH Flocculator.jpg" height = "350" width = "300">
 
@@ -329,9 +329,9 @@ At too low of a flow rate of PACl entering the system, it was observed the preci
 
 At too high of a flow rate of PACl entering the fluoride system, there were no precipitates formed and the effluent leaving the system contained both the PACl and red dye in solution.
 
-The optimal flow rate of PACl entering the fluoride system was found in between the two extremes where the fluid is flowing at a high velocity to maximize collisions but not too high of a velocity such that the flocs break up. This velocity ranged from 0.45 mL/s to 0.76 mL/s.
+The optimal flow rate of PACl entering the fluoride system was found in between the two extremes where the fluid is flowing at a high velocity to maximize collisions but not too high of a velocity such that the flocs break up. This velocity ranged from 0.45 mL/s to 0.76 mL/s, which corresponded to a change in height of the effluent line to be between 9.5 cm and 20 cm.
 
-The successful flocculation of red dye experiments imply that fluoride can be separated from tap water using the reported experimental system and optimized so that the concentration of PACl entering the fluoride system is minimized. Once the experimental design is tested several times and able to be modeled optimally at all times, the design can be sent to communities with high concentrations of fluoride in their tap water for field testing and ultimately for water treatment to remove fluoride from drinking water systems.
+The successful flocculation of red dye experiments depended on the presence of a bottom geometry insert, but implies that the reported system would be able to successfully remove fluoride from tap water. Once the experimental design is tested several times and able to be modeled optimally at all times, the design can be sent to communities with high concentrations of fluoride in their tap water for field testing and ultimately for water treatment to remove fluoride from drinking water systems.
 
 ## Bibliography
 Akpan, P., Mehrabyan, T,. Sausele, D., & Zhang, V. (2018). Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md.
@@ -401,7 +401,7 @@ Step 2. Cleaning flocculator
 
 
 ##Python Code
-###Code for Figure 11: Gravimetric Determination of Flow Rate
+###Code for Figure 13: Gravimetric Determination of Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined gravimetrically using a mass balance.
 ```Python
 #Gravimetrically Determined Average Flow Rate of PACl vs. Height
@@ -478,7 +478,7 @@ plt.legend()
 plt.show()
 ```
 
-##Code for Figure (): Determination of Effluent Flow Rate
+##Code for Figure 20: Determination of Effluent Flow Rate
 Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```python
 #Effluent Flow Rate vs. Height
