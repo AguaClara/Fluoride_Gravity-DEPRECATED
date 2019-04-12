@@ -150,11 +150,20 @@ The length of the flocculator was increased to provide greater amount of time fo
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall filtration system.  
 
 ### Addition of Bottom Geometry in Sedimentation Tube
-Without the bottom geometry, we noticed that all of the flocs clumped together on the bottom of the sedimentation tube, creating a gel rather than a floc blanket (Figure 11)
-The bottom geometry increased recirculation, which will promote the formation of a floc blanket (Figure 12). This will help in the removal of flocs since resuspension will allow flocs to be captured by the floc blanket.
-<img src = "before botgeo.gif">
-<img src = "after botgeo.gif">
+The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 11).
 
+<img src = "before botgeo.gif" height = "350" width = "300">
+
+**Figure 11:** The formation of a gel is seen on the bottom of the sedimentation tube, which prevents the flow of clean water to exit the sedimentation tube and prevents the removal of the red dye particles from the PACl solution.
+
+The [bottom geometry](
+https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tank to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12).
+
+<img src = "after botgeo.gif" height = "350" width = "300">
+
+**Figure 12:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
+
+The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. As a result, the bottom geometry helped with the removal of flocs in the system because the bottom geometry allowed for flocs to resuspend whenever they reached the bottom of the sedimentation tube. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 
 ### Jar Testing: Methods
@@ -276,19 +285,19 @@ On the other hand, with the solution collected from the flocculator, it was obse
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
-This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs.
-
-However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figure 18 and 19). This result rules out the difference in pH potentially altering the mechanics of red dye, but we would like to verify this using more sensitive pH strips.
-More investigations should be done on this phenomenon, since when we made fresh new dye, the problem did not reoccur.
+This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figure 18 and 19).
 
 <img src = "pH Flocculator.jpg" height = "350" width = "300">
 
-**Figure 18:**
+**Figure 18:** The pH of the solution collected from the flocculator sample was estimated to be 8 using a pH strip.
 
 <img src = "pH Independent.jpg" height = "350" width = "300">
 
-**Figure 19:**
+**Figure 19:** The pH of the independently mixed solution was also estimated to be 8 using a pH strip.
 
+Both the independently mixed solution and solution collected from the flocculator had the same pH value, which rules out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
+
+When the apparatus was tested again with newly created red dye solution, the problem of small red dye flocs floating to the surface of the water in the sedimentation tube did not reoccur. However, more investigations should be done on this phenomenon to fully understand the mechanisms of binding and to prevent future problems from occurring.
 
 
 ### Determination of Effluent Flow Rate
