@@ -156,14 +156,14 @@ The red dye flocs were observed to be clumping together at the bottom of the sed
 
 **Figure 11:** The formation of a gel is seen on the bottom of the sedimentation tube, which prevents the flow of clean water to exit the sedimentation tube and prevents the removal of the red dye particles from the PACl solution.
 
-The [bottom geometry](
-https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tank to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12).
+In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a [bottom geometry](
+https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12).
 
 <img src = "after botgeo.gif" height = "350" width = "300">
 
 **Figure 12:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
 
-The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. As a result, the bottom geometry helped with the removal of flocs in the system because the angle in the bottom geometry allowed for flocs to resuspend and circulate rather than fall to the bottom of the sedimentation tube. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
+The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube. The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 
 ### Jar Testing: Methods
