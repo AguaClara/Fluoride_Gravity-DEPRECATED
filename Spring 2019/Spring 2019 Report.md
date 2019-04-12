@@ -151,7 +151,7 @@ The reasoning behind increasing the flocculator’s length was that the PACl may
 
 ### Addition of Bottom Geometry in Sedimentation Tube
 The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 11). In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a [bottom geometry](
-https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12).
+https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.stl) was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 12). The bottom geometry was obtained from the [High Rate Sedimentation: Bottom Geometry team](https://github.com/AguaClara/HRS-Bot-Geo). 
 
 <img src = "before botgeo.gif" height = "350" width = "300">
 
