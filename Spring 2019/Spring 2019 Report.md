@@ -280,10 +280,12 @@ This seems to suggest that the flocculation process causes the water to act in a
 
 However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figure 18 and 19). This result rules out the difference in pH potentially altering the mechanics of red dye, but we would like to verify this using more sensitive pH strips.
 More investigations should be done on this phenomenon, since when we made fresh new dye, the problem did not reoccur.
-<img src = "pH Flocculator.jpg" height = "300" width = "250">
+
+<img src = "pH Flocculator.jpg" height = "350" width = "300">
+
 **Figure 18:**
 
-<img src = "pH Independent.jpg" height = "300" width = "250">
+<img src = "pH Independent.jpg" height = "350" width = "300">
 
 **Figure 19:**
 
