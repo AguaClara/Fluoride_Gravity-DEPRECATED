@@ -1,6 +1,6 @@
 # Fluoride Gravity, Spring 2019
 #### Sarah Huang, Cindy Jin, Simar Kohli
-#### March 15, 2019
+#### April 12, 2019
 This publication Fluoride, Spring 2019 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Sarah Huang, Cindy Jin, and Simar Kohli and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
 
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
@@ -190,6 +190,7 @@ The value of the coefficient of determination, $R^2$, was higher in the volumetr
 
 The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
 
+
 #### Determining Binding of PACl: First Redesign of System
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
@@ -248,7 +249,7 @@ print(conc_fluoride_exp)
 ```
 **[Make better use of comments to walk reader through each of your lines of code.]**
 
-In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected **[to]** run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 12). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 14).
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 7. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.34 mL/s, which corresponded to a height of 10cm (Figure 12). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 14).
 
 <img src="floc 310.gif">
 
@@ -268,6 +269,23 @@ On the other hand, with the solution collected from the flocculator, it was obse
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
 This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It is hypothesized that a difference in pH may prevent mixing and the proper settling of flocs.
+
+### Determination of Effluent Flow Rate
+In all prior experiments, the effluent flow rate was manually measured each time with a graduated cylinder. A curve based on the change in height of the effluent tube and the flow rate was established in order determine the flow rate of the system more easily.
+
+To establish this curve, the effluent flow rate of the entire system was determined volumetrically. The team changed the height of the effluent pipe leaving the sedimentation height from 5 cm to 40 cm, with intervals of 5 cm. At each particular height, a 10 ml graduated cylinder was used to measure the volume of effluent water leaving the system in a particular period of time. Three trials were conducted and an average effluent flow rate was calculated, per height. At the end, the data was input into excel where a line of best-fit was determined to measure the effluent flow rate at varying heights (Figure 16).
+
+<img src="Effluent Flow Rate.png">
+
+**Figure 16:** The effluent flow rate graph determined volumetrically from a height difference of 0 to 40 cm from the point of zero flow.
+
+When running the system at approximately 0.48 mL/s (with the effluent pipe located at the 10 cm mark), the system was noted to generate large flocs within the flocculator, indicating that the particular speed of the system seemed to be working appropriately. Even when the system’s velocity was decreased to 0.34 mL/s, large flocs were still forming.
+
+In light of this, the team decided to increase the effluent velocity of the system to analyze the impact of making the system faster. As a result, smaller flocs were noted to form, even to the point that the flow rate became too fast for significant flocs to form (flow rate > 30 cm).
+
+However, from previous research, it was noted that a flow rate of 0.76 mL/s has been the most effective at floc formation as well as speed/efficiency of the system.
+
+Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. As a result, the team will be re-running the system after replacing the PACl and red-dye solutions and re-record results. 
 
 ## Future Work
 
