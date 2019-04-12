@@ -163,7 +163,7 @@ https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.s
 
 **Figure 12:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
 
-The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. As a result, the bottom geometry helped with the removal of flocs in the system because the bottom geometry allowed for flocs to resuspend whenever they reached the bottom of the sedimentation tube. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
+The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line as the PACl and water solution past the waste line and exit the effluent line. As a result, the bottom geometry helped with the removal of flocs in the system because the angle in the bottom geometry allowed for flocs to resuspend and circulate rather than fall to the bottom of the sedimentation tube. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 
 ### Jar Testing: Methods
