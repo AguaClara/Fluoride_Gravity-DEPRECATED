@@ -154,7 +154,7 @@ In previous runs of the second redesign of the gravity powered system, it was ob
 
 To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted, using a magnetic stirrer to rapidly mix the solution to increase collision rates.
 
-Plastic beakers with 420 uL of PACl was mixed with 400 uL of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
+Plastic beakers with 420 $\mu$L of PACl was mixed with 400 $\mu$L of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
 
 This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/L of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 mL of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
@@ -314,9 +314,49 @@ United States, NYC Environmental Protection. (2016). New York City 2016 Drinking
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
 
-##Appendix
-###Code
-####Gravimetric Determination of Flow Rate: First Redesign
+#Manual
+
+##Experimental Setup
+### Set-up
+Step 1. Preparing stock solutions
+* PACL: dilute PACl stock to yield 2 L of 1000 mg/mL PACl solution
+* Red dye: use the dilution factor 100 $\mu$L of Red Dye 40 in 400 mL of water.
+
+Step 2. Filling stock tanks and constant head tanks
+* PACl: fill constant head tank with the prepared PACl stock solution until the volume is a small distance below the bottom of the float valve. Use the remainder of the solution to fill the PACl stock tank
+* Red dye: fill the fluoride stock tank with red dye. Open the valve and let the constant head tank fill.
+
+Step 3: Filling the flocculator
+* Connect a tube from the sink faucet to the flocculator.
+* Ensure that the valve to the right of the T junction is closed to prevent backflowing.
+* Turn on the sink faucet and let the system fill with water until bubbles do not run through the sedimentation tube.
+* Quickly connect the flocculator back to the T-junction, making sure as little air as possible enters the system.
+
+Step 4. Starting the system
+* Open the valve to the right of the T junction. Water should be able to flow through the effluent line. If water is unable to flow, connect the flocculator to a tube connected to the sink faucet, and run water through the system until bubbles do not persist.
+* After system begins to flow, open the valve below the PACl constant head tank. Shine a flashlight through the tube connected to the T-junction to ensure that PACl is dripping. If the PACl solution does not flow, flick the tube until the flow starts.
+* Open the waste line until the flow is slightly slower than the flow out of the effluent line.
+
+###Stopping the System
+Step 1. Closing valves
+* Ensure that all valves are closed.
+
+Step 2. Adjusting effluent line
+* Move effluent line up until it is above the volume level of the fluoride constant head tank.
+
+###Cleaning the System
+Step 1. Disconnecting system
+* Disconnect the tube below the valve of the PACl constant head tank. Plug the flocculator with a stopper. Open the valve and allow the PACl solution to drain.
+* Disconnect the tube connecting the fluoride constant head tank to the fluoride stock tank. Empty the fluoride constant head tank and fluoride stock tank.
+
+Step 2. Cleaning flocculator
+* Open the waste line.
+* Run water through the system until all flocs have been removed.
+
+
+##Python Code
+###Code for Figure 11: Gravimetric Determination of Flow Rate
+Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined gravimetrically using a mass balance.
 ```Python
 #Gravimetrically Determined Average Flow Rate of PACl vs. Height
 #First redesign of system (microbore tubing dripping PACl directly into fluoride constant head tank)
@@ -353,7 +393,8 @@ plt.legend()
 
 plt.show()
 ```
-####Volumetric Determination of Flow Rate: Second Redesign
+###Code for Figure 12: Volumetric Determination of Flow Rate
+Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #Volumetric Determined Average Flow Rate of PACl vs. Height
 #Second redesign of system (microbore tubing dripping into T system)
@@ -391,7 +432,8 @@ plt.legend()
 plt.show()
 ```
 
-###Determination of Effluent Flow Rate
+##Code for Figure (): Determination of Effluent Flow Rate
+Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```python
 #Effluent Flow Rate vs. Height
 #Second redesign of system
@@ -428,3 +470,39 @@ plt.legend()
 
 plt.show()
 ```
+
+##Determination of Height Needed for Desired System Concentration of PACl
+Below is the code used to determine the flow rate of PACl needed for a desired system concentration of PACl and upflow velocity through the sedimentation tube.
+```python
+import math as m
+import numpy as np
+from aguaclara.play import*
+
+#Input the desired concentration of PACl through the system
+Conc_PACl_exp = 40 * (u.milligram / u.liter)
+#Input the desired upflow velocity in the sedimentation tube
+upflow_velocity = 1.5 * (u.millimeter / u.second)
+
+#Input your concentrations of your stock tanks
+Conc_PACl_stock = 1000 * (u.milligram / u.liter)
+Conc_fluoride_stock = 100 * (u.milligram / u.liter)
+
+#Diameter of sedimentation tube
+D_sed_tube = 1*u.inch
+#Cross sectional area of sedimentation tube
+Area_sed_tube = np.pi*(D_sed_tube**2)/4
+
+#Calculate flow rate of system and input units of mL/s
+Q_system = Area_sed_tube * upflow_velocity
+Q_system.to(u.milliliter/u.second)
+#Calculate the flow rate of PACl through the relation Q(PACl)*C(PACl)=Q(system)*C(system), where Conc_PACl_exp is the concentration of PACl in the system
+Q_PACl = (Q_system * Conc_PACl_exp / Conc_PACl_stock).to(u.milliliter/u.second)
+print(Q_PACl)
+
+#Calculate the flow rate of fluoride through the relation Q(system)=Q(fluoride)+Q(PACl)
+Q_fluoride = (Q_system-Q_PACl)
+#Calculate the concentration of fluoride through the relation Q(system)*C(system)=Q(fluoride)*C(fluoride), where conc_fluoride_exp is concentration of fluoride in the system
+conc_fluoride_exp = Conc_fluoride_stock * Q_fluoride / Q_system
+print(conc_fluoride_exp)
+```
+Output: Flow rate of PACl is 0.0304 mL/s for a PACL system concentration of 40 mg/L and an upflow velocity of 1.5 mm/s. By using the regression in Figure 12, it was determined that the height of PACl should be 11 cm.
