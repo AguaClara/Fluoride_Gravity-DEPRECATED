@@ -360,7 +360,7 @@ United States, NYC Environmental Protection. (2016). New York City 2016 Drinking
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
 
-#Manual ##
+##Manual ##
 
 ##Experimental Setup ##
 ### Set-up ###
