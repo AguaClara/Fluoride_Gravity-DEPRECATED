@@ -74,7 +74,7 @@ The following equation was used: $$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{
 
 where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
 
-<img src="Fit with Langmuir Isotherm 2018_1.PNG">
+<img src="Fit with Langmuir Isotherm 2018_1.png">
 
 **Figure 4:** A Langmuir isotherm fitted with data from the Summer 2018 team. The calculated $R^2$ value was 0.7611.
 
