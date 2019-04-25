@@ -53,7 +53,7 @@ The Spring 2016 team continued to develop a more efficient system by testing PAC
 
 **Figure 1:** A Langmuir Adsorption Model fitting data from trials conducted by Fall 2017 team.
 
-The 2018 cycle of teams managed to focus on developing a robust, gravity-powered filtration system [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md).
+The 2018 cycle of teams managed to focus on developing a robust, gravity-powered system [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md).
 
 <img src="Schematic.PNG">
 
@@ -61,7 +61,7 @@ The 2018 cycle of teams managed to focus on developing a robust, gravity-powered
 
 Some of the major designs of the model were created by the Spring 2018 team, and focused on deploying float valves to maintain a constant amount of water flowing through the system. Since the concentration of the PACl solution remained constant in the stock tank, a calculation of flow rate provided insight into the concentration of PACl actually entering in the system [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The Summer 2018 team furthered the flexibility of the filtration system by including sliders for controlling height differences between different tanks and pipes. This provided the ability for teams to adjust the flow rate within the system.
+The Summer 2018 team furthered the flexibility of the system by including sliders for controlling height differences between different tanks and pipes. This provided the ability for teams to adjust the flow rate within the system.
 
 <img src="Diagram.PNG">
 
@@ -80,28 +80,28 @@ where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amou
 
 In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) worked to make the gravity-powered apparatus more efficient, and [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) spearheaded the development of an adsorption model by running more bench experiments [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the filtration system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
+Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
+The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
 
 ## Methods
 ### Experimental Apparatus
 The gravity-powered apparatus was constructed as according to the fabrication manual in the [Fluoride Gravity Fall 2018 report](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md).
 
-### Redesigning of Filtration System
-Despite the foundational work of the apparatus laid by the Fall 2018 team, it was determined the filtration system needed to focus on having modifications in three major areas:
+### Redesigning of System
+Despite the foundational work of the apparatus laid by the Fall 2018 team, it was determined the system needed to focus on having modifications in three major areas:
 
 * Development of new method of introduction of polyaluminum chloride (PACl)
 *	Size reduction of fluoride constant head tank
 *	Increasing length of flocculator
 
-However, most of the other aspects of the filtration system were kept the same (e.g. sliders for moving tanks up and down, the presence of stock and constant head tanks, and the sedimentation tube).
+However, most of the other aspects of the system were kept the same (e.g. sliders for moving tanks up and down, the presence of stock and constant head tanks, and the sedimentation tube).
 
 The overall set up of the current system is shown in Figure 5.
 
 <img src="current diagram.png">
 
-**Figure 5:** An overview of the newly modified filtration system.
+**Figure 5:** An overview of the newly modified system.
 
 #### Coagulant Introduction and Fluoride Constant Head Tank Size Reduction
 The principal reason for modifying the method by which coagulant (PACl) was introduced into the system was the inefficiency of the IV drip chamber system set up by the Fall 2018 team (Figure 6).
@@ -140,13 +140,13 @@ As a result, the team decided that a T-junction could be used in between the out
 **Figure 9:** The system works by dropping PACl in to the solution flowing out of the system (towards the flocculator). Flow rate can be calculated by counting the volume of PACl dispensed in a certain period of time, producing a flow rate. Alternatively, the number of drops dispensed can be tracked by shining a light through the translucent tubing. The volume of one drop can be calculated, multiplied by the number of drops introduced in a time frame, and divided by the total time taken.
 
 #### Increasing Flocculator Length
-The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed coils around the main cardboard cylinder approximately 40 times, and was constructed from 46 ft of tubing (Figure 10).
+The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed flocculator coils around the main cardboard cylinder 49 times, and was constructed from 46 ft. of tubing (Figure 10).
 
 <img src="flocculator.jpg">
 
-**Figure 10:** The flocculator (lengthened) in the filtration system.
+**Figure 10:** The flocculator (lengthened to 49 ft. of tubing) in the system.
 
-The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall filtration system.  
+The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall system.  
 
 ### Addition of Bottom Geometry in Sedimentation Tube
 The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 11). In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a [bottom geometry](
