@@ -305,7 +305,7 @@ To establish this curve, the effluent flow rate of the entire system was determi
 
 <img src="Effluent Flow Rate.png">
 
-**Figure 20:** The effluent flow rate graph determined volumetrically from a height difference of 0 to 40 cm from the point of zero flow.
+**Figure 20:** The effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow.
 
 When running the system at approximately 0.48 mL/s (with the effluent pipe located at the 10 cm mark), the system was noted to generate large flocs within the flocculator, indicating that the particular speed of the system seemed to be working appropriately. Even when the system’s velocity was decreased to 0.34 mL/s, large flocs were still forming.
 
@@ -317,7 +317,7 @@ Yet, upon re-testing the system after determining the optimal effluent flow rate
 
 ## Future Work
 
-The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve determining a mechanism to remove flocs from water, since it was observed that they do not fall into the floc weir. To do this, the jar experiments should be replicated and the pH should be tested to better understand the mechanisms of binding to determine the next steps.  
+The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve determining a mechanism to remove flocs from water, since it was observed that they do not fall into the floc weir. To do this, the jar experiments should be replicated and a more accurate pH should be tested to better understand the mechanisms of binding to determine the next steps.  
 
 Since red dye was able to successfully bind to PACl in flocculation, indicating that the apparatus provides the correct mechanics for flocculation, tests should move onto using fluoride to determine whether fluoride will also bind to PACl.
 
@@ -360,9 +360,9 @@ United States, NYC Environmental Protection. (2016). New York City 2016 Drinking
 
 World Health Organization. (2016, August 29). Water-related diseases. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/.
 
-#Manual
+## Manual
 
-##Experimental Setup
+## Experimental Setup
 ### Set-up
 Step 1. Preparing stock solutions
 * PACL: dilute PACl stock to yield 2 L of 1000 mg/mL PACl solution
@@ -383,14 +383,14 @@ Step 4. Starting the system
 * After system begins to flow, open the valve below the PACl constant head tank. Shine a flashlight through the tube connected to the T-junction to ensure that PACl is dripping. If the PACl solution does not flow, flick the tube until the flow starts.
 * Open the waste line until the flow is slightly slower than the flow out of the effluent line.
 
-###Stopping the System
+### Stopping the System
 Step 1. Closing valves
 * Ensure that all valves are closed.
 
 Step 2. Adjusting effluent line
 * Move effluent line up until it is above the volume level of the fluoride constant head tank.
 
-###Cleaning the System
+### Cleaning the System
 Step 1. Disconnecting system
 * Disconnect the tube below the valve of the PACl constant head tank. Plug the flocculator with a stopper. Open the valve and allow the PACl solution to drain.
 * Disconnect the tube connecting the fluoride constant head tank to the fluoride stock tank. Empty the fluoride constant head tank and fluoride stock tank.
@@ -400,8 +400,8 @@ Step 2. Cleaning flocculator
 * Run water through the system until all flocs have been removed.
 
 
-##Python Code
-###Code for Figure 13: Gravimetric Determination of Flow Rate
+## Python Code
+### Code for Figure 13: Gravimetric Determination of Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined gravimetrically using a mass balance.
 ```Python
 #Gravimetrically Determined Average Flow Rate of PACl vs. Height
@@ -439,7 +439,7 @@ plt.legend()
 
 plt.show()
 ```
-###Code for Figure 14: Volumetric Determination of Flow Rate
+### Code for Figure 14: Volumetric Determination of Flow Rate 
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #Volumetric Determined Average Flow Rate of PACl vs. Height
@@ -478,7 +478,7 @@ plt.legend()
 plt.show()
 ```
 
-##Code for Figure 20: Determination of Effluent Flow Rate
+## Code for Figure 20: Determination of Effluent Flow Rate
 Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```python
 #Effluent Flow Rate vs. Height
@@ -517,7 +517,7 @@ plt.legend()
 plt.show()
 ```
 
-##Determination of Height Needed for Desired System Concentration of PACl
+## Determination of Height Needed for Desired System Concentration of PACl
 Below is the code used to determine the flow rate of PACl needed for a desired system concentration of PACl and upflow velocity through the sedimentation tube.
 ```python
 import math as m
