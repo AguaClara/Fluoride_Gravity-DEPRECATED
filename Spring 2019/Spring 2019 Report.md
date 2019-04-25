@@ -45,10 +45,9 @@ ISE fluoride probes can only detect solubilized fluoride, and would give inaccur
 Polyethylene containers, instead of glassware, should be used, since fluoride can adsorb to glass. An Initial Calibration Verification standard and a Continuing Calibration Verification standard should also be used, consisting of solutions of known fluoride concentration within the mean expected fluoride concentration that should be tested. The ICV should be used to test the accuracy of the calibration curve and the CCV should be sued after every 10 samples to ensure that the fluoride probe has not drifted from the calibration curve. These controls should be within 10% of their known values. A control blank containing one part water and one part TISAB should also be used to enhance the accuracy of data in future experiments.
 
 ## Previous Work
-A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed filtration system using polyaluminum chloride (PACl) as a coagulant.
+A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed system using polyaluminum chloride (PACl) as a coagulant.
 
-The Spring 2016 team continued to develop a more efficient filtration system by testing PACl with clay [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system, [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to develop an absorbance spectrum and determine the most effective concentration of PACl to be delivered to the system.
-
+The Spring 2016 team continued to develop a more efficient system by testing PACl with clay [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system, [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to determine the most effective concentration of PACl to be delivered to the system.
 
 <img src="Fit with Langmuir Isotherm.PNG">
 
@@ -75,15 +74,15 @@ The following equation was used: $$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{
 
 where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
 
-<img src="Fit with Langmuir Isotherm 2018.PNG">
+<img src="Fit with Langmuir Isotherm 2018_1.PNG">
 
-**Figure 4:** A Langmuir isotherm fitted with data from the Summer 2018 team.
+**Figure 4:** A Langmuir isotherm fitted with data from the Summer 2018 team. The calculated $R^2$ value was 0.7611.
 
 In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride Gravity](https://github.com/AguaClara/Fluoride_Gravity) worked to make the gravity-powered apparatus more efficient, and [Fluoride Auto](https://github.com/AguaClara/Fluoride-Auto) spearheaded the development of an adsorption model by running more bench experiments [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
 Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the filtration system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the filtration system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
+The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the filtration system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
 
 ## Methods
 ### Experimental Apparatus
@@ -401,6 +400,40 @@ Step 2. Cleaning flocculator
 
 
 ## Python Code
+### Code for Figure 4: Experimental Data Fit with Langmuir Adsorption Model
+Below is the code used to visualize the fit of the Langmuir adsorption model with the experimental data found by the Fluoride Auto team.
+```Python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#import experimental data as a CSV file
+df = pd.read_csv ('https://raw.githubusercontent.com/AguaClara/Fluoride_Gravity/master/Spring%202019/Langmuir%20Isotherm%202.csv')
+#import Langmuir best fit line as a CSV file
+df1 = pd.read_csv ('https://raw.githubusercontent.com/AguaClara/Fluoride_Gravity/master/Spring%202019/Langmuir%20Best%20Fit.csv')
+
+#save each column of data
+effluent=pd.to_numeric(df["Effluent Concentration (mmol/g)"])
+uptake=pd.to_numeric(df["Uptake (mmol/g)"])
+Lx=pd.to_numeric(df1["Lx"])
+Ly=pd.to_numeric(df1["Ly"])
+
+#plot the experimental data and the Langmuir isotherm
+plt.plot(effluent,uptake,'o', label='Experimental Data')
+plt.plot(Lx,Ly, label='Langmuir Best Fit')
+
+#formatting
+plt.xlabel('Effluent Concentration (mmol/g)')
+plt.ylabel('Uptake (mmol/g)')
+plt.title('Experimental Data Fit with Langmuir Adsorption Model')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+
+plt.legend()
+
+plt.show()
+```
+
 ### Code for Figure 13: Gravimetric Determination of Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined gravimetrically using a mass balance.
 ```Python
@@ -439,7 +472,7 @@ plt.legend()
 
 plt.show()
 ```
-### Code for Figure 14: Volumetric Determination of Flow Rate 
+### Code for Figure 14: Volumetric Determination of Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the effluent flow rate, determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #Volumetric Determined Average Flow Rate of PACl vs. Height
