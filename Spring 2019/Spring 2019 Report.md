@@ -144,7 +144,7 @@ The length of the flocculator was increased to provide greater amount of time fo
 
 <img src="flocculator.jpg">
 
-**Figure 10:** The flocculator (lengthened to 49 ft. of tubing) in the system.
+**Figure 10:** The flocculator (lengthened to 46 ft. of tubing) in the system.
 
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall system.  
 
