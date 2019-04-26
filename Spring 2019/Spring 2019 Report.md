@@ -323,13 +323,42 @@ However, from previous research, it was noted that a flow rate of 0.76 mL/s has 
 
 Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. As a result, the team will be re-running the system after replacing the PACl and red-dye solutions and re-record results.
 
+### Floating Fluoride Problem
+As tests continued to be run on the system, it was noted that the red-dye flocs continued to float in the sedimentation tank, rather than settle. Despite the presence of the newly installed bottom geometry, this was continuing to occur.
+
+The team had compiled multiple reasons for the observed phenomenon (as described earlier), for instance pH variations and dissolved solutes. However, the jar tests had clearly indicated that there was no variation in pH, nor did it appear that any contaminant solutes had made it into the solution.
+
+After further analysis, it was hypothesized that the reason for the floating flocs could be dissolved gas. The source of this error/problem could be the usage of pressurized tap water that would result in the dissolution of air into the water. As a result, the flocs would be ‘pushed’ up through the water resulting in the “floating” behavior noted. This also seemed to explain why when the jars (from the jar test) were stirred, the flocs that were floating began to settle at the bottom. Some of the dissolved gas most likely escaped as stirring occurred, reducing the amount of gas and “flotation” of the flocs.
+
+To solve this issue, the team began to utilize tap water that was filtered to remove any air from the water prior to using it in the system. The team immediately noticed that there were less flocs that were floating up the sedimentation tank, and a transition zone within the sedimentation tank was noticed. The flocs were sufficiently able to fall into the floc weir.
+
+However, the resolution of the floating fluoride problem did not contribute and/or significantly increase the flocculation success seen within the system. While flocs would form occasionally within the flocculator, the relative size of the flocs were too small to be truly effective, as well as there was no consistency in flocculation.
+
+The team is looking into potential changes that can be made to improve flocculation.
+
+### Challenges
+
+Over the course of the development and modification of the entire system, there are a couple of the challenges that the team is yet to overcome. Primarily, these fall under the following three categories:
+
+* Flocculation
+* Preventing air bubbles
+* Scaling to fluoride
+
+The first challenge is a rather recent one. Despite the team seeing tremendous success in flocculation early on in the testing phase, the system has no longer been flocculating at the same level that it once was. While the team has some ideas as to why this is (potentially a disparity between using DI water and tap water), it is still a challenge that needs to be overcome. Since the system’s success is predicated on the flocculation of the contaminant (e.g. red dye, fluoride), it is absolutely critical that the team - and future teams - work towards determining the reason for the sudden lack of flocculation.
+
+While the team fabricated a clear T-junction from clear PVC piping to monitor mixing of the PACl, it was noted that the PACl and red dye flow through the T-junction in two separate streams. This indicates that there isn’t much mixing at all in the system. Therefore, the team must develop a device that can improve mixing within the T-junction.
+
+Another issue that the team has constantly run into is the introduction of air within the system when flushing it, or even running the system. These air bubbles can result in the significant slowing of the flow rate, and even reduce the mixing of the PACl and Red dye in the flocculator and in the T-junction. Not only are these bubbles a potential source of error within the system and lack of flocculation, but also removing these bubbles from the system is a time-consuming task. Thus, it is suggested that the team focuses on developing a system or methodology that can be effective in efficiently removing air bubbles.
+
+Finally, a challenge with the system - in general - will be the scaling down of contaminant concentrations and the utilization of actual fluoride within the system. The primary concern is the system will not work effectively due to the incredibly small concentration of fluoride within the water. Especially given that consistent, large levels of flocculation are not occuring within a relatively high concentration of red dye (100uL dye/400 mL of water), real-world (and significantly lower) concentrations of fluoride will surely not flocculate.
+
+While the aforementioned challenges are significant in their difficulty, through multiple trials and modifications of the system, Fluoride Gravity could and will likely see success in the future.
+
 ## Future Work
 
-The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve determining a mechanism to remove flocs from water, since it was observed that they do not fall into the floc weir. To do this, the jar experiments should be replicated and a more accurate pH should be tested to better understand the mechanisms of binding to determine the next steps.  
+The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve ensuring that flocculation is consistent every time the system is run, as well as testing the system's capacity to remove red dye at concentrations similar to natural concentrations of fluoride.
 
-Since red dye was able to successfully bind to PACl in flocculation, indicating that the apparatus provides the correct mechanics for flocculation, tests should move onto using fluoride to determine whether fluoride will also bind to PACl.
-
-If fluoride tests are proven successful, efforts should move to creating an Onshape model for future deployment of the system in field testing.
+If flocculation is made consistent, efforts should move to creating an Onshape model for future deployment of the system in field testing.
 
 ## Conclusion
 
