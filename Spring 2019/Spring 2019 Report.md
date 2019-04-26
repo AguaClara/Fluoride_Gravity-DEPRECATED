@@ -162,6 +162,19 @@ https://github.com/AguaClara/Fluoride_Gravity/blob/master/Spring%202019/BotGeo.s
 
 The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube. The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
+### Fabrication of Clear T-Junction
+Thus far, the system had experienced inconsistency in the size of flocs generated when PACl and red dye were mixed. It was hypothesized that the t-junction did not allow for the complete mixing of PACl and red dye.
+
+In order to elucidate the mechanisms behind PACl and red dye mixing and binding, a clear t-junction was fabricated to be able to observe the behavior of PACl and red dye throughout the system.
+
+The t-junction was fabricated by using a three inch segment of a clear PVC pipe. Caps were fitted on both ends to allow connections to ¼ inch tubes. A fitting allowing for connection to a ¼ inch tube was drilled into the top of the PVC pipe, forming a T.  The drip system used previously was reconnected to the top of the fabricated t-junction.
+
+The tube connecting the fluoride constant head tank and the t-junction was lengthened in order to prevent backflow, as backflow seemed to be an issue with the previous system. However, it is inconclusive whether this change was effective. A valve was also added between the fluoride constant head tank and the t-junction to allow for ease of maintenance in the case that the t-junction needed to be cleaned (Figure 13).
+
+<img src="Schematic Clear T-Junction.png">
+
+**Figure 13:** A diagram of the fabricated T-junction and the new additions to the system, including the lengthened tube to prevent backflow and an added valve for ease of maintenance.
+
 
 ### Jar Testing: Methods
 In previous runs of the second redesign of the gravity powered system, it was observed that red dye particles continued to float through the sedimentation tube regardless of its upflow velocity. That is, even when the system was stopped, all of the red dye flocs floated to the top of the sedimentation tube.
