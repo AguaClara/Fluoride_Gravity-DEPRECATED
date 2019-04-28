@@ -172,26 +172,27 @@ In order to elucidate the mechanisms behind PACl and red dye mixing and binding,
 
 The T-junction was fabricated by using a three inch segment of a clear PVC pipe. Caps were fitted on both ends to allow connections to ¼ inch tubes. A fitting allowing for connection to a ¼ inch tube was drilled into the top of the PVC pipe, forming a T.  The drip system used previously was reconnected to the top of the fabricated T-junction.
 
-The tube connecting the fluoride constant head tank and the t-junction was lengthened in order to prevent backflow, as backflow seemed to be an issue with the previous system. However, it is inconclusive whether this change was effective. A valve was also added between the fluoride constant head tank and the T-junction to allow for ease of maintenance in the case that the T-junction needed to be cleaned (Figure 13).
+The tube connecting the fluoride constant head tank and the T-junction was lengthened in order to prevent backflow, as backflow seemed to be an issue with the previous system. However, it is inconclusive whether this change was effective. A valve was also added between the fluoride constant head tank and the T-junction to allow for ease of maintenance in the case that the T-junction needed to be cleaned (Figure 13).
 
 <img src="Schematic Clear T-Junction.png">
 
 **Figure 13:** A diagram of the fabricated T-junction and the new additions to the system, including the lengthened tube to prevent backflow and an added valve for ease of maintenance.
 
 ### Clear T-Junction Observations
-ADD THIS PART
 
+The system was tested with the new clear T-junction at different effluent flow rates to see if the PACl and red dye were mixing together effectively at the intersection. The clear T-junction made it possible to see that there was a clear layer of PACl settling on the bottom and not binding with the red dye (Figure 14).
 
 <img src = "Clear T-Junction Nonhomogeneous.jpg"  height = "300" width = "350">
 
-**Figure 14:**
+**Figure 14:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively bind together.
 
+At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 15, which may contribute a smaller flow rate of flocs entering the flocculator.
 
 <img src = "Clear T-Junction 20 cm.gif"  height = "350" width = "200" >
 
-**Figure 15:**
+**Figure 15:** At the system effluent rate of 0.69 mL/s, the red dye and PACl were seen to bind together and form flocs, but some of the flocs were seen to resist against the fluid flow in the clear T-junction.
 
-
+These observations of testing the clear T-junction demonstrated that the red dye and PACl solutions were not effectively binding together at the site where the solutions meet. As a result, introducing PACl into the system in this manner was an ineffective way and should be revised.
 
 
 
@@ -349,22 +350,13 @@ Yet, upon re-testing the system after determining the optimal effluent flow rate
 
 ### Redetermination of Effluent Flow Rate
 
-WRITE UP THIS PART
-
-
-
-
-
-
-
-
-
-
-
+The effluent flow rate of the system was tested again after lengthening the tube exiting the red dye constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 24).
 
 <img src = "New Effluent Flow Rate.png">
 
 **Figure 24:** The new effluent flow rate graph using the new system with the clear T-junction determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow.
+
+Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the new system was running at slower rates at the same height differences (Figure 23 and 24). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 23 and 24).
 
 
 ### Floating Fluoride Problem
