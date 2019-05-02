@@ -186,13 +186,13 @@ The system was tested with the new clear T-junction at different effluent flow r
 
 **Figure 14:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively bind together.
 
-At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 15, which may contribute a smaller flow rate of flocs entering the flocculator.
+All tests were conducted at PACl flow rate of 0.0337 mL/s, which was the flow rate that previously allowed the system to flocculate. At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 15, which may contribute a smaller flow rate of flocs entering the flocculator.
 
 <img src = "Clear T-Junction 20 cm.gif"  height = "350" width = "200" >
 
 **Figure 15:** At the system effluent rate of 0.69 mL/s, the red dye and PACl were seen to bind together and form flocs, but some of the flocs were seen to resist against the fluid flow in the clear T-junction.
 
-These observations of testing the clear T-junction demonstrated that the red dye and PACl solutions were not effectively binding together at the site where the solutions meet. As a result, introducing PACl into the system in this manner was an ineffective way and should be revised.
+These observations of testing the clear T-junction demonstrated that the red dye and PACl solutions were not effectively binding together at the site where the solutions meet at all effluent flow rates for this concentration of PACl. As a result, introducing PACl into the system in this manner was an ineffective way and should be revised.
 
 
 
@@ -398,13 +398,19 @@ If flocculation is made consistent, efforts should move to creating an Onshape m
 
 ## Conclusion
 
+Proper mixing of PACl and red dye was necessary for flocculation and removal of fluoride, which was successfully visualized through the fabrication of a clear T-junction.
+
 At too low of a flow rate of PACl entering the system, it was observed the precipitate formed was too small and the system velocity was too slow to have sufficient collisions for effective flocculation.
 
 At too high of a flow rate of PACl entering the fluoride system, there were no precipitates formed and the effluent leaving the system contained both the PACl and red dye in solution.
 
 The optimal flow rate of PACl entering the fluoride system was found in between the two extremes where the fluid is flowing at a high velocity to maximize collisions but not too high of a velocity such that the flocs break up. This velocity ranged from 0.45 mL/s to 0.76 mL/s, which corresponded to a change in height of the effluent line to be between 9.5 cm and 20 cm.
 
-The successful flocculation of red dye experiments depended on the presence of a bottom geometry insert, but implies that the reported system would be able to successfully remove fluoride from tap water. Once the experimental design is tested several times and able to be modeled optimally at all times, the design can be sent to communities with high concentrations of fluoride in their tap water for field testing and ultimately for water treatment to remove fluoride from drinking water systems.
+However, the system more highly depended on dosage. After the fabrication of the clear T-junction, the system was able to run at the PACl flow rate of 0.0206 mL/s.
+
+After flocculation, he successful sedimentation of red dye experiments depended on the presence of a bottom geometry insert, but was able to form a fluidized bed after its addition.
+
+The successes of the system imply that the reported system would be able to successfully remove fluoride from tap water. Once the experimental design is tested several times and able to be modeled optimally at all times, the design can be sent to communities with high concentrations of fluoride in their tap water for field testing and ultimately for water treatment to remove fluoride from drinking water systems.
 
 ## Bibliography
 Akpan, P., Mehrabyan, T,. Sausele, D., & Zhang, V. (2018). Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md.
