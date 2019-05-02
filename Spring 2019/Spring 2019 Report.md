@@ -356,7 +356,7 @@ While the aforementioned challenges are significant in their difficulty, through
 
 ## Future Work
 
-The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve ensuring that flocculation is consistent every time the system is run, as well as testing the system's capacity to remove red dye at concentrations similar to natural concentrations of fluoride.
+The overarching goal of the Fluoride Gravity team is to determine the optimal method of removing fluoride from the water and creating the most compact system possible to be used for field testing. Future goals involve determine the dosages needed for optimal PACl binding at a variety of red dye, and eventually, fluoride concentrations, ensuring that flocculation is consistent every time the system is run, and testing the system's capacity to remove red dye at concentrations similar to natural concentrations of fluoride.
 
 If flocculation is made consistent, efforts should move to creating an Onshape model for future deployment of the system in field testing.
 
