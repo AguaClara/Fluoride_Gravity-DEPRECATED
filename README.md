@@ -22,3 +22,4 @@ Tigran Mehrabyan (tm545@cornell.edu)
   - [Fall 2018 Final Presentation](https://docs.google.com/presentation/d/15C-QUAlcFC1fCtsf0PomJqXiPuu_jBoPrGk902efx8c/edit?usp=sharing) and [Video](https://youtu.be/a5wm8xVp81A)
 * Spring 2019
   - [Spring 2019 Symposium](https://docs.google.com/presentation/d/1IK8bv_c6N9sp4tUEqnVD2FkNc-OZfOIvl0ROv4Z8EFA/edit?usp=sharing)
+  - [Spring 2019 Final Presentation](https://docs.google.com/presentation/d/197Uz4GfzHwbOVoRKWKSrQXqSO1M8MqDV9xneFl9WAC0/edit#slide=id.g57179aae41_0_0)
