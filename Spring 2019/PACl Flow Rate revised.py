@@ -1,5 +1,5 @@
 #Volumetric Determined Average Flow Rate of PACl vs. Height
-#Second redesign of system (microbore tubing dripping into T system)
+#Vertical T-junction redesign of system (microbore tubing dripping into T system)
 
 import matplotlib.pyplot as plt
 import numpy as np

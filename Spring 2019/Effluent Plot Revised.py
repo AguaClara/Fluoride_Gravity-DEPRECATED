@@ -1,5 +1,5 @@
 #Effluent Flow Rate vs. Height
-#Second redesign of system
+#Vertical T-Junction redesign of system
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -32,7 +32,3 @@ plt.plot(xvals,yvals,color='blue',label='y={:.6f}x+{:.6f}\nR\N{SUPERSCRIPT TWO}=
 plt.legend()
 
 plt.show()
-
-
-
-
