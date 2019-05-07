@@ -240,7 +240,7 @@ The determination of the coagulant flow rate allowed the team to control and opt
 #### First Redesign: Direct Mixing in Fluoride Constant Head Tank
 The system was run in reverse, with red dye run through the PACl system to determine the extent of mixing. PACl solution was added to the fluoride system to determine the extent of coagulation and whether the solution would successfully flocculate. The system was run with a upflow velocity of 0.76 mL/s.
 
-The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, disallowing flocculation to occur.
+The red dye appeared to coagulate at the surface of the constant head tank. The water entering the flocculator was less red than the water in the constant head tank, implying that precipitation occurred in the constant head tank, lessening the extent of flocculation in the flocculator itself.
 
 #### Second Redesign: Addition of T-Junction
 The system was run in the correct orientation, with the red dye run through the fluoride tanks and PACl run through the PACl stock tanks. The PACl stock concentration was 1000 mg/L, and the red dye stock solution was diluted by a factor of 1/4000 (1 mL red dye for 4 L of water). The system was run at an upflow velocity of 0.48 mL/s.
@@ -252,20 +252,21 @@ The system was tested with the new clear T-junction at different effluent flow r
 
 <img src = "Clear T-Junction Nonhomogeneous.jpg"  height = "300" width = "350">
 
-**Figure 18:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively bind together.
+**Figure 18:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively mix together.
 
-All tests were conducted at PACl flow rate of 0.0337 mL/s, which was the flow rate that previously allowed the system to flocculate. At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 19, which may contribute a smaller flow rate of flocs entering the flocculator.
+All tests were conducted at PACl flow rate of 0.0337 mL/s, which was the flow rate that previously allowed the system to flocculate. At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 19, which may contribute a smaller flow rate of flocs entering the flocculator. At all other effluent flow rates, flocs were not observed.
 
 <img src = "Clear T-Junction 20 cm.gif"  height = "350" width = "200" >
 
 **Figure 19:** At the system effluent rate of 0.69 mL/s, the red dye and PACl were seen to bind together and form flocs, but some of the flocs were seen to resist against the fluid flow in the clear T-junction.
 
-These observations of testing the clear T-junction demonstrated that the red dye and PACl solutions were not effectively binding together at the site where the solutions meet at all effluent flow rates for this concentration of PACl. As a result, introducing PACl into the system in this manner was ineffective and should be revised.
+These observations demonstrated that the red dye and PACl solutions were not effectively binding at the site of mixing and progressing to the flocculator for this concentration of PACl and all effluent flow rates. As a result, introducing PACl into the system in this manner was ineffective and should be revised.
 
 ### Determination of Effluent Flow Rate
 In all prior experiments, the effluent flow rate was manually measured each time with a graduated cylinder. A curve based on the change in height of the effluent tube and the flow rate was established in order determine the flow rate of the system more easily.
 
-To establish this curve, the effluent flow rate of the entire system was determined volumetrically. The team changed the height of the effluent pipe leaving the sedimentation height from 5 cm to 40 cm, with intervals of 5 cm. At each particular height, a 10 ml graduated cylinder was used to measure the volume of effluent water leaving the system in a particular period of time. Three trials were conducted and an average effluent flow rate was calculated, per height.
+To establish this curve, the effluent flow rate of the entire system was determined volumetrically. The team changed the height of the effluent pipe below the point of zero flow from 5 cm to 40 cm, with intervals of 5 cm. At each particular height, a 10 ml graduated cylinder was used to measure the volume of effluent water leaving the system in a particular period of time. Three trials were conducted and an average effluent flow rate was calculated, per height.
+
 #### Effluent Flow Rate with Original T-Junction
 The data was plotted, and a linear regression was fitted to measure the effluent flow rate at varying heights (Figure 20).
 
@@ -273,13 +274,13 @@ The data was plotted, and a linear regression was fitted to measure the effluent
 
 **Figure 20:** The effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the original T-junction in the system.
 
-When running the system at approximately 0.48 mL/s (with the effluent pipe located at the 10 cm mark), the system was noted to generate large flocs within the flocculator, indicating that the particular speed of the system seemed to be working appropriately. Even when the system’s velocity was decreased to 0.34 mL/s, large flocs were still forming.
+When running the system at approximately 0.48 mL/s (with the effluent pipe located at the 10 cm mark), the system was noted to generate large flocs within the flocculator, indicating that the particular velocity of the system seemed to be working appropriately. Even when the system’s velocity was decreased to 0.34 mL/s, large flocs were still forming.
 
 In light of this, the team decided to increase the effluent velocity of the system to analyze the impact of making the system faster. As a result, smaller flocs were noted to form, even to the point that the flow rate became too fast for significant flocs to form (flow rate > 30 cm).
 
 However, from previous research, it was noted that a flow rate of 0.76 mL/s has been the most effective at floc formation as well as speed/efficiency of the system.
 
-Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. As a result, the team will be re-running the system after replacing the PACl and red-dye solutions and re-record results.
+Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. The inconsistencies in flocculation persisted, but were solved upon using the vertical clear T-junction.
 
 #### Effluent Flow Rate with Horizontal Clear T-Junction
 The effluent flow rate of the system was tested again after lengthening the tube exiting the fluoride constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 21).
@@ -298,7 +299,7 @@ The effluent flow rate of the system was tested again after vertically orienting
 
 **Figure 22:** The recalculated effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the clear T-junction oriented vertically in the system.
 
- The effluent flow rate of the vertical T-junction system was running at slower rates at the same height differences compared to the effluent flow rate of the system before the change of orientation of the T-junction and the elongated microbore PACl tube (Figure 21, 22). The slightly slower flow rates were due to the additional friction head loss of the elongated microbore tubing that significantly slowed the flow rate of PACl entering the system. Furthermore, the rate the effluent flow rate changes with the difference in height between the constant head tanks was seen to be lower than that of the system before the changes in orientation of the T-junction and the elongated PACl microtubing because the slope of the best fit line of the effluent flow rate after the changes made is smaller (Figure 21 and 22).
+ The effluent flow rate of the vertical T-junction system was running at slower rates at the same height differences compared to the effluent flow rate of the system before the change of orientation of the T-junction and the elongated microbore PACl tube (Figure 21, 22). The slightly slower flow rates were due to the additional friction head loss of the elongated microbore tubing that significantly slowed the flow rate of PACl entering the system. Furthermore, the rate that the effluent flow rate changed with the difference in height between the constant head tanks was seen to be lower than that of the system before the changes in orientation of the T-junction and the elongated PACl microtubing. This was exhibited by the fact that the slope of the best fit line of the effluent flow rate was smaller after the changes were made (Figure 21 and 22).
 
 
 ### Conditions for Flocculation
@@ -313,6 +314,7 @@ When the system was run at 0.10 mL/s, a significantly lower velocity, small prec
 
 The implications of this result are the following:
 The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
+
 The system was sensitive to minute changes in the effluent velocity, indicating that there was a narrow optimal range with which the system was able to properly function.
 
 #### Effects of Dosing of Polyaluminum Chloride
@@ -351,7 +353,7 @@ print(conc_fluoride_exp)
 ```
 **[Make better use of comments to walk reader through each of your lines of code.]**
 
-In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 16. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.034 mL/s, which corresponded to a height of 10cm (Figure 16). Under these conditions, it was found that a effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 24).
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 16. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.034 mL/s, which corresponded to a height of 10cm (Figure 16). Under these conditions, it was found that an effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 24).
 
 <img src="floc 310.gif">
 
@@ -365,7 +367,7 @@ It was then hypothesized that the system was deficient of PACl, and the microbor
 
 When the microbore tubing was made thinner, causing there to be more frictional headloss and thus a slower flow rate, the system was able to flocculate. Flocculation was observed at a PACl flow rate of 0.021 mL/s (8 cm) and an effluent flow rate of 0.68 mL/s (20 cm). After undergoing further testing, it was found that the system would flocculate under this same PACl flow rate at all effluent velocities. The effluent velocities dictated how large the observed flocs were, and it was found that an effluent flow rate of 0.51 mL/s to 0.75 mL/s (15 cm-25 cm) was most optimal.
 
-This result suggested that dosing plays an essential role in the system’s ability to flocculate, and the necessary dose seemed to fall under a narrow range. Effluent velocity was important, but tended to govern the size of flocs rather than the existence of flocs. Further experiments should elucidate the relationship between the PACl dosage needed and the concentration of red dye (or fluoride).
+This result suggested that dosing plays an essential role in the system’s ability to flocculate, and the necessary dose seemed to fall under a narrow range. The result likely deviated from the desired system concentration of PACl generated by the Python program because the length of the microbore tubing used in the Python analysis did not reflect that of the new system. Effluent velocity was important, but tended to govern the size of flocs rather than the existence of flocs. Further experiments should elucidate the relationship between the PACl dosage needed and the concentration of red dye (or fluoride) and whether the experimental results confirm the theoretical analysis done by the Python program.
 
 
 ### Improvement of Sedimentation Processes
@@ -404,19 +406,17 @@ After further analysis, it was hypothesized that the reason for the floating flo
 To solve this issue, the team began to utilize tap water that was filtered to remove any air from the water prior to using it in the system. The team immediately noticed that there were less flocs that were floating up the sedimentation tank, and a transition zone within the sedimentation tank was noticed. The flocs were sufficiently able to fall into the floc weir.
 
 ### Challenges
-ver the course of the development and modification of the entire system, there are a couple of the challenges that the team is yet to overcome. Primarily, these fall under the following three categories:
+Over the course of the development and modification of the entire system, there are a couple of the challenges that the team is yet to overcome. Primarily, these fall under the following three categories:
 
 * Flocculation
 * Preventing air bubbles
 * Scaling to fluoride
 
-The first challenge is a rather recent one. Despite the team seeing tremendous success in flocculation early on in the testing phase, the system has no longer been flocculating at the same level that it once was. While the team has some ideas as to why this is (potentially a disparity between using DI water and tap water), it is still a challenge that needs to be overcome. Since the system’s success is predicated on the flocculation of the contaminant (e.g. red dye, fluoride), it is absolutely critical that the team - and future teams - work towards determining the reason for the sudden lack of flocculation.
+The first challenge is a rather recent one. Despite the team seeing tremendous success in flocculation early on in the testing phase, the system had no longer been flocculating at the same level as previously. While the team has some ideas as to why this is (potentially a disparity between using DI water and tap water or a difference in dosing that was unnoticed), it is still a challenge that needs to be overcome. Since the system’s success is predicated on the flocculation of the contaminant (e.g. red dye, fluoride), it is absolutely critical that the team - and future teams - work towards determining the reason for the sudden lack of flocculation.
 
-While the team fabricated a clear T-junction from clear PVC piping to monitor mixing of the PACl, it was noted that the PACl and red dye flow through the T-junction in two separate streams. This indicates that there isn’t much mixing at all in the system. Therefore, the team must develop a device that can improve mixing within the T-junction.
+Another issue that the team had constantly run into was the introduction of air within the system when flushing it, or even running the system. These air bubbles resulted in the significant slowing of the flow rate and reduced the mixing of the PACl and red dye in the flocculator and in the T-junction. Not only were these bubbles a potential source of error within the system and lack of flocculation, but removing these bubbles from the system was a time-consuming task. Thus, it is suggested that the team focuses on developing a system or methodology that can be effective in efficiently removing air bubbles.
 
-Another issue that the team has constantly run into is the introduction of air within the system when flushing it, or even running the system. These air bubbles can result in the significant slowing of the flow rate, and even reduce the mixing of the PACl and red dye in the flocculator and in the T-junction. Not only are these bubbles a potential source of error within the system and lack of flocculation, but also removing these bubbles from the system is a time-consuming task. Thus, it is suggested that the team focuses on developing a system or methodology that can be effective in efficiently removing air bubbles.
-
-Finally, a challenge with the system - in general - will be the scaling down of contaminant concentrations and the utilization of actual fluoride within the system. The primary concern is the system will not work effectively due to the incredibly small concentration of fluoride within the water. Especially given that consistent, large levels of flocculation are not occuring within a relatively high concentration of red dye (100uL dye/400 mL of water), real-world (and significantly lower) concentrations of fluoride will surely not flocculate.
+Finally, a challenge with the system - in general - will be the scaling down of contaminant concentrations and the utilization of actual fluoride within the system. The primary concern was the system will not work effectively due to the incredibly small concentration of fluoride within the water. Especially given that consistent, large levels of flocculation were not occurring within a relatively high concentration of red dye (100 $\mu$L dye/400 mL of water), real-world (and significantly lower) concentrations of fluoride will surely not flocculate.
 
 While the aforementioned challenges are significant in their difficulty, through multiple trials and modifications of the system, Fluoride Gravity could and will likely see success in the future.
 
