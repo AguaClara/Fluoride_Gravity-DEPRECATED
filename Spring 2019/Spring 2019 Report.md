@@ -203,7 +203,7 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 <img src="PACl vs height gravity.PNG">
 
-**Figure 15:** The flow rate of the PACl system was plotted against the change in height between the red dye constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
+**Figure 15:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1} * cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $ 7.9*10^{-4} $ mL/s per cm of height difference raised.
 
@@ -212,7 +212,7 @@ Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluorid
 
 <img src="PACl vs height volume.PNG">
 
-**Figure 16:** The flow rate of the PACl system versus the difference in height between the red dye constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+**Figure 16:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $1.28*10^{-3} mL*s^{-1}* cm^{-1}$, which demonstrates the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
@@ -220,7 +220,7 @@ The strong correlation implies that the relationship in the decoupled system ope
 
 #### Volumetric Method: Vertical Clear T-Junction System
 
-The flow rate of the PACl entering the system was recalculated after modifying our system to have an elongated microtubing for the PACl to enter the system in the vertical clear T-junction and bind with red dye. The flow rate was calculated volumetrically by measuring the amount of time it took the coagulant to drip into a graduated cylinder to 10 mL for each height difference between the red dye constant head tank and the PACl constant head tank. The data demonstrates a linear correlation between the height difference and the PACl flow rate entering in (Figure 17).
+The flow rate of the PACl entering the system was recalculated after modifying our system to have an elongated microtubing for the PACl to enter the system in the vertical clear T-junction. The flow rate was calculated volumetrically by measuring the amount of time it took the coagulant to drip into a graduated cylinder to 10 mL for each height difference between the fluoride constant head tank and the PACl constant head tank. The data demonstrates a linear correlation between the height difference of the constant head tanks and the PACl flow rate entering in (Figure 17).
 
 <img src= "PACl Flow Rate Revised.png">
 
@@ -280,28 +280,23 @@ However, from previous research, it was noted that a flow rate of 0.76 mL/s has 
 Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. As a result, the team will be re-running the system after replacing the PACl and red-dye solutions and re-record results.
 
 #### Effluent Flow Rate with Horizontal Clear T-Junction
-The effluent flow rate of the system was tested again after lengthening the tube exiting the red dye constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 21).
+The effluent flow rate of the system was tested again after lengthening the tube exiting the fluoride constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 21).
 
 <img src = "New Effluent Flow Rate.png">
 
-**Figure 21:** The effluent flow rate graph using the redesigned system with the clear T-junction set horizontally of the effluent flow rate determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow.
+**Figure 21:** The effluent flow rate graph of the effluent flow rate determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the redesigned system with the clear T-junction set horizontally.
 
-Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the new system was running at slower rates at the same height differences (Figure 19 and 20). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 20 and 21).
+Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the revised system was running at slower rates at the same height differences (Figure 19 and 20). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 20 and 21).
 
 #### Effluent Flow Rate with Vertical Clear T-Junction System
 
-The effluent flow rate of the system was tested again after lengthening the tube exiting the red dye constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 22).
+The effluent flow rate of the system was tested again after vertically orienting the clear T-junction and lengthening the PACl microbore tubing to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height between the constant head tanks (Figure 22).
 
 <img src="Effluent Flow Rate Revised.png">
 
-**Figure 22:** The recalculated effluent flow rate graph using the vertical clear T-junction system
-The effluent flow rate graph using the new system with the clear T-junction determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow.
+**Figure 22:** The recalculated effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the clear T-junction oriented vertically in the system.
 
-Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the new system was running at slower rates at the same height differences (Figure 19 and 20). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 21 and 22).
-
-
-
-
+ The effluent flow rate of the vertical T-junction system was running at slower rates at the same height differences compared to the effluent flow rate of the system before the change of orientation of the T-junction and the elongated microbore PACl tube (Figure 21, 22). The slightly slower flow rates were due to the additional friction head loss of the elongated microbore tubing that significantly slowed the flow rate of PACl entering the system. Furthermore, the rate the effluent flow rate changes with the difference in height between the constant head tanks was seen to be lower than that of the system before the changes in orientation of the T-junction and the elongated PACl microtubing because the slope of the best fit line of the effluent flow rate after the changes made is smaller (Figure 21 and 22).
 
 
 ### Conditions for Flocculation
