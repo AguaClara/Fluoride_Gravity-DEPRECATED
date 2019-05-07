@@ -96,7 +96,7 @@ However, most of the other aspects of the system were kept the same (e.g. slider
 
 The overall set up of the current system is shown in Figure 4.
 
-<insert image here>
+<img src="current drawing.png">
 
 **Figure 4:** An overview of the newly modified system.
 
