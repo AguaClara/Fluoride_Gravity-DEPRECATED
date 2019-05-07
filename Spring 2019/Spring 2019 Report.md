@@ -8,7 +8,7 @@ This publication Fluoride, Spring 2019 was developed under Assistance Agreement 
 **[Overall: Very minor grammar issues and some improvements to be made with your code but you're doing good!]**
 
 ## Abstract
-Fluoride contamination of water is a significant issue faced by nations and people across the globe, and can, lead to adverse consequences on health (e.g. muscle weakness and atrophy, weakness, fatigue). The Fluoride Gravity team’s objective is to develop a cost-effective, self-sufficient mechanism for extracting excess fluoride from drinking water. The Spring 2019 team hopes to further the gravity-powered system’s efficacy and potentially begin to run field-tests with the device. The application of such a device in real-world scenarios will be predicated upon success seen with the aforementioned field tests.
+Fluoride contamination of water is a significant issue faced by nations and people across the globe and can lead to adverse consequences on health (e.g. muscle weakness and atrophy, weakness, fatigue). The Fluoride Gravity team’s objective is to develop a cost-effective, self-sufficient mechanism for extracting excess fluoride from drinking water. The Spring 2019 team hopes to further the gravity-powered system’s efficacy and potentially begin to run field-tests with the device. The application of such a device in real-world scenarios will be predicated upon success seen with the aforementioned field tests.
 
 
 ## Introduction
@@ -32,7 +32,7 @@ Of the potential mechanisms that may play a role in the removal of fluoride with
 ### Interactions Among Fluoride, NOM, and Alum During Coagulation Process
 Experimental results from jar tests illuminated mechanisms of behind fluoroaluminum complexation [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). When fluoride was present in the system with alum, the residual aluminum increased significantly, indicating that fluoride is likely forming a soluble fluoroaluminum complex. In the removal of fluoride, the presence of natural organic matter (NOM) caused a small decrease in fluoride removal from 50.1% to 45.8%, whereas NOM removal was greatly inhibited by the presence of fluoride [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). This indicates that in the removal of fluoride, fluoride was likely outcompeting NOM for complexation with aluminum or adsorption to aluminum solids.
 
-In the precipitation of aluminum with fluoride, fluoride was predicted to act in the following manner: since fluoride is a negatively charged species, fluoride must overcome the negative charge repulsion between particles in order to allow for aggregation. In the precipitation of fluoride with aluminum, the disruption of charges due to the negative repulsion stops collisions and ultimately causes particles to be concentrated at smaller particle diameters [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). In this manner, fluoride may inhibit the aggregation of flocs by acting as a stabilizing agent or by inhibiting precipitation. It was hypothesized that fluoride prevents the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It was also hypothesized that, due to the way that fluoride can replace hydroxide in solids , the formation of aluminum hydroxide complexes is disrupted.
+In the precipitation of aluminum with fluoride, fluoride was predicted to act in the following manner: since fluoride is a negatively charged species, fluoride must overcome the negative charge repulsion between particles in order to allow for aggregation. In the precipitation of fluoride with aluminum, the disruption of charges due to the negative repulsion stops collisions and ultimately causes particles to be concentrated at smaller particle diameters [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). In this manner, fluoride may inhibit the aggregation of flocs by acting as a stabilizing agent or by inhibiting precipitation. It was hypothesized that fluoride prevented the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It was also hypothesized that, due to the way that fluoride can replace hydroxide in solids , the formation of aluminum hydroxide complexes would be disrupted.
 
 ### pH Dependence of Fluoride Removal
 In a study by Gong et al. (2012), fluoroaluminum complexation was found to exhibit pH dependence. At pH values less than 5.0, almost all fluoride existed as fluoro-aluminum complexes, inhibiting its removal by coagulation. At pH levels greater than 8.0, fluoride almost exclusively as free fluoride, indicating that hydroxide has a greater affinity for aluminum at a higher pH [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). Thus, all experiments should be run in the optimal pH range for fluoride removal.
@@ -45,7 +45,7 @@ ISE fluoride probes can only detect solubilized fluoride, and would give inaccur
 Polyethylene containers, instead of glassware, should be used, since fluoride can adsorb to glass. An Initial Calibration Verification standard and a Continuing Calibration Verification standard should also be used, consisting of solutions of known fluoride concentration within the mean expected fluoride concentration that should be tested. The ICV should be used to test the accuracy of the calibration curve and the CCV should be sued after every 10 samples to ensure that the fluoride probe has not drifted from the calibration curve. These controls should be within 10% of their known values. A control blank containing one part water and one part TISAB should also be used to enhance the accuracy of data in future experiments.
 
 ## Previous Work
-A coagulant-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed system using polyaluminum chloride (PACl) as a coagulant.
+A coagulation-sedimentation system was developed to extract fluoride from contaminated water. Multiple tests have been run by past teams to analyze the efficacy of the designed system using polyaluminum chloride (PACl) as a coagulant.
 
 The Spring 2016 team continued to develop a more efficient system by testing PACl with clay [(Longo, 2016)](https://drive.google.com/file/d/0B9yahrdDmfVpQ0t0M2NUUkRRNHM/view). While the team was successfully able to create a floc blanket, the Summer 2017 deemed clay to be not as necessary as it increased the effluent turbidity of the system, [(Akpan et al., 2017)](https://github.com/AguaClara/Fluoride-Auto/blob/master/FluorideReportSp18.md), and therefore ran tests with just fluoride and PACl. However, it was soon realized that the system would begin to fail after just 10 hours. In conjunction with the Summer 2017 High Rate Sedimentation Team, a new reactor was able to boost the time to failure and allow for increased upflow velocities. It was determined that the most efficient upflow velocity was 1.5 mm/s [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work). The same team continued to conduct experiments with varying concentrations of PACl in order to determine the most effective concentration of PACl to be delivered to the system.
 
@@ -107,10 +107,12 @@ The principal reason for modifying the method by which coagulant (PACl) was intr
 
 **Figure 5:** The IV drip system that was implemented by Fall 2018 team. IV drip chamber was connected to coagulant constant head tank and flowed into flocculator.
 
-When the system would be run under the previous set-up, hydrostatic pressure from the flocculator could drive water into the drip chamber, filling it completely by the time the system was restarted. This resulted in the team having to consistently flush out the chamber, however, this led to air being introduced into the tubing and stopping flow within the system, entirely [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md).
+When the system was run under the previous set-up, hydrostatic pressure from the flocculator would drive water into the drip chamber, filling it completely by the time the system was restarted. This resulted in the team having to consistently flush out the chamber. However, this led to air being introduced into the tubing and stopping flow within the system, entirely [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md).
+
+Several changes were thus made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system.
 
 #### First Redesign: Direct Mixing in Fluoride Constant Head Tank
-Several changes were made to optimize the ease of use of the apparatus. The IV drip chamber was removed due to previous difficulties in starting the system, The T-joint was removed, allowing the fluoride constant head tank to be directly connected to the flocculator (Figure 6).
+The T-joint that allowed PACl to be dosed directly into the flocculator was first removed, allowing the fluoride constant head tank to be directly connected to the flocculator (Figure 6).
 
 <img src="IMG_20190209_092106.png">
 
@@ -122,14 +124,14 @@ The team decided to directly drip the coagulant into the fluoride constant head 
 
 **Figure 7:** Microbore tubing connected to the PACl system allows PACl to drip directly into the fluoride constant head tank.
 
-However, two major problems were noted with this procedure. The first was coagulation began in the tank as a result of dripping PACl directly into the tank. This could risk failure of the system if the coagulation blocked the outflow from the fluoride constant head tank. The second problem was a non-homogenous mixture was formed within the constant head tank, resulting in lower flocculation.
+However, two major problems were noted with this procedure. The first was that coagulation began in the tank as a result of dripping PACl directly into the tank. This could risk failure of the system if the coagulation blocked the outflow from the fluoride constant head tank. The second problem was a non-homogenous mixture was formed within the constant head tank, resulting in lower flocculation.
 
 As a result, the team focused on creating a more effective drip system for introducing PACl while also being able to monitor flow rate/the rate of introduction of PACl into the system.
 
 #### Second Redesign: Addition of T-Junction
 The team determined that a new mechanism was necessary for effectively introducing the PACl into the system, one that would allow for easy calculation of flow rate, prevent re-introduction of air within the system, and create essentially a homogenous solution flowing into the flocculator.
 
-As a result, the team decided that a T-junction could be used in between the outflow of the fluoride constant head tank and the flocculator. The third hole on the T-junction would be connected to a translucent pipe in which the PACl microtubing would drip the coagulant into (Figure 8).
+As a result, the team decided that a T-junction could be used in between the outflow of the fluoride constant head tank and the flocculator. The third hole on the T-junction would be connected to a translucent pipe in which the PACl microtubing would drip the coagulant into (Figure 8). Holes were drilled in the translucent pipe to ensure that the dripping mechanism was open to atmospheric pressure.
 
 <img src="new drip.jpg">
 
@@ -146,7 +148,7 @@ Thus far, the system had experienced inconsistency in the size of flocs generate
 
 In order to elucidate the mechanisms behind PACl and red dye mixing and binding, a clear T-junction was fabricated to be able to observe the behavior of PACl and red dye throughout the system.
 
-The T-junction was fabricated by using a three inch segment of a clear PVC pipe. Caps were fitted on both ends to allow connections to ¼ inch tubes. A fitting allowing for connection to a ¼ inch tube was drilled into the top of the PVC pipe, forming a T.  The drip system used previously was reconnected to the top of the fabricated T-junction.
+The T-junction was fabricated by using a three inch segment of a clear PVC pipe that was 1 inch in diameter. Caps were fitted on both ends to allow connections to ¼ inch tubes. A fitting allowing for connection to a ¼ inch tube was drilled into the top of the PVC pipe, forming a T.  The drip system used previously was reconnected to the top of the fabricated T-junction.
 
 The tube connecting the fluoride constant head tank and the T-junction was lengthened in order to prevent backflow, as backflow seemed to be an issue with the previous system. However, it is inconclusive whether this change was effective. A valve was also added between the fluoride constant head tank and the T-junction to allow for ease of maintenance in the case that the T-junction needed to be cleaned (Figure 10).
 
@@ -179,7 +181,7 @@ In order to prevent the formation of a gel at the bottom of the sedimentation tu
 **Figure 13:** 2D scaled drawing of the bottom geometry that was added to the sedimentation tube.
 
 
-The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube (Figure 14). The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
+The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube (Figure 14). The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line, and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 <img src = "after botgeo.gif" height = "350" width = "300">
 
@@ -188,17 +190,17 @@ The bottom geometry helped with the removal of flocs in the system because the s
 #### Jar Testing
 In previous runs of the gravity powered system in which flocculation was successful, it was observed that red dye particles continued to float through the sedimentation tube regardless of its upflow velocity. That is, even when the system was stopped, all of the red dye flocs floated to the top of the sedimentation tube.
 
-To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted, using a magnetic stirrer to rapidly mix the solution to increase collision rates.
+To test whether this result was specific to mechanics of flocculation that could perhaps change the properties of red dye flocs, a jar test was conducted. In one jar, a magnetic stirrer was used to rapidly mix the solution to increase collision rates. The other jar contained solution directly obtained from the system.
 
-Plastic beakers with 420 $\mu$L of PACl was mixed with 400 $\mu$L of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
+Plastic beakers with 420 $\mu$L of PACl was mixed with 100 $\mu$L of red dye in 400 mL of water. The solution was using a stir bar for 15 minutes before leaving the solution to settle.
 
-This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The flocculator was run at a system concentration of 40 mg/L of PACl, which was mixed with red dye. The solution after flocculation was added to a beaker initially containing 200 mL of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
+This was compared to a solution of red dye-PACl flocs collected directly from the experimental apparatus after flocculation. The system concentration of PACl was 40 mg/L, and the red dye concentration used was identical to the independent test. The solution after flocculation was added to a beaker initially containing 200 mL of water to simulate conditions in the sedimentation tank. The flocculation solution was added to the beaker it was roughly the same color as the first independently created solution. The solution was not stirred and was allowed to settle directly after the addition of flocs.
 
 ## Results and Analysis
 ### Determining Coagulant Flow Rate
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate). It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
-#### Gravimetric Method: Direct Mixing of PACl Into Fluoride Constant Head Tank Redesign of System
+#### Gravimetric Method: Flow Rate of PACl During Direct Mixing of PACl Into Fluoride Constant Head Tank
 The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the direct mixing of the PACl into the fluoride head tank redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 15).
 
 <img src="PACl vs height gravity.PNG">
@@ -207,7 +209,7 @@ The flow rate of the coagulant was determined by measuring the change in mass of
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1} * cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $ 7.9*10^{-4} $ mL/s per cm of height difference raised.
 
-#### Volumetric Method: Addition of T-Junction Redesign of System
+#### Volumetric Method: Flow Rate of PACl After Addition of T-Junction
 Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the addition of the T-junction redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 16).
 
 <img src="PACl vs height volume.PNG">
@@ -218,7 +220,7 @@ The slope of the best fit line of the flow rate of the PACl system versus the di
 
 The strong correlation implies that the relationship in the decoupled system operates in the same manner as the previously linked system with the IV drip chamber.
 
-#### Volumetric Method: Vertical Clear T-Junction System
+#### Volumetric Method: Flow Rate of PACl Using Vertical Clear T-Junction System
 
 The flow rate of the PACl entering the system was recalculated after modifying our system to have an elongated microtubing for the PACl to enter the system in the vertical clear T-junction. The flow rate was calculated volumetrically by measuring the amount of time it took the coagulant to drip into a graduated cylinder to 10 mL for each height difference between the fluoride constant head tank and the PACl constant head tank. The data demonstrates a linear correlation between the height difference of the constant head tanks and the PACl flow rate entering in (Figure 17).
 
@@ -230,9 +232,9 @@ With the modified changes and elongated microtubing, the PACl flow rate entering
 
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 16) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 15). Therefore, the data collected from volumetric method is more accurate because **[Check grammar here]RESOLVED** the mass balance's readings was rounded to the hundredths place. This decreased the accuracy of the data measurement, as miniscule droplets of PACl are released per minute compared to the large volume of PACl stock solution resting on the mass balance. Also, the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gives inaccurate results as the float valve opens only when the water level drops. The mass does not change when the water level is level with the valve. Therefore, the change in mass is not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
+The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 16) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 15). Therefore, the data collected from volumetric method is more accurate because **[Check grammar here]RESOLVED** the mass balance's readings was rounded to the hundredths place. The lower accuracy of the gravimetric method was due to the fact that the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gave inaccurate results as the float valve opens only when the water level drops. The mass did not change when the water level is level with the valve. Therefore, the change in mass was not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
 
-The determination of the coagulant flow rate was used to control and optimize the concentration of PACl entering the fluoride system.
+The determination of the coagulant flow rate allowed the team to control and optimize the concentration of PACl entering the fluoride system.
 
 ### Determining Binding of PACl
 #### First Redesign: Direct Mixing in Fluoride Constant Head Tank
