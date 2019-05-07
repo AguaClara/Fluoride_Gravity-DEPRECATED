@@ -345,11 +345,11 @@ On the other hand, with the solution collected from the flocculator, it was obse
 
 <img src="jar 310.gif">
 
-**Figure 23:** The mechanics of the red dye are shown. The beaker on the left contains the solution acquired after flocculation and the beaker on the right contains the solution created through rapid stirring.
+**Figure 23:** The mechanics of the red dye was shown. The beaker on the left contained the solution acquired after flocculation and the beaker on the right contained the solution created through rapid stirring.
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
-This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 24 and 25).
+This seems to suggest that the flocculation process caused the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 24 and 25).
 
 <img src = "pH Flocculator.jpg" height = "350" width = "300">
 
@@ -359,7 +359,7 @@ This seems to suggest that the flocculation process causes the water to act in a
 
 **Figure 25:** The pH of the independently mixed solution was also estimated to be 8 using a pH strip.
 
-Both the independently mixed solution and solution collected from the flocculator had the same pH value, which rules out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
+Both the independently mixed solution and solution collected from the flocculator had the same pH value, which ruled out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
 
 When the apparatus was tested again with newly created red dye solution, the problem of small red dye flocs floating to the surface of the water in the sedimentation tube did not reoccur. This result seemed to be an anomaly.
 
