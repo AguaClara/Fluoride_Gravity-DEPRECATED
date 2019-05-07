@@ -23,7 +23,7 @@ AguaClara aspires to achieve the recommended limit of 1 mg/L or lower by the Bur
 
 ## Literature Review
 ### Interaction between Polymeric Aluminum Hydroxide with Fluoride
-When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, formed mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride led to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH was less than 4, the predominant fluorocomplex was AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations was between 0.5 and 1, fluoride was observed to precipitate, replacing some of the hydroxide ions ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration was greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0,7, and a pH between 4 and 7.
+When hydrolyzed, polyaluminum based coagulants, one of which is polyaluminum chloride, formed mono- and polymeric species [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). The interaction between aluminum hydroxide polymer and fluoride led to the formation of several insoluble and soluble products depending on the ratio of total fluoride ion and aluminum ion concentrations, pH, and the total applied fluoride and aluminum concentrations [(Parthasarathy et al., 1986)](http://www.nrcresearchpress.com/doi/abs/10.1139/v94-310). When pH was less than 4, the predominant fluorocomplex was AlF due to the complete dissociation of polymeric aluminum. When the ratio of total fluoride ion and aluminum ion concentrations was between 0.5 and 1, fluoride was observed to precipitate, replacing some of the hydroxide ions in the aluminum hydroxide polymer. When the ratio of total fluoride ion and aluminum ion concentration was greater than 3, there is both precipitate and dissolved complexed fluoride present. It was observed that the optimal conditions for precipitating fluoride was a hydroxide to aluminum ratio of 2.5, a fluoride to aluminum ratio of 0.7, and a pH between 4 and 7. Therefore, experiments should aim to achieve the optimal hydroxide to aluminum and fluoride to aluminum ratios, as well as pH, predicted by literature.
 
 
 ### Mechanisms Governing Removal of Fluoride
@@ -35,7 +35,7 @@ Experimental results from jar tests illuminated mechanisms of behind fluoroalumi
 In the precipitation of aluminum with fluoride, fluoride was predicted to act in the following manner: since fluoride is a negatively charged species, fluoride must overcome the negative charge repulsion between particles in order to allow for aggregation. In the precipitation of fluoride with aluminum, the disruption of charges due to the negative repulsion stops collisions and ultimately causes particles to be concentrated at smaller particle diameters [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). In this manner, fluoride may inhibit the aggregation of flocs by acting as a stabilizing agent or by inhibiting precipitation. It was hypothesized that fluoride prevents the growth of precipitates by inhibiting interactions between hydroxide and nearby particles. It was also hypothesized that, due to the way that fluoride can replace hydroxide in solids , the formation of aluminum hydroxide complexes is disrupted.
 
 ### pH Dependence of Fluoride Removal
-In a study by Gong et al. (2012), fluoroaluminum complexation was found to exhibit pH dependence. At pH values less than 5.0, almost all fluoride existed as fluoro-aluminum complexes, inhibiting its removal by coagulation. At pH levels greater than 8.0, fluoride almost exclusively as free fluoride, indicating that hydroxide has a greater affinity for aluminum at a higher pH [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1).
+In a study by Gong et al. (2012), fluoroaluminum complexation was found to exhibit pH dependence. At pH values less than 5.0, almost all fluoride existed as fluoro-aluminum complexes, inhibiting its removal by coagulation. At pH levels greater than 8.0, fluoride almost exclusively as free fluoride, indicating that hydroxide has a greater affinity for aluminum at a higher pH [(Herrboldt, 2016)](https://repositories.lib.utexas.edu/bitstream/handle/2152/39194/HERRBOLDT-THESIS-2016.pdf?sequence=1). Thus, all experiments should be run in the optimal pH range for fluoride removal.
 
 ### Collection and Analysis of Fluoride samples
 An Ion-Selective Electrode (ISE) fluoride probe is used to measure the fluoride concentration of a sample. The following quality-control procedures should be followed.
@@ -335,7 +335,16 @@ In the second redesign of the experiment, this Python program was used to determ
 
 **Figure 22:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.34 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
 
-However, more tests must be done to conclude whether the ideal experimental concentrations of PACl correspond with the determined concentrations of PACl modelled by the Python program, and how the concentration of PACl through the system and the effluent velocity work together to cause flocculation.
+The system had thus far been unable to experience consistent flocculation despite using the height determined from the Python program.
+
+It was first hypothesized that the system was unable to properly mix the red dye and PACl, preventing flocculation from occurring. However, after testing a variety of arrangements of the T-junction, including reverting it to old T-junction, and turning the T-junction vertically, it was found that flocculation was unable to occur in all of these arrangements.
+
+It was then hypothesized that the system was deficient of PACl, and the microbore tubing was cut to decrease frictional headloss, allowing the PACl to enter at a high velocity. When testing against a variety of flow rates, flocculation still did not occur.
+
+When the microbore tubing was made thinner, causing there to be more frictional headloss and thus a slower flow rate, the system was able to flocculate. Flocculation was observed at a PACl flow rate of 0.021 mL/s (8 cm) and an effluent flow rate of 0.68 mL/s (20 cm). After undergoing further testing, it was found that the system would flocculate under this same PACl flow rate at all effluent velocities. The effluent velocities dictated how large the observed flocs were, and it was found that an effluent flow rate of 0.51 mL/s to 0.75 mL/s (15 cm-25 cm) was most optimal.
+
+This result suggested that dosing plays an essential role in the system’s ability to flocculate, and the necessary dose seemed to fall under a narrow range. Effluent velocity was important, but tended to govern the size of flocs rather than the existence of flocs. Further experiments should elucidate the relationship between the PACl dosage needed and the concentration of red dye (or fluoride).
+
 
 ### Improvement of Sedimentation Processes
 #### Jar Testing
@@ -345,11 +354,11 @@ On the other hand, with the solution collected from the flocculator, it was obse
 
 <img src="jar 310.gif">
 
-**Figure 23:** The mechanics of the red dye are shown. The beaker on the left contains the solution acquired after flocculation and the beaker on the right contains the solution created through rapid stirring.
+**Figure 23:** The mechanics of the red dye was shown. The beaker on the left contained the solution acquired after flocculation and the beaker on the right contained the solution created through rapid stirring.
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
-This seems to suggest that the flocculation process causes the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 24 and 25).
+This seems to suggest that the flocculation process caused the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 24 and 25).
 
 <img src = "pH Flocculator.jpg" height = "350" width = "300">
 
@@ -359,7 +368,7 @@ This seems to suggest that the flocculation process causes the water to act in a
 
 **Figure 25:** The pH of the independently mixed solution was also estimated to be 8 using a pH strip.
 
-Both the independently mixed solution and solution collected from the flocculator had the same pH value, which rules out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
+Both the independently mixed solution and solution collected from the flocculator had the same pH value, which ruled out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
 
 When the apparatus was tested again with newly created red dye solution, the problem of small red dye flocs floating to the surface of the water in the sedimentation tube did not reoccur. This result seemed to be an anomaly.
 
