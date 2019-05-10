@@ -167,34 +167,34 @@ Thus, the team decided to turn the T-junction 90 degrees (thereby making it vert
 
 ### Fabrication of New Flocculator
 #### Increasing Flocculator Length
-The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed flocculator coils around the main cardboard cylinder 49 times, and was constructed from 46 ft. of tubing (Figure 11).
+The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed flocculator coils around the main cardboard cylinder 49 times, and was constructed from 46 ft. of tubing (Figure 12).
 
 <img src="flocculator.jpg">
 
-**Figure 11:** The flocculator (lengthened to 46 ft. of tubing) in the system.
+**Figure 12:** The flocculator (lengthened to 46 ft. of tubing) in the system.
 
 The reasoning behind increasing the flocculator’s length was that the PACl may need more time mixing effectively with the solution to produce the flocs necessary for filtration. Furthermore, providing more room and opportunity for collision between PACl molecules and the fluoride/red-dye within the system creates a more effective flocculation system and overall system.  
 
 ### Improving Sedimentation Processes
 #### Addition of Bottom Geometry in Sedimentation Tube
-The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 12).
+The red dye flocs were observed to be clumping together at the bottom of the sedimentation tube, which resulted in the formation of a gel rather than a fluidized bed (Figure 13).
 
 <img src = "before botgeo.gif" height = "350" width = "300">
 
-**Figure 12:** Before the addition of the bottom geometry, the formation of a gel is seen on the bottom of the sedimentation tube, which prevents the flow of clean water to exit the sedimentation tube and prevents the removal of the red dye particles from the PACl solution.
+**Figure 13:** Before the addition of the bottom geometry, the formation of a gel is seen on the bottom of the sedimentation tube, which prevents the flow of clean water to exit the sedimentation tube and prevents the removal of the red dye particles from the PACl solution.
 
-In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a bottom geometry was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 13). The bottom geometry was obtained from the [High Rate Sedimentation: Bottom Geometry team](https://github.com/AguaClara/HRS-Bot-Geo).
+In order to prevent the formation of a gel at the bottom of the sedimentation tube and to effectively remove flocs, a bottom geometry was added to the bottom of the sedimentation tube to increase recirculation and collisions of the flocs to promote the formation of a fluidized bed (Figure 14). The bottom geometry was obtained from the [High Rate Sedimentation: Bottom Geometry team](https://github.com/AguaClara/HRS-Bot-Geo).
 
 <img src = "Botgeo Drawing.jpg">
 
-**Figure 13:** 2D scaled drawing of the bottom geometry that was added to the sedimentation tube.
+**Figure 14:** 2D scaled drawing of the bottom geometry that was added to the sedimentation tube.
 
 
-The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube (Figure 14). The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line, and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
+The bottom geometry helped with the removal of flocs in the system because the slanted angle in the bottom geometry allowed for flocs to resuspend and change in flow direction rather than fall to the bottom of the sedimentation tube (Figure 15). The fluidized bed allowed for the flocs to move along the sedimentation tube and down the waste line, and the clean water to move past the waste line and exit the effluent line. Thus, the flocs were able to form a fluidized bed and increase the removal of red dye flocs from the PACl solution.
 
 <img src = "after botgeo.gif" height = "350" width = "300">
 
-**Figure 14:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
+**Figure 15:** The formation of a fluidized bed is seen after the addition of the bottom geometry.
 
 #### Jar Testing
 In previous runs of the gravity powered system in which flocculation was successful, it was observed that red dye particles continued to float through the sedimentation tube regardless of its upflow velocity. That is, even when the system was stopped, all of the red dye flocs floated to the top of the sedimentation tube.
@@ -210,20 +210,20 @@ This was compared to a solution of red dye-PACl flocs collected directly from th
 The flow rate of PACl was determined to have a linear relationship with the height differential between the fluoride constant head tank and the PACl constant head tank by the [Fluoride Gravity Fall 2018 team](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#measuring-coagulant-flow-rate). It was hypothesized that the decoupled PACl system would exhibit the same linear relationship with the change in height. The flow rate of the PACl entering the decoupled fluoride system was determined in two different methods: gravimetrically and volumetrically.
 
 #### Gravimetric Method: Flow Rate of PACl During Direct Mixing of PACl Into Fluoride Constant Head Tank
-The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the direct mixing of the PACl into the fluoride head tank redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 15).
+The flow rate of the coagulant was determined by measuring the change in mass of the PACl stock tank over a period of time. This was then converted to volumetric flow rate. This was mode of measurement was conducted only with the direct mixing of the PACl into the fluoride head tank redesign of the system. The balance was connected to ProCoDA to measure the change in mass. The volumetric flow rate of the PACl coagulant entering the fluoride system was measured at several height differences (Figure 16).
 
 <img src="PACl vs height gravity.PNG">
 
-**Figure 15:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
+**Figure 16:** The flow rate of the PACl system was plotted against the change in height between the fluoride constant head tank and the PACl constant head tank. The data exhibits a strong positive correlation, indicating a direct relationship between flow rate and change in height.
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $7.9*10^{-4} mL*s^{-1} * cm^{-1}$, demonstrating the flow rate of PACl flowing into the fluoride system increases by $ 7.9*10^{-4} $ mL/s per cm of height difference raised.
 
 #### Volumetric Method: Flow Rate of PACl After Addition of T-Junction
-Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the addition of the T-junction redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 16).
+Using a 10 mL graduated cylinder, the flow rate of the PACl entering the fluoride system was also determined by measuring the time the PACl coagulant took to drip into the fluoride system to a volume of 2 mL. This was only conducted with the addition of the T-junction redesign of the system. The flow rate of the PACl entering the fluoride system was measured while varying the height difference between the fluoride constant head tank and the PACl constant head tank and doing three trials for each height difference. The data also exhibits a strong positive correlation indicating a direct relationship between flow rate and the difference in height between the coagulant constant head tank and the fluoride constant head tank (Figure 17).
 
 <img src="PACl vs height volume.PNG">
 
-**Figure 16:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+**Figure 17:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
 The slope of the best fit line of the flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph was calculated to be $1.28*10^{-3} mL*s^{-1}* cm^{-1}$, which demonstrates the flow rate of PACl flowing into the fluoride system increases by $7.9*10^{-4}$ mL/s per cm of height difference raised.
 
@@ -231,11 +231,11 @@ The strong correlation implies that the relationship in the decoupled system ope
 
 #### Volumetric Method: Flow Rate of PACl Using Vertical Clear T-Junction System
 
-The flow rate of the PACl entering the system was recalculated after modifying our system to have an elongated microtubing for the PACl to enter the system in the vertical clear T-junction. The flow rate was calculated volumetrically by measuring the amount of time it took the coagulant to drip into a graduated cylinder to 10 mL for each height difference between the fluoride constant head tank and the PACl constant head tank. The data demonstrates a linear correlation between the height difference of the constant head tanks and the PACl flow rate entering in (Figure 17).
+The flow rate of the PACl entering the system was recalculated after modifying our system to have an elongated microtubing for the PACl to enter the system in the vertical clear T-junction. The flow rate was calculated volumetrically by measuring the amount of time it took the coagulant to drip into a graduated cylinder to 10 mL for each height difference between the fluoride constant head tank and the PACl constant head tank. The data demonstrates a linear correlation between the height difference of the constant head tanks and the PACl flow rate entering in (Figure 18).
 
 <img src= "PACl Flow Rate Revised.png">
 
-**Figure 17:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
+**Figure 18:** The flow rate of the PACl system versus the difference in height between the fluoride constant head tank and the PACl constant head tank graph displaying a strong correlation between flow rate and change in height.
 
 With the modified changes and elongated microtubing, the PACl flow rate entering the system decreased significantly as well as the rate in which the PACl flow rate changes with respect to the constant head tanks' height difference. This change in PACl flow rate occurred because the elongated microtubing increased the frictional head loss and residence time in the microtubing.
 
@@ -257,17 +257,17 @@ The system was run in the correct orientation, with the red dye run through the 
 The red dye was able to bind with PACl in the flocculator, allowing for successful flocculation. However, flocculation was inconsistent and the ability of the system to flocculate varied from day to day.
 
 #### Third Redesign: Use of Clear T-Junction Horizontally
-The system was tested with the new clear T-junction at different effluent flow rates to see if the PACl and red dye were mixing together effectively at the intersection. The clear T-junction made it possible to see that there was a clear layer of PACl settling on the bottom and not binding with the red dye (Figure 18).
+The system was tested with the new clear T-junction at different effluent flow rates to see if the PACl and red dye were mixing together effectively at the intersection. The clear T-junction made it possible to see that there was a clear layer of PACl settling on the bottom and not binding with the red dye (Figure 19).
 
 <img src = "Clear T-Junction Nonhomogeneous.jpg"  height = "300" width = "350">
 
-**Figure 18:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively mix together.
+**Figure 19:** The introduction of PACl at the T-junction was seen to form a nonhomogeneous solution and the red dye and PACl were seen to not effectively mix together.
 
-All tests were conducted at PACl flow rate of 0.0337 mL/s, which was the flow rate that previously allowed the system to flocculate. At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 19, which may contribute a smaller flow rate of flocs entering the flocculator. At all other effluent flow rates, flocs were not observed.
+All tests were conducted at PACl flow rate of 0.0337 mL/s, which was the flow rate that previously allowed the system to flocculate. At the effluent rate of 0.69 mL/s, the PACl was seen to effectively bind with red dye as the formation of flocs were seen in the clear T-junction, but there were some flocs moving the opposite way of the fluid flow as seen in Figure 20, which may contribute a smaller flow rate of flocs entering the flocculator. At all other effluent flow rates, flocs were not observed.
 
 <img src = "Clear T-Junction 20 cm.gif"  height = "350" width = "200" >
 
-**Figure 19:** At the system effluent rate of 0.69 mL/s, the red dye and PACl were seen to bind together and form flocs, but some of the flocs were seen to resist against the fluid flow in the clear T-junction.
+**Figure 20:** At the system effluent rate of 0.69 mL/s, the red dye and PACl were seen to bind together and form flocs, but some of the flocs were seen to resist against the fluid flow in the clear T-junction.
 
 These observations demonstrated that the red dye and PACl solutions were not effectively binding at the site of mixing and progressing to the flocculator for this concentration of PACl and all effluent flow rates. As a result, introducing PACl into the system in this manner was ineffective and should be revised.
 
@@ -277,11 +277,11 @@ In all prior experiments, the effluent flow rate was manually measured each time
 To establish this curve, the effluent flow rate of the entire system was determined volumetrically. The team changed the height of the effluent pipe below the point of zero flow from 5 cm to 40 cm, with intervals of 5 cm. At each particular height, a 10 ml graduated cylinder was used to measure the volume of effluent water leaving the system in a particular period of time. Three trials were conducted and an average effluent flow rate was calculated, per height.
 
 #### Effluent Flow Rate with Original T-Junction
-The data was plotted, and a linear regression was fitted to measure the effluent flow rate at varying heights (Figure 20).
+The data was plotted, and a linear regression was fitted to measure the effluent flow rate at varying heights (Figure 21).
 
 <img src="Effluent Flow Rate.png">
 
-**Figure 20:** The effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the original T-junction in the system.
+**Figure 21:** The effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the original T-junction in the system.
 
 When running the system at approximately 0.48 mL/s (with the effluent pipe located at the 10 cm mark), the system was noted to generate large flocs within the flocculator, indicating that the particular velocity of the system seemed to be working appropriately. Even when the system’s velocity was decreased to 0.34 mL/s, large flocs were still forming.
 
@@ -292,34 +292,34 @@ However, from previous research, it was noted that a flow rate of 0.76 mL/s has 
 Yet, upon re-testing the system after determining the optimal effluent flow rate, as well as with other flow rates that previously worked (e.g. 0.48 mL/s, 0.38 mL/s, etc.), the system failed to flocculate. It was noted that the dye seemed to be lighter than usual, as well as the dye continued to clump within the sedimentation tank. The inconsistencies in flocculation persisted, but were solved upon using the vertical clear T-junction.
 
 #### Effluent Flow Rate with Horizontal Clear T-Junction
-The effluent flow rate of the system was tested again after lengthening the tube exiting the fluoride constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 21).
+The effluent flow rate of the system was tested again after lengthening the tube exiting the fluoride constant head tank and replacing the T-junction with a clear T-junction to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height (Figure 22).
 
 <img src = "New Effluent Flow Rate.png">
 
-**Figure 21:** The effluent flow rate graph of the effluent flow rate determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the redesigned system with the clear T-junction set horizontally.
+**Figure 22:** The effluent flow rate graph of the effluent flow rate determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the redesigned system with the clear T-junction set horizontally.
 
-Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the revised system was running at slower rates at the same height differences (Figure 19 and 20). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 20 and 21).
+Compared to the effluent flow rate of the system before the changes of the clear T-junction and the elongated tube, the effluent flow rate of the revised system was running at slower rates at the same height differences (Figure 20 and 21). The slower flow rates were due to the additional friction factors the red dye solutions experienced from the elongated tube. However, the rate at which the effluent flow rate changes with the difference in height was seen to be higher than that of the system before the changes because the slope of the best fit line of the effluent flow rate after the changes made is greater (Figure 21 and 22).
 
 #### Effluent Flow Rate with Vertical Clear T-Junction System
 
-The effluent flow rate of the system was tested again after vertically orienting the clear T-junction and lengthening the PACl microbore tubing to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height between the constant head tanks (Figure 22).
+The effluent flow rate of the system was tested again after vertically orienting the clear T-junction and lengthening the PACl microbore tubing to accurately account for the changes to the system. The effluent flow rates of the system were tested in the same volumetric way and plotted against the change in height between the constant head tanks (Figure 23).
 
 <img src="Effluent Flow Rate Revised.png">
 
-**Figure 22:** The recalculated effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the clear T-junction oriented vertically in the system.
+**Figure 23:** The recalculated effluent flow rate graph determined volumetrically from a height difference of 0 cm to 40 cm from the point of zero flow using the clear T-junction oriented vertically in the system.
 
- The effluent flow rate of the vertical T-junction system was running at slower rates at the same height differences compared to the effluent flow rate of the system before the change of orientation of the T-junction and the elongated microbore PACl tube (Figure 21, 22). The slightly slower flow rates were due to the additional friction head loss of the elongated microbore tubing that significantly slowed the flow rate of PACl entering the system. Furthermore, the rate that the effluent flow rate changed with the difference in height between the constant head tanks was seen to be lower than that of the system before the changes in orientation of the T-junction and the elongated PACl microtubing. This was exhibited by the fact that the slope of the best fit line of the effluent flow rate was smaller after the changes were made (Figure 21 and 22).
+ The effluent flow rate of the vertical T-junction system was running at slower rates at the same height differences compared to the effluent flow rate of the system before the change of orientation of the T-junction and the elongated microbore PACl tube (Figure 22, 23). The slightly slower flow rates were due to the additional friction head loss of the elongated microbore tubing that significantly slowed the flow rate of PACl entering the system. Furthermore, the rate that the effluent flow rate changed with the difference in height between the constant head tanks was seen to be lower than that of the system before the changes in orientation of the T-junction and the elongated PACl microtubing. This was exhibited by the fact that the slope of the best fit line of the effluent flow rate was smaller after the changes were made (Figure 22 and 23).
 
 
 ### Conditions for Flocculation
 #### Effects of Effluent Flow Rate
 In the first redesign of the system in which the microbore tubing dripped directly into the fluoride constant head tank, it was observed that no flocs or precipitates were observed when the system was run at the previously successful effluent flow rate of 0.76 mL/s. It was observed that the water exiting the effluent line had a large red dye concentration, suggesting an inability of PACl to bind with red dye at this high velocity.
 
-When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator (Figure 23).
+When the system was run at 0.10 mL/s, a significantly lower velocity, small precipitates were observed. However, when the system was run at 0.13 mL/s, very large precipitates were observed in the flocculator (Figure 24).
 
 <img src="floc 224.gif">
 
-**Figure 23:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
+**Figure 24:** At an effluent flow rate of 0.13 mL/s, flocculation was able to occur in the first redesign of the gravity powered system.
 
 The implications of this result are the following:
 The system must be run at a sufficiently low velocity that binding is able to occur but at a sufficiently high velocity that the number of collisions are maximized.
@@ -362,11 +362,11 @@ print(conc_fluoride_exp)
 ```
 **[Make better use of comments to walk reader through each of your lines of code.]**
 
-In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 16. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.034 mL/s, which corresponded to a height of 10cm (Figure 16). Under these conditions, it was found that an effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 24).
+In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 17. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.034 mL/s, which corresponded to a height of 10cm (Figure 17). Under these conditions, it was found that an effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 25).
 
 <img src="floc 310.gif">
 
-**Figure 24:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.034 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
+**Figure 25:** At an effluent flow rate of 0.48 mL/s and PACl flow rate of 0.034 mL/s, large flocs were observed in the flocculator of the second redesign of the system.
 
 The system had thus far been unable to experience consistent flocculation despite using the height determined from the Python program.
 
@@ -383,23 +383,23 @@ This result suggested that dosing plays an essential role in the system’s abil
 #### Jar Testing
 With the independently mixed solution, it was observed that the solution was first homogenous, but after some time, small particles similar to flocs were observed to form. When these flocs were allowed to settle, the majority of these flocs settled to the bottom, with only a small amount of flocs remaining on the surface of the water.
 
-On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 25).
+On the other hand, with the solution collected from the flocculator, it was observed that the majority of the flocs rose to the top of the solution rather than sinking (Figure 26).
 
 <img src="jar 310.gif">
 
-**Figure 25:** The mechanics of the red dye was shown. The beaker on the left contained the solution acquired after flocculation and the beaker on the right contained the solution created through rapid stirring.
+**Figure 26:** The mechanics of the red dye was shown. The beaker on the left contained the solution acquired after flocculation and the beaker on the right contained the solution created through rapid stirring.
 
 When both solutions were stirred once more with a magnetic stir bar, both solutions behaved in the same way. The majority of particles then settled, with a few floating to the top.
 
-This seems to suggest that the flocculation process caused the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 26 and 27).
+This seems to suggest that the flocculation process caused the water to act in a different manner than in normal mixing. It was hypothesized that a difference in pH may prevent mixing and the proper settling of flocs. However, when using pH strips that range between 1 and 14, the pH of both solutions were found to be approximately 8 (Figures 27 and 28).
 
 <img src = "pH Flocculator.jpg" height = "350" width = "300">
 
-**Figure 26:** The pH of the solution collected from the flocculator sample was estimated to be 8 using a pH strip.
+**Figure 27:** The pH of the solution collected from the flocculator sample was estimated to be 8 using a pH strip.
 
 <img src = "pH Independent.jpg" height = "350" width = "300">
 
-**Figure 27:** The pH of the independently mixed solution was also estimated to be 8 using a pH strip.
+**Figure 28:** The pH of the independently mixed solution was also estimated to be 8 using a pH strip.
 
 Both the independently mixed solution and solution collected from the flocculator had the same pH value, which ruled out the difference in pH potentially altering the mechanics of red dye, but the Fluoride Gravity team will verify this result using more sensitive pH strips or a pH meter.
 
@@ -554,7 +554,7 @@ plt.legend()
 plt.show()
 ```
 
-### Code for Figure 15: Gravimetric Determination of PACl Flow Rate
+### Code for Figure 16: Gravimetric Determination of PACl Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the PACl flow rate, determined gravimetrically using a mass balance.
 ```Python
 #Gravimetrically Determined Average Flow Rate of PACl vs. Height
@@ -592,7 +592,7 @@ plt.legend()
 
 plt.show()
 ```
-### Code for Figure 16: Volumetric Determination of PACl Flow Rate
+### Code for Figure 17: Volumetric Determination of PACl Flow Rate
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the PACl flow rate, determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #Volumetric Determined Average Flow Rate of PACl vs. Height
@@ -631,7 +631,7 @@ plt.legend()
 plt.show()
 ```
 
-### Code for Figure 17: Volumetric Determination of PACl Flow Rate of Revised System with Vertical T-junction
+### Code for Figure 18: Volumetric Determination of PACl Flow Rate of Revised System with Vertical T-junction
 Below is the code used to describe the relationship between the change in height of the PACl constant head tank and the PACl flow rate with the redesign of the system with a vertical T-junction and elongated microbore tubing. The flow rate of PACl entering the system was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 
 
@@ -673,7 +673,7 @@ plt.show()
 
 ```
 
-## Code for Figure 20: Determination of Effluent Flow Rate
+## Code for Figure 21: Determination of Effluent Flow Rate
 Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #Effluent Flow Rate vs. Height
@@ -711,7 +711,7 @@ plt.legend()
 
 plt.show()
 ```
-## Code for Figure 21: Redetermination of Effluent Flow Rate for Horizontal Clear T-Junction System
+## Code for Figure 22: Redetermination of Effluent Flow Rate for Horizontal Clear T-Junction System
 Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate of the system with the horizontal clear T-junction set up. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 ```Python
 #New Effluent Flow Rate vs. Height
@@ -750,7 +750,7 @@ plt.legend()
 plt.show()
 ```
 
-## Code for Figure 22: Redetermination of Effluent Flow Rate for Vertical Clear T-Junction System
+## Code for Figure 23: Redetermination of Effluent Flow Rate for Vertical Clear T-Junction System
 Below is the code used to describe the relationship between the change in height of the effluent tube from the point of zero flow and the effluent flow rate of the system with the vertical clear T-junction set up. The effluent flow rate was determined volumetrically by measuring the time to fill a graduated cylinder to 10 mL.
 
 ```Python
