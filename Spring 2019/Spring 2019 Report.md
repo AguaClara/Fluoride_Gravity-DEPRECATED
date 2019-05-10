@@ -156,6 +156,15 @@ The tube connecting the fluoride constant head tank and the T-junction was lengt
 
 **Figure 10:** A diagram of the fabricated T-junction and the new additions to the system, including the lengthened tube to prevent backflow and an added valve for ease of maintenance.
 
+#### Fourth Redesign: Vertical Modification of T-Junction
+After the development of a horizontal T-junction with a clear pipe (Figure 10), multiple tests were conducted on the system. However, it was noted that the system was continuing to fail to flocculate. When the clear piping within the T-junction was observed, it was noted that the red dye and PACl separated (either due to density differences or possible laminar flow). As a result, due to a lack of mixing between the two solutions, no flocs were being observed.
+
+Thus, the team decided to turn the T-junction 90 degrees (thereby making it vertical) (Figure 11). The PACl was still being introduced from the top by microtubing; however, the solution now left the T-junction from the bottom. This was noted to contribute to better mixing, as the system began to flocculate and there was no further separation of the PACl and red-dye.
+
+<img src="vertical t junction.jpg">
+
+**Figure 11:** Vertical T-junction with PACl introduced at top and dye introduced at the left
+
 ### Fabrication of New Flocculator
 #### Increasing Flocculator Length
 The length of the flocculator was increased to provide greater amount of time for flocculation. Specifically, the newly constructed flocculator coils around the main cardboard cylinder 49 times, and was constructed from 46 ft. of tubing (Figure 11).
