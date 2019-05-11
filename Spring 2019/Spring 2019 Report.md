@@ -3,10 +3,6 @@
 #### April 12, 2019
 This publication Fluoride, Spring 2019 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Sarah Huang, Cindy Jin, and Simar Kohli and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
 
-**[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
-
-**[Overall: Very minor grammar issues and some improvements to be made with your code but you're doing good!]**
-
 ## Abstract
 Fluoride contamination of water is a significant issue faced by nations and people across the globe and can lead to adverse consequences on health (e.g. muscle weakness and atrophy, weakness, fatigue). The Fluoride Gravity team’s objective is to develop a cost-effective, self-sufficient mechanism for extracting excess fluoride from drinking water. The Spring 2019 team hopes to further the gravity-powered system’s efficacy and potentially begin to run field-tests with the device. The application of such a device in real-world scenarios will be predicated upon success seen with the aforementioned field tests.
 
@@ -78,7 +74,7 @@ In Fall of 2018, two teams were made from the original Fluoride team: [Fluoride 
 
 Finally, the Fall 2018 team prioritized developing a mechanism or process for measuring coagulant flow rate within the system. An IV drip was installed within the system along with microtubing. While headloss still occurred, the team adjusted the height of the coagulant constant head tank to modify flow rate. The drip chamber was noted to substantially streamline the process of measuring flow rate [(Pang et al., 2018)](https://github.com/AguaClara/Fluoride_Gravity/blob/master/Fall%202018/Fluoride_Grav_Fall2018_Report.md#previous-work).
 
-The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the system itself. **[Remember to use past tense when talking about any work you are doing this semester.]**
+The goal of the Spring 2019 Fluoride team was to modify any necessary parts to the system developed over the past few years by previous Fluoride teams, begin to run comprehensive tests on red-dye within the system, and finally proceed to testing fluoride solutions within the system itself.
 
 ## Methods
 ### Experimental Apparatus
@@ -241,7 +237,7 @@ With the modified changes and elongated microtubing, the PACl flow rate entering
 
 
 #### Comparison Between Gravimetric Method and Volumetric Method
-The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 16) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 15). Therefore, the data collected from volumetric method is more accurate because **[Check grammar here]RESOLVED** the mass balance's readings was rounded to the hundredths place. The lower accuracy of the gravimetric method was due to the fact that the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gave inaccurate results as the float valve opens only when the water level drops. The mass did not change when the water level is level with the valve. Therefore, the change in mass was not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
+The value of the coefficient of determination, $R^2$, was higher in the volumetric analysis graph (Figure 16) than the $R^2$ value of the gravimetric analysis graph of the PACl flow rate versus height (Figure 15). Therefore, the data collected from volumetric method is more accurate because the mass balance's readings was rounded to the hundredths place. The lower accuracy of the gravimetric method was due to the fact that the mass balance scale only measured the change in mass when the float valve in the constant PACl head tank opens, which gave inaccurate results as the float valve opens only when the water level drops. The mass did not change when the water level is level with the valve. Therefore, the change in mass was not constant which provides inaccuracy in the measurements.  However, the gravimetric method used ProCoDA and a mass balance with automated time and mass readings while the volumetric analysis was estimated with the human eye and timed manually, which accounted for human error. As a result, several trials were done to increase the accuracy and precision of the measurement of the volumetric flow rate of PACl entering the fluoride system.
 
 The determination of the coagulant flow rate allowed the team to control and optimize the concentration of PACl entering the fluoride system.
 
@@ -360,7 +356,6 @@ Q_fluoride = (Q_system-Q_PACl)
 conc_fluoride_exp = Conc_fluoride_stock * Q_fluoride / Q_system
 print(conc_fluoride_exp)
 ```
-**[Make better use of comments to walk reader through each of your lines of code.]**
 
 In the second redesign of the experiment, this Python program was used to determine the ideal flow rate of PACl using an ideal concentration of PACl through the system, which was then mapped to the correct height using Figure 17. It was previously found that the ideal PACl concentration ranged from 10 mg/L to 50 mg/L; thus, the experiment was selected to run at a system concentration of 40 mg/L of PACl. The calculated flow rate of PACl that yielded this concentration was 0.034 mL/s, which corresponded to a height of 10cm (Figure 17). Under these conditions, it was found that an effluent flow rate of 0.48 mL/s yielded the largest flocs (Figure 25).
 
