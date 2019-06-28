@@ -1,6 +1,6 @@
 # Fluoride Gravity, Spring 2019
 #### Sarah Huang, Cindy Jin, Simar Kohli
-#### April 12, 2019
+#### May 10, 2019
 This publication Fluoride, Spring 2019 was developed under Assistance Agreement No. SU-83695001 awarded by the U.S. Environmental Protection Agency to Cornell University. It has not been formally reviewed by EPA. The views expressed in this document are solely those of Sarah Huang, Cindy Jin, and Simar Kohli and do not necessarily reflect those of the Agency. EPA does not endorse any products or commercial services mentioned in this publication.
 
 ## Abstract
